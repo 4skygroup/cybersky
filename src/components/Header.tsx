@@ -47,7 +47,7 @@ export default function Navbar() {
 
             {/* Logo */}
             <NavLink to="/" className="shrink-0">
-                <img src="/logoPulseX.png" alt="Pulse X" className="h-9" />
+                <img src="/logo-cybersky.png" alt="Logo CyberSky" className="h-9" />
             </NavLink>
 
             {/* ── Desktop nav ── */}
