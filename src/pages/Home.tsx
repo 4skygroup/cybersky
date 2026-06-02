@@ -1,8 +1,10 @@
 import FAQ from "@/components/faq/Faq";
+import Hero from "@/components/Hero";
 
 export default function Home() {
     return (
         <>
+        <Hero/>
         <FAQ/>
         </>
     );
