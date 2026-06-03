@@ -4,42 +4,41 @@ export interface FAQItem {
   answer: string;
 }
 
-export const faqData: FAQItem[] = [
+export const homeFaqData: FAQItem[] = [
   {
     id: 1,
-    question: "Why entrust your social media to Pulse X?",
+    question: "Quels services propose CyberSky ?",
     answer:
-      "Because an effective social media presence can’t be improvised. From strategy and content creation to advertising and analytics, every step matters. Pulse X brings all these areas of expertise together within a single team, with a constant commitment to quality. You benefit from consistent management of all your social media channels—Instagram, TikTok, and beyond—rather than scattered efforts.",
+      "CyberSky accompagne les entreprises sur leurs besoins informatiques essentiels : maintenance, équipement, cybersécurité, cloud et solutions logicielles. Notre objectif est de proposer un accompagnement clair, adapté et évolutif selon votre activité.",
   },
   {
     id: 2,
-    question: "What services does Pulse X offer?",
+    question: "CyberSky accompagne-t-il les petites entreprises ?",
     answer:
-      "Pulse X covers your entire social media presence: editorial strategy, content creation, account management, digital advertising (Meta Ads, TikTok Ads), community engagement, and performance reporting. From conception to distribution, your communication is managed end-to-end, with a consistent voice across every platform.",
+      "Oui. Nos services sont pensés pour les TPE, PME et structures en croissance qui souhaitent bénéficier d’un accompagnement informatique fiable, sans forcément disposer d’une équipe IT interne.",
   },
   {
     id: 3,
-    question: "How does Pulse X grow my visibility and audience?",
+    question: "Pouvez-vous gérer toute notre informatique ?",
     answer:
-      "Our approach is based on data and iteration. We define your positioning, build a distinctive editorial strategy, and then produce content designed to maximize reach and engagement. Every action is measured, analyzed, and adjusted. The goal isn’t just to rack up numbers, but to build a qualified, engaged audience that generates value.",
+      "Oui, selon vos besoins. CyberSky peut intervenir sur la maintenance, la sécurité, le matériel, le cloud, les outils logiciels et l’accompagnement technique de vos équipes.",
   },
   {
     id: 4,
-    question: "What budget should you plan for when working with Pulse X?",
+    question: "Comment se déroule un premier échange avec CyberSky ?",
     answer:
-      "Our services are tailored to your specific goals and the scope of work you choose—whether that’s content management, paid acquisition, or full-service management. This approach ensures your investment aligns with your ambitions and delivers measurable results. We’ll provide a clear, detailed proposal following our initial consultation.",
+      "Nous commençons par comprendre votre activité, vos outils actuels, vos difficultés et vos priorités. Ensuite, nous vous proposons une solution adaptée avec un plan d’action clair.",
   },
   {
     id: 5,
-    question:
-      "What’s the difference between Pulse X and a traditional social media agency?",
+    question: "Proposez-vous des services sur devis ?",
     answer:
-      "Pulse X is part of the Play to Sky Group ecosystem. Beyond managing your social media accounts, you gain access to a full-service creative group: branding, motion design, video production, and SEO. A single point of contact, total consistency, and the ability to scale your communication efforts far beyond social media.",
+      "Oui. Chaque entreprise a des besoins différents, donc nos prestations sont adaptées au contexte, à la taille de votre structure et aux services souhaités.",
   },
   {
     id: 6,
-    question: "How do you measure campaign performance?",
+    question: "Intervenez-vous à distance ou sur site ?",
     answer:
-      "We manage each campaign based on specific metrics: reach, engagement rate, audience growth, traffic generated, and conversions. You receive regular, clear, and actionable reports highlighting results, decisions made, and strategies implemented. Transparency is the foundation of our client relationships.",
+      "Nous pouvons intervenir à distance pour les demandes simples et rapides, et sur site lorsque la situation nécessite une présence physique, notamment pour l’installation, l’équipement ou certains incidents techniques.",
   },
 ];

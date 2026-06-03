@@ -1,33 +1,52 @@
-// Faq.tsx
 import { useState } from "react";
-import { faqData } from "@/components/faq/FaqData";
+import type { FAQItem } from "@/components/faq/FaqData";
 import FAQRow from "@/components/faq/FaqRow.tsx";
 
-const FAQ = () => {
+interface FAQProps {
+    data: FAQItem[];
+    question?: string;
+    answer?: string;
+}
+
+const FAQ = ({
+    data,
+    question = "VOS QUESTIONS",
+    answer = "NOS RÉPONSES"
+}: FAQProps) => {
 
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return (
-        <section className="w-full bg-black flex flex-col items-center px-6 py-16">
+        <section className="w-full bg-white flex justify-center px-6 py-24">
 
-            <h2 className="font-glacial text-t3 md:text-h6 font-bold text-white mb-12 tracking-widest uppercase">
-                FAQ
-            </h2>
+            {/* Conteneur global limité en largeur pour que tout soit bien aligné */}
+            <div className="w-full max-w-4xl flex flex-col">
 
-            <div className="w-full max-w-2xl">
+                {/* EN-TÊTE ALIGNÉ À GAUCHE */}
+                <div className="flex flex-col items-start mb-16">
+                    <h2 className="text-3xl md:text-5xl font-bold text-cybersky-dark tracking-wide uppercase">
+                        {question}
+                    </h2>
+                    <h2 className="text-3xl md:text-5xl font-bold text-cybersky-red tracking-wide uppercase mt-2">
+                        {answer}
+                    </h2>
+                </div>
 
-                {faqData.map((item, index) => (
-                    <FAQRow
-                        key={item.id}
-                        item={item}
-                        isOpen={openIndex === index}
-                        onToggle={() =>
-                            setOpenIndex(
-                                openIndex === index ? null : index
-                            )
-                        }
-                    />
-                ))}
+                {/* LISTE DES QUESTIONS */}
+                <div className="w-full flex flex-col">
+                    {data.map((item, index) => (
+                        <FAQRow
+                            key={item.id}
+                            item={item}
+                            isOpen={openIndex === index}
+                            onToggle={() =>
+                                setOpenIndex(
+                                    openIndex === index ? null : index
+                                )
+                            }
+                        />
+                    ))}
+                </div>
 
             </div>
 

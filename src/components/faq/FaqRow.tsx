@@ -1,24 +1,5 @@
-import type { FAQItem } from "./FaqData.ts";
-
-const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
-    <svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="transition-transform duration-300 ease-in-out shrink-0"
-        style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}
-    >
-        <path
-            d="M5 7.5L10 12.5L15 7.5"
-            stroke="#F23333"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        />
-    </svg>
-);
+import type { FAQItem } from "./FaqData";
+import { ArrowDown } from "lucide-react"; // Import de la flèche exacte
 
 interface FAQRowProps {
     item: FAQItem;
@@ -33,21 +14,26 @@ const FAQRow = ({
 }: FAQRowProps) => {
 
     return (
-        <div className="border-b border-[#2A2A2A]">
-
+        <div className = "border-b border-white/20">
             <button
                 onClick={onToggle}
-                className="w-full flex items-center justify-between py-5 px-0 text-left group"
+                className="w-full flex items-center justify-between py-6 px-0 text-left group"
                 aria-expanded={isOpen}
             >
                 <span
-                    className="font-glacial text-t5 transition-colors duration-200 group-hover:text-pulse-x-red pr-4"
-                    style={{ color: isOpen ? "#F23333" : "#E5E5E5" }}
+                    className="font-glacial text-lg transition-colors duration-200 group-hover:text-cybersky-red pr-4"
+                    style={{ color: isOpen ? "#F23333" : "#111111" }}
                 >
                     {item.question}
                 </span>
 
-                <ChevronIcon isOpen={isOpen} />
+                {/* Utilisation de la flèche Lucide, en rouge, avec rotation */}
+                <div 
+                    className="text-cybersky-red shrink-0 transition-transform duration-300 ease-in-out"
+                    style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}
+                >
+                    <ArrowDown size={24} strokeWidth={2} />
+                </div>
             </button>
 
             <div
@@ -57,12 +43,12 @@ const FAQRow = ({
                     opacity: isOpen ? 1 : 0,
                 }}
             >
-                <p className="font-glacial text-t5 text-pulse-x-subtitle-gray pb-5 leading-relaxed">
+                <p className="font-glacial text-base text-cybersky-dark pb-6 pr-8 leading-relaxed">
                     {item.answer}
                 </p>
             </div>
 
-        </div>
+        </div >
     );
 };
 

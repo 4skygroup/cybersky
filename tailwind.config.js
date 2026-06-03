@@ -46,6 +46,7 @@ module.exports = {
 
         // Cybersky
         "cybersky-red": "#F23333",
+        "cybersky-dark": "#111111",
 
         // Globals
         white: "#E5E5E5",
