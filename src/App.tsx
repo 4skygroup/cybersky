@@ -10,6 +10,8 @@ import Maintenance from '@/pages/services/Maintenance';
 import Cloud from '@/pages/services/Cloud';
 import Equipement from '@/pages/services/Equipement';
 import Software from '@/pages/services/Software';
+import ScrollToTop from './components/ScrollToTop';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
 
         {/* flex-grow pousse le footer vers le bas et prend tout l'espace disponible */}
         <main className="grow">
+            <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
@@ -30,6 +33,7 @@ function App() {
             <Route path="/services/software" element={<Software />} />
             <Route path="/experts" element={<Experts />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
