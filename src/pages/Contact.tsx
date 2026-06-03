@@ -1,43 +1,39 @@
-import ContactForm from "../components/ContactForm";
-
-// export const metadata: Metadata = {
-//     title: "Contact Us",
-//     description: "Get in touch with PulseX Management. We are always looking to connect with visionary talents, creators, and innovative brand partners.",
-// };
+import ContactForm from "@/components/ContactForm"; // Adapte le chemin selon ton dossier
 
 export default function Contact() {
-
     return (
-        <div className="w-full min-h-[calc(90vh-100px)] bg-linear-to-b from-pulse-pink via-pulse-pink/90 to-pulse-pink/40 py-3 px-4 md:px-8 flex items-center justify-center border-t border-b border-white">
+        // Remplacement du dégradé rose par le fond sombre CyberSky
+        <div className="w-full min-h-screen bg-cybersky-dark py-24 px-6 md:px-12 flex items-center justify-center">
 
-            {/* Cadre principal arrondi de la maquette */}
-            <div className="max-w-6xl w-full mx-auto bg-white/10 backdrop-blur-md p-4 md:p-6 shadow-sm border border-white mt-6 relative">
+            {/* Cadre principal de la maquette (bordure blanche légère) */}
+            <div className="max-w-6xl w-full mx-auto p-8 md:p-16 border border-white/20 relative">
 
-                {/* Titre de la page */}
-                {/* <h1 className="text-3xl md:text-4xl text-center uppercase tracking-wide mb-2 text-white drop-shadow-sm">
+                {/* Titre global centré */}
+                <h1 className="text-3xl md:text-5xl text-center mb-20 text-white tracking-wide">
                     Contact us
-                </h1> */}
-
-                <p className="text-2xl md:text-3xl text-right mb-2 tracking-wide text-white drop-shadow-sm">
-                    Let&apos;s start your strategy !
-                </p>
+                </h1>
 
                 {/* Grille : Logo à gauche / Formulaire à droite */}
-                <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 
-                    {/* CÔTÉ GAUCHE : Énorme Logo textuel centré verticalement */}
-                    <div className="md:col-span-5 flex justify-center items-center p-4">
+                    {/* CÔTÉ GAUCHE : Logo centré */}
+                    <div className="flex justify-center items-center h-full">
                         <img
                             src="/logo-cybersky.png"
                             alt="Logo CyberSky"
-                            width={350}
-                            height={150}
-                            className="w-full max-w-70 md:max-w-full h-auto object-contain drop-shadow-sm"
+                            className="w-full max-w-75 h-auto object-contain opacity-90"
                         />
                     </div>
 
-                    {/* CÔTÉ DROIT : Le Formulaire complet */}
-                    <ContactForm />
+                    {/* CÔTÉ DROIT : En-tête + Formulaire */}
+                    <div className="flex flex-col">
+                        {/* Aligné à gauche du formulaire, comme sur la maquette */}
+                        <p className="text-xl md:text-2xl mb-8 tracking-wide text-white">
+                            Let's start your strategy !
+                        </p>
+
+                        <ContactForm />
+                    </div>
 
                 </div>
             </div>

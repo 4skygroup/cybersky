@@ -1,5 +1,3 @@
-// CONTACT FORM
-
 "use client";
 
 import { useState } from "react";
@@ -8,69 +6,76 @@ export default function ContactForm() {
     const [subject, setSubject] = useState("");
 
     return (
-        <form className="md:col-span-7 flex flex-col gap-5 text-xs font-medium text-white/90 ">
+        <form className="flex flex-col gap-6 text-sm font-medium text-white">
 
             {/* Ligne 1 : Nom & Prénom */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="flex flex-col gap-1.5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="flex flex-col gap-2">
                     <label htmlFor="lastname">Nom</label>
-                    <input type="text" id="lastname" placeholder="Dupond" className="w-full border border-white/40 rounded-lg px-4 py-2.5 text-black placeholder-black/30 focus:outline-none focus:border-white text-sm" />
+                    <input type="text" id="lastname" placeholder="Dupond" className="w-full bg-transparent border border-white/30 px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-[#F23333] transition-colors" />
                 </div>
-                <div className="flex flex-col gap-1.5">
+                <div className="flex flex-col gap-2">
                     <label htmlFor="firstname">Prénom</label>
-                    <input type="text" id="firstname" placeholder="Arnold" className="w-full border border-white/40 rounded-lg px-4 py-2.5 text-black placeholder-black/30 focus:outline-none focus:border-white text-sm" />
+                    <input type="text" id="firstname" placeholder="Arnold" className="w-full bg-transparent border border-white/30 px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-[#F23333] transition-colors" />
                 </div>
             </div>
 
             {/* Ligne 2 : Email & Nom de l'entreprise */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="flex flex-col gap-1.5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="flex flex-col gap-2">
                     <label htmlFor="email">Adresse Email</label>
-                    <input type="email" id="email" placeholder="a.dupond@gmail.com" className="w-full border border-white/40 rounded-lg px-4 py-2.5 text-black placeholder-black/30 focus:outline-none focus:border-white text-sm" />
+                    <input type="email" id="email" placeholder="Arnodupond@Gmail.Com" className="w-full bg-transparent border border-white/30 px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-[#F23333] transition-colors" />
                 </div>
-                <div className="flex flex-col gap-1.5">
-                    <label htmlFor="company">Nom De L&apos;entreprise</label>
-                    <input type="text" id="company" placeholder="SNCF Connect" className="w-full border border-white/40 rounded-lg px-4 py-2.5 text-black placeholder-black/30 focus:outline-none focus:border-white text-sm" />
+                <div className="flex flex-col gap-2">
+                    <label htmlFor="company">Nom De L'entreprise</label>
+                    <input type="text" id="company" placeholder="SNCF Connect" className="w-full bg-transparent border border-white/30 px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-[#F23333] transition-colors" />
                 </div>
             </div>
 
             {/* Ligne 3 : Téléphone & Sujet */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="flex flex-col gap-1.5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="flex flex-col gap-2">
                     <label htmlFor="phone">Numéro De Téléphone</label>
-                    <input type="tel" id="phone" placeholder="06 12 34 56 78" className="w-full border border-white/40 rounded-lg px-4 py-2.5 text-black placeholder-black/30 focus:outline-none focus:border-white text-sm" />
+                    <input type="tel" id="phone" placeholder="06 12 34 56 78" className="w-full bg-transparent border border-white/30 px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-[#F23333] transition-colors" />
                 </div>
-                <div className="flex flex-col gap-1.5">
+
+                {/* Le Select mis à jour avec les services CyberSky */}
+                <div className="flex flex-col gap-2">
                     <label htmlFor="subject">Sujet</label>
                     <div className="relative">
                         <select
                             id="subject"
                             value={subject}
                             onChange={(e) => setSubject(e.target.value)}
-                            className="w-full border border-white/40 rounded-lg px-4 py-2.5 text-white/90 appearance-none focus:outline-none focus:border-white text-sm"
+                            className="w-full bg-transparent border border-white/30 px-4 py-3 text-white appearance-none focus:outline-none focus:border-[#F23333] transition-colors cursor-pointer"
                         >
-                            <option value="" disabled className="text-black/50">Sélectionnez un sujet</option>
-                            <option value="representation" className="text-black">Talent Representation</option>
-                            <option value="partnership" className="text-black">Brand Partnership</option>
-                            <option value="other" className="text-black">Other Inquiry</option>
+                            <option value="" disabled className="text-black">Sélectionnez un sujet</option>
+                            <option value="maintenance" className="text-black">Maintenance</option>
+                            <option value="equipement" className="text-black">Équipement</option>
+                            <option value="securite" className="text-black">Cybersécurité</option>
+                            <option value="cloud" className="text-black">Solutions Cloud</option>
+                            <option value="software" className="text-black">Solutions logicielles</option>
+                            <option value="other" className="text-black">Autre demande</option>
                         </select>
-                        <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none font-bold text-grey/10">
-                            ﹀
+                        <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-white">
+                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Ligne 4 : Message */}
-            <div className="flex flex-col gap-1.5">
+            <div className="flex flex-col gap-2">
                 <label htmlFor="message">Votre Message</label>
-                <textarea id="message" rows={4} placeholder="Message" className="w-full border border-white/40 rounded-lg px-4 py-2.5 text-black placeholder-black/30 focus:outline-none focus:border-white text-sm resize-none"></textarea>
+                <textarea id="message" rows={5} placeholder="Message" className="w-full bg-transparent border border-white/30 px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-[#F23333] transition-colors resize-none"></textarea>
             </div>
 
-            {/* Bouton d'envoi aligné au centre */}
-            <div className="flex justify-center mt-4">
-                <button type="submit" className="bg-white text-pulse-burgundy font-regular tracking-wider px-10 py-3 rounded-lg shadow-md hover:bg-pulse-pink hover:text-white transition-all duration-300 text-sm">
-                    Envoyer
+            {/* Bouton d'envoi aligné à droite, rectangulaire */}
+            <div className="flex justify-end mt-4">
+                <button type="submit" className="bg-white text-black font-semibold tracking-wide px-10 py-2.5 hover:bg-[#F23333] hover:text-white transition-all duration-300">
+                    Send
                 </button>
             </div>
 
