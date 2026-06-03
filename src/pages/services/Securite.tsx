@@ -1,5 +1,7 @@
 import FAQ from "@/components/faq/Faq";
 import { securiteFaqData } from "@/components/faq/FaqData";
+import KeyFigures from "@/components/services/KeyFigures";
+import { securiteFigures } from "@/components/services/KeyFiguresData";
 import ServiceHero from "@/components/services/ServiceHero";
 
 export default function Securite() {
@@ -11,6 +13,8 @@ export default function Securite() {
                 titleHighlight="cybermenaces"
                 imageSrc="/securite-image-cybersky.png" // À remplacer par le chemin de ton image
             />
+
+            <KeyFigures figures={securiteFigures} />
         
         <FAQ data={securiteFaqData}/>
     </div>
