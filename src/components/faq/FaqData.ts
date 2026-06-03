@@ -42,3 +42,42 @@ export const homeFaqData: FAQItem[] = [
       "Nous pouvons intervenir à distance pour les demandes simples et rapides, et sur site lorsque la situation nécessite une présence physique, notamment pour l’installation, l’équipement ou certains incidents techniques.",
   },
 ];
+
+export const securiteFaqData: FAQItem[] = [
+  {
+    id: 1,
+    question: "Une PME peut-elle vraiment être victime d’une cyberattaque ?",
+    answer:
+      "Oui. Les PME sont souvent ciblées car elles disposent parfois de protections limitées. Une attaque peut provoquer une perte de données, une interruption d’activité ou une fuite d’informations sensibles.",
+  },
+  {
+    id: 2,
+    question: "Combien de temps prend un audit de sécurité ?",
+    answer:
+      "La durée dépend de la taille de votre infrastructure et du niveau d’analyse demandé. L’objectif est d’identifier les failles, les risques prioritaires et les actions à mettre en place.",
+  },
+  {
+    id: 3,
+    question: "Proposez-vous une surveillance continue ?",
+    answer:
+      "Oui. CyberSky peut accompagner votre entreprise avec des solutions de surveillance, d’alertes et de suivi afin de détecter plus rapidement les comportements suspects ou incidents de sécurité.",
+  },
+  {
+    id: 4,
+    question: "Vos solutions sont-elles adaptées aux petites entreprises ?",
+    answer:
+      "Oui. Nos solutions sont pensées pour s’adapter aux besoins des TPE/PME, avec une approche claire, progressive et proportionnée à votre activité.",
+  },
+  {
+    id: 5,
+    question: "Que se passe-t-il en cas d’attaque ou de ransomware ?",
+    answer:
+      "Nous vous accompagnons pour limiter l’impact, identifier l’origine du problème, sécuriser les systèmes touchés et définir les actions nécessaires pour reprendre l’activité dans les meilleures conditions.",
+  },
+  {
+    id: 6,
+    question: "Faites-vous de la sensibilisation cybersécurité ?",
+    answer:
+      "Oui. Nous pouvons sensibiliser vos équipes aux risques courants comme le phishing, les mots de passe faibles, les pièces jointes dangereuses ou les mauvaises pratiques du quotidien.",
+  },
+];
