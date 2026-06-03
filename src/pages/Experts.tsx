@@ -1,3 +1,28 @@
+import ExpertCard from '@/components/experts/ExpertCard';
+import { expertsData } from '@/components/experts/ExpertData';
+
 export default function Experts() {
-    return <div className="p-10 text-center">Page Experts</div>;
+    return (
+        <div className="w-full bg-white min-h-screen pt-32 pb-24 px-6 md:px-12">
+            <div className="max-w-5xl mx-auto flex flex-col">
+
+                {/* TITRE DE LA PAGE */}
+                <h2 className="text-3xl md:text-4xl text-center text-black mb-24 leading-snug">
+                    Le savoir-faire de CYBER<span className="text-cybersky-red">SKY</span> préservé par<br className="hidden md:block" /> une pointe d'experts
+                </h2>
+
+                {/* LISTE DES EXPERTS */}
+                <div className="flex flex-col gap-24">
+                    {expertsData.map((expert, index) => (
+                        <ExpertCard
+                            key={expert.id}
+                            item={expert}
+                            index={index}
+                        />
+                    ))}
+                </div>
+
+            </div>
+        </div>
+    );
 }
