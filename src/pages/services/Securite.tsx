@@ -1,5 +1,7 @@
 import FAQ from "@/components/faq/Faq";
 import { securiteFaqData } from "@/components/faq/FaqData";
+import { securiteServiceDetails } from "@/components/services/detail/ServiceDetailData";
+import ServiceDetails from "@/components/services/detail/ServiceDetails";
 import KeyFigures from "@/components/services/keyfigures/KeyFigures";
 import { securiteFigures } from "@/components/services/keyfigures/KeyFiguresData";
 import RiskZones from "@/components/services/riskzones/RiskZones";
@@ -25,6 +27,15 @@ export default function Securite() {
                 titlePart2="entreprise"
                 subtitle="Chaque poste, chaque utilisateur, chaque donnée peut être ciblé. Prenez mesure de l'étendue des risques potentiels."
                 zones={securiteRiskZones}
+            />
+
+            <ServiceDetails
+                surtitle="NOS SERVICES"
+                titlePart1="Une protection"
+                titleHighlight="complète,"
+                titlePart2="sur-mesure"
+                subtitle="Chaque poste, chaque utilisateur, chaque donnée peut être sécurisé. Notre équipe s'occupe de chaque aspect pour vous."
+                services={securiteServiceDetails}
             />
         
         <FAQ data={securiteFaqData}/>
