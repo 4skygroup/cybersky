@@ -1,4 +1,4 @@
-import { ShieldAlert, MailWarning, Eye, BriefcaseBusiness, MonitorCheck, Settings, Headset, DatabaseBackup } from 'lucide-react';
+import { ShieldAlert, MailWarning, Eye, BriefcaseBusiness, MonitorCheck, Settings, Headset, DatabaseBackup, Users, Server, CloudDrizzle, CloudUpload } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 export interface ServiceDetailItem {
@@ -69,5 +69,36 @@ export const maintenanceServiceDetails: ServiceDetailItem[] = [
         description: "Mise en place et contrôle des sauvegardes pour protéger vos données critiques.",
         tags: ["Sécurité", "Restauration", "Plans de reprise"],
         icon: <DatabaseBackup size={20} strokeWidth={2} />
+    }
+];
+
+export const cloudServiceDetails: ServiceDetailItem[] = [
+    {
+        id: 1,
+        title: "Migration cloud",
+        description: "Nous vous accompagnons dans le passage vers des solutions cloud adaptées à votre activité.",
+        tags: ["Analyse", "Migration", "Réduction des coûts"],
+        icon: <CloudUpload size={20} strokeWidth={2} />
+    },
+    {
+        id: 2,
+        title: "Sauvegarde cloud",
+        description: "Nous mettons en place des sauvegardes sécurisées pour protéger vos données critiques.",
+        tags: ["Automatisation", "Chiffrement", "Restauration"],
+        icon: <CloudDrizzle size={20} strokeWidth={2} />
+    },
+    {
+        id: 3,
+        title: "Hébergements & serveurs cloud",
+        description: "Nous vous aidons à héberger vos applications, fichiers et services dans un environnement fiable.",
+        tags: ["Adaptation", "Haute disponibilité", "Supervision"],
+        icon: <Server size={20} strokeWidth={2} />
+    },
+    {
+        id: 4,
+        title: "Microsoft 365 + Outils Collaboratifs",
+        description: "Nous configurons vos outils de travail collaboratif pour améliorer la productivité de vos équipes.",
+        tags: ["Comptes utilisateurs", "Messagerie professionnelle"],
+        icon: <Users size={20} strokeWidth={2} />
     }
 ];

@@ -1,6 +1,6 @@
 import FAQ from "@/components/faq/Faq";
 import { securiteFaqData } from "@/components/faq/FaqData";
-import { securiteServiceDetails } from "@/components/services/detail/ServiceDetaildata";
+import { securiteServiceDetails } from "@/components/services/detail/ServiceDetailData";
 import ServiceDetails from "@/components/services/detail/ServiceDetails";
 import KeyFigures from "@/components/services/keyfigures/KeyFigures";
 import { securiteFigures } from "@/components/services/keyfigures/KeyFiguresData";

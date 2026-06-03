@@ -6,7 +6,7 @@ import FAQ from '@/components/faq/Faq';
 
 // Importation des données spécifiques à la Maintenance
 import { maintenanceFigures } from '@/components/services/keyfigures/KeyFiguresData';
-import { maintenanceServiceDetails } from '@/components/services/detail/ServiceDetaildata';
+import { maintenanceServiceDetails } from '@/components/services/detail/ServiceDetailData';
 import { maintenanceMethodology } from '@/components/services/methodology/MethodologyData';
 import { maintenanceFaqData } from '@/components/faq/FaqData';
 import { Wrench } from 'lucide-react';

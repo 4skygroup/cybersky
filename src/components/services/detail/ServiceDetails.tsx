@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import type { ServiceDetailItem } from '@/components/services/detail/ServiceDetaildata';
+import type { ServiceDetailItem } from '@/components/services/detail/ServiceDetailData';
 
 interface ServiceDetailsProps {
     surtitle: string;

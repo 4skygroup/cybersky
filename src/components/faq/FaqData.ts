@@ -120,3 +120,42 @@ export const maintenanceFaqData: FAQItem[] = [
       "Oui, selon vos besoins. CyberSky peut prendre en charge une partie ou l’ensemble de votre gestion informatique : support, maintenance, supervision, sécurité, sauvegardes et accompagnement technique.",
   },
 ];
+
+export const cloudFaqData: FAQItem[] = [
+  {
+    id: 1,
+    question: "Le cloud est-il adapté à une petite entreprise ?",
+    answer:
+      "Oui. Le cloud permet aux TPE/PME d’accéder à des solutions flexibles, évolutives et sécurisées sans devoir gérer toute une infrastructure informatique en interne.",
+  },
+  {
+    id: 2,
+    question: "Où sont stockées mes données ?",
+    answer:
+      "Cela dépend de la solution choisie. CyberSky vous accompagne dans le choix d’un hébergement adapté, avec une attention particulière portée à la sécurité, à la confidentialité et à la conformité des données.",
+  },
+  {
+    id: 3,
+    question: "Quelle est la différence entre le cloud et un serveur local ?",
+    answer:
+      "Un serveur local est hébergé dans vos locaux, tandis qu’une solution cloud repose sur une infrastructure externalisée. Le cloud permet souvent plus de flexibilité, de disponibilité et de simplicité de gestion.",
+  },
+  {
+    id: 4,
+    question: "Peut-on sauvegarder automatiquement nos fichiers ?",
+    answer:
+      "Oui. CyberSky peut mettre en place des sauvegardes automatiques, sécurisées et régulières afin de limiter les risques de perte de données.",
+  },
+  {
+    id: 5,
+    question: "Mes données sont-elles sécurisées dans le cloud ?",
+    answer:
+      "Oui, si la solution est bien configurée. Nous vous accompagnons sur les accès, les sauvegardes, les droits utilisateurs et les bonnes pratiques pour renforcer la sécurité de vos données.",
+  },
+  {
+    id: 6,
+    question: "Pouvez-vous migrer nos mails et fichiers existants ?",
+    answer:
+      "Oui. CyberSky peut vous accompagner dans la migration de vos mails, fichiers et outils collaboratifs vers une solution cloud adaptée à votre entreprise.",
+  },
+];

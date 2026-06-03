@@ -53,3 +53,26 @@ export const maintenanceFigures: FigureItem[] = [
   },
 ];
 
+export const cloudFigures: FigureItem[] = [
+  {
+    id: 1,
+    stat: "78%",
+    description:
+      "Des PME déclarent que le cloud renforce leur sécurité informatique.",
+    source: "Sage",
+  },
+  {
+    id: 2,
+    stat: "1/2",
+    description:
+      "PME a déjà subi une perte de données liée à une panne ou un incident majeur.",
+    source: "Markess",
+  },
+  {
+    id: 3,
+    stat: "83%",
+    description:
+      "Des entreprises utilisant le cloud constatent une amélioration de leur productivité.",
+    source: "Microsoft Europe",
+  },
+];
