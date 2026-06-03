@@ -2,6 +2,8 @@ import FAQ from "@/components/faq/Faq";
 import { securiteFaqData } from "@/components/faq/FaqData";
 import KeyFigures from "@/components/services/KeyFigures";
 import { securiteFigures } from "@/components/services/KeyFiguresData";
+import RiskZones from "@/components/services/RiskZones";
+import { securiteRiskZones } from "@/components/services/RiskZonesData";
 import ServiceHero from "@/components/services/ServiceHero";
 
 export default function Securite() {
@@ -15,6 +17,15 @@ export default function Securite() {
             />
 
             <KeyFigures figures={securiteFigures} />
+
+            <RiskZones
+                surtitle="LES ZONES À RISQUES"
+                titlePart1="Les cybermenaces touchent"
+                titleHighlight="toute votre"
+                titlePart2="entreprise"
+                subtitle="Chaque poste, chaque utilisateur, chaque donnée peut être ciblé. Prenez mesure de l'étendue des risques potentiels."
+                zones={securiteRiskZones}
+            />
         
         <FAQ data={securiteFaqData}/>
     </div>
