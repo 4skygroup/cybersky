@@ -1,9 +1,9 @@
 import FAQ from "@/components/faq/Faq";
 import { securiteFaqData } from "@/components/faq/FaqData";
-import KeyFigures from "@/components/services/KeyFigures";
-import { securiteFigures } from "@/components/services/KeyFiguresData";
-import RiskZones from "@/components/services/RiskZones";
-import { securiteRiskZones } from "@/components/services/RiskZonesData";
+import KeyFigures from "@/components/services/keyfigures/KeyFigures";
+import { securiteFigures } from "@/components/services/keyfigures/KeyFiguresData";
+import RiskZones from "@/components/services/riskzones/RiskZones";
+import { securiteRiskZones } from "@/components/services/riskzones/RiskZonesData";
 import ServiceHero from "@/components/services/ServiceHero";
 
 export default function Securite() {
