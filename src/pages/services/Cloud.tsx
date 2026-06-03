@@ -20,7 +20,7 @@ export default function Cloud() {
                 icon={<CloudIcon size={20} strokeWidth={1.5} fill="currentColor" />}
                 titlePart1="Externalisez votre informatique pour plus de"
                 titleHighlight="sécurité et de flexibilité"
-                imageSrc="/images/cloud-hero.jpg"
+                imageSrc="/cloud-image-cybersky.png"
             />
 
             <KeyFigures figures={cloudFigures} />
