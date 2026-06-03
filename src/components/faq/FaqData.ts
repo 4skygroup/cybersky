@@ -81,3 +81,42 @@ export const securiteFaqData: FAQItem[] = [
       "Oui. Nous pouvons sensibiliser vos équipes aux risques courants comme le phishing, les mots de passe faibles, les pièces jointes dangereuses ou les mauvaises pratiques du quotidien.",
   },
 ];
+
+export const maintenanceFaqData: FAQItem[] = [
+  {
+    id: 1,
+    question: "Que comprend un contrat de maintenance informatique ?",
+    answer:
+      "Un contrat de maintenance peut inclure le support utilisateurs, la supervision des systèmes, les mises à jour, les vérifications régulières, la résolution d’incidents et l’accompagnement technique de votre entreprise.",
+  },
+  {
+    id: 2,
+    question: "Intervenez-vous à distance ou sur site ?",
+    answer:
+      "Oui. Nous pouvons intervenir à distance pour les demandes simples et rapides, et nous déplacer sur site lorsque l’intervention nécessite une présence physique ou une manipulation matérielle.",
+  },
+  {
+    id: 3,
+    question: "Quels sont vos délais d’intervention ?",
+    answer:
+      "Les délais dépendent du niveau d’urgence et du type d’incident. Notre objectif est de prendre en charge rapidement les demandes afin de limiter l’impact sur votre activité.",
+  },
+  {
+    id: 4,
+    question: "Pouvez-vous gérer les sauvegardes de l’entreprise ?",
+    answer:
+      "Oui. CyberSky peut vous accompagner dans la mise en place, le suivi et la vérification de vos sauvegardes afin de protéger vos données importantes.",
+  },
+  {
+    id: 5,
+    question: "La maintenance est-elle adaptée aux petites entreprises ?",
+    answer:
+      "Oui. Nos prestations sont adaptées aux TPE/PME qui souhaitent bénéficier d’un suivi informatique fiable sans avoir forcément une équipe IT en interne.",
+  },
+  {
+    id: 6,
+    question: "Peut-on externaliser toute notre gestion informatique ?",
+    answer:
+      "Oui, selon vos besoins. CyberSky peut prendre en charge une partie ou l’ensemble de votre gestion informatique : support, maintenance, supervision, sécurité, sauvegardes et accompagnement technique.",
+  },
+];

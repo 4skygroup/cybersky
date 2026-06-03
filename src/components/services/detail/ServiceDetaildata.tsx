@@ -1,4 +1,4 @@
-import { ShieldAlert, MailWarning, Eye, BriefcaseBusiness } from 'lucide-react';
+import { ShieldAlert, MailWarning, Eye, BriefcaseBusiness, MonitorCheck, Settings, Headset, DatabaseBackup } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 export interface ServiceDetailItem {
@@ -38,5 +38,36 @@ export const securiteServiceDetails: ServiceDetailItem[] = [
         description: "Définition de stratégies, accompagnement de vos équipes, normes pratiques. La meilleure technologie ne remplace pas une équipe formée.",
         tags: ["Stratégie", "Audits", "Certifications"],
         icon: <BriefcaseBusiness size={20} strokeWidth={2} />
+    }
+];
+
+export const maintenanceServiceDetails: ServiceDetailItem[] = [
+    {
+        id: 1,
+        title: "Supervision proactive",
+        description: "Surveillance continue de vos systèmes pour détecter les incidents avant qu'ils ne deviennent critiques.",
+        tags: ["Monitoring 24/7", "Alertes", "Rapports"],
+        icon: <MonitorCheck size={20} strokeWidth={2} />
+    },
+    {
+        id: 2,
+        title: "Maintenance préventive",
+        description: "Mises à jour, corrections et optimisations pour garder vos systèmes stables et sécurisés.",
+        tags: ["Mises à jour système", "Optimisation", "Veille"],
+        icon: <Settings size={20} strokeWidth={2} />
+    },
+    {
+        id: 3,
+        title: "Support & assistance",
+        description: "Accompagnement rapide pour résoudre les problèmes techniques de vos équipes.",
+        tags: ["Centre d'appel", "Support utilisateur", "Intervention"],
+        icon: <Headset size={20} strokeWidth={2} />
+    },
+    {
+        id: 4,
+        title: "Sauvegarde & continuité",
+        description: "Mise en place et contrôle des sauvegardes pour protéger vos données critiques.",
+        tags: ["Sécurité", "Restauration", "Plans de reprise"],
+        icon: <DatabaseBackup size={20} strokeWidth={2} />
     }
 ];

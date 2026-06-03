@@ -35,3 +35,30 @@ export const securiteMethodology: MethodologyItem[] = [
         icon: <Headphones size={24} strokeWidth={1.5} />
     }
 ];
+
+export const maintenanceMethodology: MethodologyItem[] = [
+    {
+        id: 1,
+        title: "Analyse des besoins",
+        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        icon: <MessageSquare size={24} strokeWidth={1.5} />
+    },
+    {
+        id: 2,
+        title: "Audit & évaluation",
+        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        icon: <Search size={24} strokeWidth={1.5} />
+    },
+    {
+        id: 3,
+        title: "Mise en place des procédures",
+        description: "On déploie. On s'adapte à votre activité, vos contraintes, vos priorités.",
+        icon: <ShieldCheck size={24} strokeWidth={1.5} />
+    },
+    {
+        id: 4,
+        title: "Suivi & accompagnement",
+        description: "On discute. On comprend vos alertes, vos contraintes, vos priorités.",
+        icon: <Headphones size={24} strokeWidth={1.5} />
+    }
+];

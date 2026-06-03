@@ -1,8 +1,9 @@
-import { ShieldHalf } from 'lucide-react'; // L'icône parfaite pour le semi-plein !
+import type { ReactNode } from 'react';
 import { NavLink } from 'react-router-dom';
 
 interface ServiceHeroProps {
     tag: string;
+    icon: ReactNode; 
     titlePart1: string;
     titleHighlight: string;
     buttonText?: string;
@@ -11,6 +12,7 @@ interface ServiceHeroProps {
 
 export default function ServiceHero({
     tag,
+    icon,
     titlePart1,
     titleHighlight,
     buttonText = "Demander un devis",
@@ -26,7 +28,7 @@ export default function ServiceHero({
 
                     <div className="flex items-center gap-2 text-cybersky-red font-medium text-sm tracking-widest mb-6 uppercase">
                         {/* Utilisation de ShieldHalf */}
-                        <ShieldHalf size={20} strokeWidth={1.5} fill="currentColor" />
+                        {icon}
                         <span>{tag}</span>
                     </div>
 
