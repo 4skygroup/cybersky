@@ -17,7 +17,7 @@ export default function Maintenance() {
 
             <ServiceHero
                 tag="MAINTENANCE"
-                icon={<Wrench size={20} strokeWidth={1.5} fill="currentColor" />}
+                icon={<Wrench size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Maintenance informatique proactive pour"
                 titleHighlight="votre entreprise"
                 imageSrc="/maintenance-image-cybersky.png"

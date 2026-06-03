@@ -5,7 +5,6 @@ export interface FigureItem {
   source: string;
 }
 
-// Les données pour la page Sécurité
 export const securiteFigures: FigureItem[] = [
   {
     id: 1,
@@ -74,5 +73,53 @@ export const cloudFigures: FigureItem[] = [
     description:
       "Des entreprises utilisant le cloud constatent une amélioration de leur productivité.",
     source: "Microsoft Europe",
+  },
+];
+
+export const equipementFigures: FigureItem[] = [
+  {
+    id: 1,
+    stat: "70%",
+    description:
+      "Des pannes informatiques sont liées à du matériel obsolète ou mal adapté.",
+    source: "Gartner",
+  },
+  {
+    id: 2,
+    stat: "22min",
+    description:
+      "Perdues chaque jour à cause d'un équipement lent ou inadapté.",
+    source: "Etude Sharp / FSDS, 2023",
+  },
+  {
+    id: 3,
+    stat: "85%",
+    description:
+      "Des collaborateurs estiment qu'un bon équipement améliore leur productivité.",
+    source: "Etude SYMANTEC",
+  },
+];
+
+export const softwareFigures: FigureItem[] = [
+  {
+    id: 1,
+    stat: "76%",
+    description:
+      "Des TPE/PME constatent un impact positif du numérique sur leur activité.",
+    source: "Baromètre France Num 2022",
+  },
+  {
+    id: 2,
+    stat: "48%",
+    description:
+      "Des entreprises affirment que la digitalisation permet de réduire leurs coûts.",
+    source: "Baromètre France Num 2022",
+  },
+  {
+    id: 3,
+    stat: "1/3",
+    description:
+      "Des PME gèrent encore certaines tâches administratives sur Excel ou papier.",
+    source: "Baromètre France Num 2022",
   },
 ];

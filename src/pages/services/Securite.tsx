@@ -9,14 +9,14 @@ import { securiteMethodology } from "@/components/services/methodology/Methodolo
 import RiskZones from "@/components/services/riskzones/RiskZones";
 import { securiteRiskZones } from "@/components/services/riskzones/RiskZonesData";
 import ServiceHero from "@/components/services/ServiceHero";
-import { ShieldHalf } from "lucide-react";
+import { ShieldCogCornerIcon } from "lucide-react";
 
 export default function Securite() {
     return (
         <div className="w-full flex flex-col min-h-screen">
             <ServiceHero
                 tag="SÉCURITÉ"
-                icon={<ShieldHalf size={20} strokeWidth={1.5} fill="currentColor" />}
+                icon={<ShieldCogCornerIcon size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Sécurisez votre entreprise face aux"
                 titleHighlight="cybermenaces"
                 imageSrc="/securite-image-cybersky.png" // À remplacer par le chemin de ton image

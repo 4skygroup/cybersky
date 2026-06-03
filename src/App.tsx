@@ -8,6 +8,8 @@ import Contact from '@/pages/Contact';
 import Securite from '@/pages/services/Securite';
 import Maintenance from '@/pages/services/Maintenance';
 import Cloud from '@/pages/services/Cloud';
+import Equipement from '@/pages/services/Equipement';
+import Software from '@/pages/services/Software';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/services/cloud" element={<Cloud />} />
             <Route path="/services/cybersecurite" element={<Securite />} />
+            <Route path="/services/equipement" element={<Equipement />} />
             <Route path="/services/maintenance" element={<Maintenance />} />
+            <Route path="/services/software" element={<Software />} />
             <Route path="/experts" element={<Experts />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

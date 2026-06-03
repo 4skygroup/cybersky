@@ -1,4 +1,4 @@
-import { ShieldAlert, MailWarning, Eye, BriefcaseBusiness, MonitorCheck, Settings, Headset, DatabaseBackup, Users, Server, CloudDrizzle, CloudUpload } from 'lucide-react';
+import { ShieldAlert, MailWarning, Eye, BriefcaseBusiness, MonitorCheck, Settings, Headset, DatabaseBackup, Users, Server, CloudDrizzle, CloudUpload, RefreshCw, ShieldCheck, Download, Laptop, AppWindow, BarChart, Workflow, Blocks } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 export interface ServiceDetailItem {
@@ -100,5 +100,67 @@ export const cloudServiceDetails: ServiceDetailItem[] = [
         description: "Nous configurons vos outils de travail collaboratif pour améliorer la productivité de vos équipes.",
         tags: ["Comptes utilisateurs", "Messagerie professionnelle"],
         icon: <Users size={20} strokeWidth={2} />
+    }
+];
+
+export const equipementServiceDetails: ServiceDetailItem[] = [
+    {
+        id: 1,
+        title: "Conseil & choix matériel",
+        description: "Nous vous aidons à choisir les équipements adaptés à votre budget et à vos usages.",
+        tags: ["Conseil", "Audit"],
+        icon: <Laptop size={20} strokeWidth={2} />
+    },
+    {
+        id: 2,
+        title: "Installation sur site",
+        description: "Déploiement du matériel, branchements, configuration et tests sur votre site.",
+        tags: ["Branchements", "Déploiement"],
+        icon: <Download size={20} strokeWidth={2} />
+    },
+    {
+        id: 3,
+        title: "Configuration sécurité",
+        description: "Paramétrage des accès, antivirus, comptes utilisateurs et protections de base.",
+        tags: ["Accès", "Comptes"],
+        icon: <ShieldCheck size={20} strokeWidth={2} />
+    },
+    {
+        id: 4,
+        title: "Suivi & renouvellement",
+        description: "Nous vous accompagnons dans le suivi, l'évolution et le remplacement de votre parc.",
+        tags: ["Suivi", "Renouvellement"],
+        icon: <RefreshCw size={20} strokeWidth={2} />
+    }
+];
+
+export const softwareServiceDetails: ServiceDetailItem[] = [
+    {
+        id: 1,
+        title: "Intégration d'outils métiers",
+        description: "Nous vous aidons à choisir et mettre en place les logiciels adaptés à votre activité.",
+        tags: ["CRM / ERP", "Outils collaboratifs", "Gestion"],
+        icon: <Blocks size={20} strokeWidth={2} />
+    },
+    {
+        id: 2,
+        title: "Automatisation des processus",
+        description: "Nous automatisons les tâches répétitives pour réduire les erreurs et gagner du temps.",
+        tags: ["Workflows", "Notifications", "Synchronisations"],
+        icon: <Workflow size={20} strokeWidth={2} />
+    },
+    {
+        id: 3,
+        title: "Tableaux de bord & reporting",
+        description: "Nous créons des vues claires pour suivre vos performances et prendre de meilleures décisions.",
+        tags: ["KPI", "Suivi d'activité", "Rapports automatisés"],
+        icon: <BarChart size={20} strokeWidth={2} />
+    },
+    {
+        id: 4,
+        title: "Applications web sur mesure",
+        description: "Nous développons des outils simples et adaptés à vos besoins spécifiques.",
+        tags: ["Portail client", "Outils internes", "Interfaces métier"],
+        icon: <AppWindow size={20} strokeWidth={2} />
     }
 ];

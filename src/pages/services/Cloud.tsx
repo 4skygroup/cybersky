@@ -17,7 +17,7 @@ export default function Cloud() {
 
             <ServiceHero
                 tag="CLOUD"
-                icon={<CloudIcon size={20} strokeWidth={1.5} fill="currentColor" />}
+                icon={<CloudIcon size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Externalisez votre informatique pour plus de"
                 titleHighlight="sécurité et de flexibilité"
                 imageSrc="/cloud-image-cybersky.png"

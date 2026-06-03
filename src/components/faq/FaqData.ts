@@ -159,3 +159,81 @@ export const cloudFaqData: FAQItem[] = [
       "Oui. CyberSky peut vous accompagner dans la migration de vos mails, fichiers et outils collaboratifs vers une solution cloud adaptée à votre entreprise.",
   },
 ];
+
+export const equipementFaqData: FAQItem[] = [
+  {
+    id: 1,
+    question: "Quel type de matériel proposez-vous ?",
+    answer:
+      "CyberSky accompagne les entreprises dans le choix d’équipements informatiques professionnels : postes fixes, ordinateurs portables, serveurs, stockage, réseau, Wi-Fi, imprimantes et périphériques.",
+  },
+  {
+    id: 2,
+    question: "Pouvez-vous installer et configurer les équipements ?",
+    answer:
+      "Oui. Nous pouvons préparer, installer et configurer les équipements afin qu’ils soient prêts à l’usage : comptes utilisateurs, accès réseau, logiciels, sécurité de base et tests de fonctionnement.",
+  },
+  {
+    id: 3,
+    question: "Aidez-vous à choisir le bon matériel ?",
+    answer:
+      "Oui. Nous analysons vos besoins, vos usages et votre budget pour vous orienter vers du matériel adapté à votre activité, sans surdimensionner inutilement.",
+  },
+  {
+    id: 4,
+    question: "Proposez-vous du matériel pour les petites entreprises ?",
+    answer:
+      "Oui. Nos recommandations sont adaptées aux TPE/PME, que ce soit pour équiper quelques postes, renouveler un parc existant ou préparer une montée en charge.",
+  },
+  {
+    id: 5,
+    question: "Pouvez-vous gérer le renouvellement du parc informatique ?",
+    answer:
+      "Oui. CyberSky peut vous accompagner dans le suivi, le remplacement et l’évolution de votre parc informatique afin de maintenir des équipements fiables et performants.",
+  },
+  {
+    id: 6,
+    question: "Le matériel est-il livré prêt à l’emploi ?",
+    answer:
+      "Oui, selon la prestation choisie. Nous pouvons livrer les équipements déjà préparés, configurés et testés pour faciliter leur mise en service dans votre entreprise.",
+  },
+];
+
+export const softwareFaqData: FAQItem[] = [
+  {
+    id: 1,
+    question: "Pourquoi digitaliser mes processus internes ?",
+    answer:
+      "Digitaliser vos processus permet de réduire les tâches manuelles, limiter les erreurs, centraliser les informations et gagner du temps dans la gestion quotidienne de votre activité.",
+  },
+  {
+    id: 2,
+    question: "Pouvez-vous créer un outil sur mesure ?",
+    answer:
+      "Oui. CyberSky peut concevoir des outils adaptés à vos besoins spécifiques : portail client, outil interne, tableau de bord, automatisation ou interface métier.",
+  },
+  {
+    id: 3,
+    question: "Aidez-vous à choisir un CRM ou un logiciel métier ?",
+    answer:
+      "Oui. Nous pouvons vous accompagner dans le choix, la configuration et l’intégration d’un CRM, d’un ERP ou d’un logiciel métier adapté à votre activité.",
+  },
+  {
+    id: 4,
+    question: "Peut-on automatiser des tâches répétitives ?",
+    answer:
+      "Oui. Nous pouvons automatiser certaines actions comme les relances, notifications, exports, suivis clients, synchronisations entre outils ou tâches administratives répétitives.",
+  },
+  {
+    id: 5,
+    question: "Formez-vous les équipes à utiliser les nouveaux outils ?",
+    answer:
+      "Oui. Nous accompagnons vos équipes dans la prise en main des outils mis en place afin de garantir une utilisation simple, claire et efficace.",
+  },
+  {
+    id: 6,
+    question: "Est-ce adapté aux petites entreprises ?",
+    answer:
+      "Oui. Nos solutions sont adaptées aux TPE/PME qui souhaitent gagner du temps, mieux organiser leurs données et moderniser leurs méthodes de travail sans complexité inutile.",
+  },
+];
