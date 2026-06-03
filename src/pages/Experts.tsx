@@ -7,7 +7,7 @@ export default function Experts() {
             <div className="max-w-5xl mx-auto flex flex-col">
 
                 {/* TITRE DE LA PAGE */}
-                <h2 className="text-3xl md:text-4xl text-center text-black mb-24 leading-snug">
+                <h2 className="text-3xl md:text-4xl text-center text-cybersky-dark mb-24 leading-snug">
                     Le savoir-faire de CYBER<span className="text-cybersky-red">SKY</span> préservé par<br className="hidden md:block" /> une pointe d'experts
                 </h2>
 

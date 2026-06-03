@@ -4,9 +4,11 @@ export const politique = [
 ];
 
 export const services = [
-    { label: "Social Ads", href: "/socialads" },
-    { label: "Brand Content", href: "/brandcontent" },
-    { label: "Influence", href: "/influence" },
+    { label: "Maintenance", href: "/services/maintenance" },
+    { label: "Equipement", href: "/services/equipement" },
+    { label: "Cybersécurité", href: "/services/cybersecurite" },
+    { label: "Solutions Cloud", href: "/services/cloud" },
+    { label: "Solutions logicielles", href: "/services/software" },
 ];
 
 export const entites = [
