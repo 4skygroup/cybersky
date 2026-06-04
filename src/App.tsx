@@ -12,35 +12,39 @@ import Equipement from '@/pages/services/Equipement';
 import Software from '@/pages/services/Software';
 import ScrollToTop from './components/ScrollToTop';
 import NotFound from './pages/NotFound';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen flex flex-col bg-cyber-black text-white font-sans">
+    <HelmetProvider>
 
-        <Header />
+      <Router>
+        <div className="min-h-screen flex flex-col bg-cyber-black text-white font-sans">
 
-        {/* flex-grow pousse le footer vers le bas et prend tout l'espace disponible */}
-        <main className="grow">
-            <ScrollToTop/>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/services/cloud" element={<Cloud />} />
-            <Route path="/services/cybersecurite" element={<Securite />} />
-            <Route path="/services/equipement" element={<Equipement />} />
-            <Route path="/services/maintenance" element={<Maintenance />} />
-            <Route path="/services/software" element={<Software />} />
-            <Route path="/experts" element={<Experts />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </main>
+          <Header />
 
-        <Footer />
+          {/* flex-grow pousse le footer vers le bas et prend tout l'espace disponible */}
+          <main className="grow">
+            <ScrollToTop />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/services/cloud" element={<Cloud />} />
+              <Route path="/services/cybersecurite" element={<Securite />} />
+              <Route path="/services/equipement" element={<Equipement />} />
+              <Route path="/services/maintenance" element={<Maintenance />} />
+              <Route path="/services/software" element={<Software />} />
+              <Route path="/experts" element={<Experts />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
 
-      </div>
-    </Router>
+          <Footer />
+
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 
