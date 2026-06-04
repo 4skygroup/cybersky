@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import type { ServiceDetailItem } from '@/components/services/detail/ServiceDetailData';
 
 interface ServiceDetailsProps {
@@ -65,9 +65,9 @@ export default function ServiceDetails({
 
                             {/* Tags (Pilules) */}
                             <div className="flex flex-wrap gap-2 mb-8">
-                                {service.tags.map((tag, index) => (
+                                {service.tags.map((tag) => (
                                     <span
-                                        key={index}
+                                        key={tag}
                                         className="border border-gray-600 text-gray-300 text-xs px-3 py-1.5 rounded-full"
                                     >
                                         {tag}
@@ -76,12 +76,12 @@ export default function ServiceDetails({
                             </div>
 
                             {/* Bouton - mt-auto le force à rester en bas */}
-                            <NavLink
+                            <Link
                                 to="/contact"
                                 className="mt-auto w-fit bg-cybersky-red text-white px-6 py-2.5 rounded text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300"
                             >
                                 Demander un devis
-                            </NavLink>
+                            </Link>
 
                         </div>
                     ))}
