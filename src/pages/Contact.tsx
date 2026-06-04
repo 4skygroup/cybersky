@@ -16,7 +16,7 @@ export default function Contact() {
 
                 {/* 3. LE RETOUR DU H1 ! Avec une marge réduite (mb-4 au lieu de mb-8) */}
                 <h1 className="text-3xl md:text-4xl text-center mb-4 md:mb-6 text-white tracking-wide">
-                    Contact us
+                    Contactez-nous
                 </h1>
 
                 {/* 4. On réduit légèrement le gap (gap-8) pour compacter la grille */}
@@ -35,7 +35,7 @@ export default function Contact() {
                     <div className="flex flex-col">
                         {/* 5. Marge réduite sous le sous-titre (mb-4) */}
                         <p className="text-xl md:text-2xl mb-4 md:mb-6 tracking-wide text-white text-center md:text-left">
-                            Let's start your strategy !
+                            Commençons votre stratégie !
                         </p>
 
                         <ContactForm />
