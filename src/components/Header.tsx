@@ -66,7 +66,7 @@ export default function Navbar() {
                                 href={path}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="font-glacial text-t5 text-white hover:text-pulse-x-red transition-colors duration-200"
+                                className="font-glacial text-t5 text-white hover:text-cybersky-red transition-colors duration-200"
                             >
                                 {label}
                             </a>
@@ -74,7 +74,7 @@ export default function Navbar() {
                             <NavLink
                                 to={path}
                                 className={({ isActive }) =>
-                                    `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 ${isActive ? "text-pulse-x-red" : "text-white hover:text-pulse-x-red"
+                                    `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 ${isActive ? "text-cybersky-red" : "text-white hover:text-cybersky-red"
                                     }`
                                 }
                             >
@@ -99,7 +99,7 @@ export default function Navbar() {
                                             to={sub.path}
                                             onClick={() => setServicesOpen(false)}
                                             className={({ isActive }) =>
-                                                `block px-4 py-2 font-glacial text-t6 transition-colors duration-200 ${isActive ? "text-pulse-x-red" : "text-white hover:text-pulse-x-red hover:bg-white/5"
+                                                `block px-4 py-2 font-glacial text-t6 transition-colors duration-200 ${isActive ? "text-cybersky-red" : "text-white hover:text-cybersky-red hover:bg-white/5"
                                                 }`
                                             }
                                         >
@@ -126,7 +126,7 @@ export default function Navbar() {
 
             {/* ── Mobile menu — ── */}
             <div
-                className={`fixed inset-0 bg-pulse-x-red md:hidden flex flex-col transition-all duration-300 ${menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+                className={`fixed inset-0 bg-cybersky-red md:hidden flex flex-col transition-all duration-300 ${menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
                     }`}
                 style={{ zIndex: 40 }}
             >
