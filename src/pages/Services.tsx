@@ -8,6 +8,7 @@ export default function Services() {
             <SEO
                 title="Nos Solutions IT & Cybersécurité"
                 description="Découvrez l'ensemble des services CyberSky : de la protection de vos données à la gestion de votre parc, des solutions sur-mesure pour votre entreprise."
+                url="/services"
             />
             <div className="max-w-6xl mx-auto flex flex-col">
 

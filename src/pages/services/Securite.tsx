@@ -18,6 +18,7 @@ export default function Securite() {
             <SEO
                 title="Cybersécurité & Protection des données"
                 description="Sécurisez votre entreprise face aux cybermenaces. Audit, protection, sensibilisation et réponse aux incidents avec les experts CyberSky."
+                url="/services/cybersecurite"
             />
             <ServiceHero
                 tag="CYBERSÉCURITÉ"

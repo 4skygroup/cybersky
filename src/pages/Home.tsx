@@ -10,6 +10,7 @@ export default function Home() {
             <SEO
                 title="Expert en Cybersécurité & Infogérance"
                 description="CyberSky protège et gère votre infrastructure informatique. Cybersécurité, maintenance, cloud, équipement et solutions logicielles pour TPE/PME."
+                url="/"
             />
         <Hero/>
         <WhyChooseUs/>

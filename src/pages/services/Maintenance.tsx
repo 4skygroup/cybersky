@@ -18,6 +18,7 @@ export default function Maintenance() {
             <SEO
                 title="Maintenance Informatique Proactive"
                 description="Assurez la continuité de votre activité. Supervision 24/7, assistance utilisateur, mises à jour et gestion des sauvegardes pour votre TPE/PME."
+                url='/services/maintenance'
             />
 
             <ServiceHero

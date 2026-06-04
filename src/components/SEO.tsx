@@ -3,25 +3,26 @@ import { Helmet } from 'react-helmet-async';
 interface SEOProps {
     title: string;
     description: string;
-    // Optionnel : permet d'écraser l'image par défaut si un jour tu en as besoin
     image?: string;
+    url?: string; // 1. Ajout d'une prop URL optionnelle
 }
 
-export default function SEO({ title, description, image }: SEOProps) {
+export default function SEO({ title, description, image, url }: SEOProps) {
     const siteName = "CyberSky";
     const fullTitle = `${title} | ${siteName}`;
-
-    // Ton image statique définie une bonne fois pour toutes
-    // (Assure-toi que cette image existe bien dans ton dossier public)
     const defaultImage = "/logo-cybersky.png";
-
     const ogImage = image || defaultImage;
+
+    // L'URL canonique complète (à adapter avec ton vrai nom de domaine)
+    const canonicalUrl = url ? `https://www.cybersky.fr${url}` : "https://www.cybersky.fr";
 
     return (
         <Helmet>
             {/* Balises standards */}
             <title>{fullTitle}</title>
             <meta name="description" content={description} />
+            {/* 2. AJOUT DE LA BALISE CANONICAL */}
+            <link rel="canonical" href={canonicalUrl} />
 
             {/* Balises Open Graph (Facebook, LinkedIn, Discord...) */}
             <meta property="og:title" content={fullTitle} />

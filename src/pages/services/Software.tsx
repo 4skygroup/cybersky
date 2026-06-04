@@ -18,6 +18,7 @@ export default function Software() {
             <SEO
                 title="Solutions Logicielles & Digitalisation"
                 description="Digitalisez et automatisez vos processus internes. Intégration d'outils métiers, tableaux de bord et applications web développées sur-mesure."
+                url='/services/software'
             />
 
             <ServiceHero

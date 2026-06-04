@@ -19,6 +19,7 @@ export default function Cloud() {
             <SEO
                 title="Solutions Cloud & Hébergement sécurisé"
                 description="Externalisez votre informatique pour plus de sécurité et flexibilité. Migration, sauvegarde automatisée et serveurs cloud sur-mesure."
+                url='/services/cloud'
             />
 
             <ServiceHero

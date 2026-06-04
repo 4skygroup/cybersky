@@ -9,6 +9,7 @@ export default function Contact() {
             <SEO
                 title="Contactez-nous | Devis & Audit IT"
                 description="Besoin d'un accompagnement IT ou d'un audit de sécurité ? Contactez l'équipe CyberSky pour discuter de votre stratégie informatique."
+                url="/contact"
             />
 
             {/* 2. p-6 md:p-8 au lieu de p-12 : On réduit l'espace interne (le vide entre la bordure et le formulaire) */}

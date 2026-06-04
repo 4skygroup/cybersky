@@ -8,6 +8,7 @@ export default function Experts() {
             <SEO
                 title="Nos Experts IT & Cybersécurité"
                 description="Le savoir-faire CyberSky porté par une équipe d'experts. Découvrez les professionnels qui accompagnent votre transformation numérique au quotidien."
+                url='/experts'
             />
             <div className="max-w-5xl mx-auto flex flex-col">
 

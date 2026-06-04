@@ -18,6 +18,7 @@ export default function Equipement() {
             <SEO
                 title="Matériel Informatique Professionnel"
                 description="Équipez votre entreprise avec du matériel fiable. Conseil, installation sur site, configuration sécurisée et suivi de votre parc informatique."
+                url='/services/equipement'
             />
 
             <ServiceHero
