@@ -1,5 +1,5 @@
 import SEO from '@/components/SEO';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function NotFound() {
     return (
@@ -13,9 +13,9 @@ export default function NotFound() {
             <p className="text-gray-400 mb-10 max-w-md">
                 La page que vous recherchez a été déplacée, supprimée ou n'a jamais existé dans notre système.
             </p>
-            <NavLink to="/" className="bg-cybersky-red text-white px-8 py-3.5 rounded-md text-sm font-semibold tracking-wide hover:bg-white hover:text-black transition-colors duration-300">
+            <Link to="/" className="bg-cybersky-red text-white px-8 py-3.5 rounded-md text-sm font-semibold tracking-wide hover:bg-white hover:text-black transition-colors duration-300">
                 Retour à l'accueil
-            </NavLink>
+            </Link>
         </div>
     );
 }
