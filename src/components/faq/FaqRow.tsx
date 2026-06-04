@@ -14,7 +14,7 @@ const FAQRow = ({
 }: FAQRowProps) => {
 
     return (
-        <div className = "border-b border-white/20">
+        <div className="border-b border-cybersky-dark">
             <button
                 onClick={onToggle}
                 className="w-full flex items-center justify-between py-6 px-0 text-left group"

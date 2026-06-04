@@ -24,11 +24,10 @@ const FAQ = ({
 
                 {/* EN-TÊTE ALIGNÉ À GAUCHE */}
                 <div className="flex flex-col items-start mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold text-cybersky-dark tracking-wide uppercase">
-                        {question}
-                    </h2>
-                    <h2 className="text-3xl md:text-5xl font-bold text-cybersky-red tracking-wide uppercase mt-2">
-                        {answer}
+                    {/* Un seul H2 pour le SEO, avec des liens internes pour le style */}
+                    <h2 className="flex flex-col text-3xl md:text-5xl font-bold tracking-wide uppercase">
+                        <span className="text-cybersky-dark">{question}</span>
+                        <span className="text-cybersky-red mt-2">{answer}</span>
                     </h2>
                 </div>
 
