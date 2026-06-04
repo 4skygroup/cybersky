@@ -3,6 +3,7 @@ import {
     ShieldCheck, Medal, RotateCcw, MailOpen
 } from 'lucide-react';
 import FeatureIcon from '@/components/FeatureIcon';
+import { Link } from 'react-router-dom';
 
 // Les 9 éléments exacts de la maquette Figma
 const FEATURES = [
@@ -64,9 +65,9 @@ export default function WhyChooseUs() {
                                 <p className="text-white text-sm mb-8 leading-relaxed grow">
                                     Faites le point sur la sécurité de votre système informatique et protégez vos données
                                 </p>
-                                <a href="/services" className="text-white text-sm underline underline-offset-4 decoration-white/50 hover:text-cybersky-red hover:decoration-cybersky-red transition-colors mt-auto">
+                                <Link to="/services" className="text-white text-sm underline underline-offset-4 decoration-white/50 hover:text-cybersky-red hover:decoration-cybersky-red transition-colors mt-auto">
                                     En savoir plus
-                                </a>
+                                </Link>
                             </div>
                         </div>
 
