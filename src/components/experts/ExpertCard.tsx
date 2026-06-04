@@ -41,6 +41,7 @@ export default function ExpertCard({ item, index }: ExpertCardProps) {
                     src={item.image}
                     alt={`Portrait de ${item.name}`}
                     className="w-full max-w-87.5 object-cover"
+                    loading="lazy"
                 />
             </div>
 
