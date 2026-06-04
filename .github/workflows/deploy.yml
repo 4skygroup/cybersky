@@ -53,3 +53,47 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             sudo chown -R www-data:www-data /var/www/cybersky.fr/
+
+      - name: 6. Configurer Nginx (si pas encore fait)
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            if [ ! -f /etc/nginx/sites-available/cybersky.fr ]; then
+              sudo tee /etc/nginx/sites-available/cybersky.fr > /dev/null << 'NGINXEOF'
+            server {
+                listen 80;
+                server_name cybersky.fr www.cybersky.fr;
+
+                root /var/www/cybersky.fr;
+                index index.html;
+
+                location / {
+                    try_files $uri $uri/ /index.html;
+                }
+
+                gzip on;
+                gzip_types text/css application/javascript image/svg+xml;
+            }
+            NGINXEOF
+            fi
+
+            if [ ! -L /etc/nginx/sites-enabled/cybersky.fr ]; then
+              sudo ln -s /etc/nginx/sites-available/cybersky.fr /etc/nginx/sites-enabled/cybersky.fr
+            fi
+
+            sudo nginx -t && sudo systemctl reload nginx
+
+      - name: 7. Activer HTTPS avec Certbot (si pas encore fait)
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            if [ ! -d /etc/letsencrypt/live/cybersky.fr ]; then
+              sudo certbot --nginx -d cybersky.fr -d www.cybersky.fr \
+                --non-interactive --agree-tos -m ${{ secrets.CERTBOT_EMAIL }}
+            fi
