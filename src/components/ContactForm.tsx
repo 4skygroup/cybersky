@@ -1,12 +1,24 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
 
 export default function ContactForm() {
     const [subject, setSubject] = useState("");
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
+    // 2. Créer la fonction de soumission
+    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();        setIsSubmitting(true);
+
+        // Ici viendra ton code d'envoi API (fetch, axios, emailjs...)
+        console.log("Formulaire envoyé ! Sujet :", subject);
+
+        // Simulation d'attente
+        setTimeout(() => setIsSubmitting(false), 2000);
+    };
 
     return (
-        < form className = "flex flex-col gap-4 text-sm font-medium text-white" >
+        <form onSubmit={handleSubmit} className = "flex flex-col gap-4 text-sm font-medium text-white">
 
             {/* Ligne 1 : Nom & Prénom */ }
             < div className = "grid grid-cols-1 sm:grid-cols-2 gap-4" >
@@ -74,11 +86,15 @@ export default function ContactForm() {
 
         {/* Bouton d'envoi */ }
     {/* 3. On enlève le mt-4 inutile puisque le form gère déjà l'espacement via flex */ }
-    <div className="flex justify-end mt-1">
-        <button type="submit" className="bg-white text-black font-semibold tracking-wide px-10 py-2.5 hover:bg-[#F23333] hover:text-white transition-all duration-300">
-            Send
-        </button>
-    </div>
+            <div className="flex justify-end mt-1">
+                <button
+                    type="submit"
+                    disabled={isSubmitting} // 4. Désactiver le bouton pendant l'envoi
+                    className="bg-white text-black font-semibold tracking-wide px-10 py-2.5 hover:bg-[#F23333] hover:text-white transition-all duration-300 disabled:opacity-50"
+                >
+                    {isSubmitting ? "Envoi..." : "Send"}
+                </button>
+            </div>
 
         </form >
     );
