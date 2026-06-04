@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import type { RiskZoneItem } from './RiskZonesData';
 
 interface RiskZonesProps {
@@ -41,17 +41,18 @@ export default function RiskZones({
                     </p>
                 </div>
 
-                {/* GRILLE DES 5 ZONES */}
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
+                {/* GRILLE DES 5 ZONES (Transformée en <ul>) */}
+                <ul className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
                     {zones.map((zone) => (
-                        // L'EFFET CARTE EST ICI : bordure, radius, overflow caché et h-full pour la grille
-                        <div key={zone.id} className="flex flex-col border border-gray-200 rounded-xl overflow-hidden h-full bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
+                        // La carte devient un <li>
+                        <li key={zone.id} className="flex flex-col border border-gray-200 rounded-xl overflow-hidden h-full bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
 
                             {/* Bloc Image */}
                             <div className="relative">
                                 <img
                                     src={zone.image}
                                     alt={zone.title}
+                                    loading="lazy" /* 2. Ajout du lazy loading */
                                     className="w-full h-32 object-cover"
                                 />
                                 {/* L'icône rouge à cheval */}
@@ -61,7 +62,6 @@ export default function RiskZones({
                             </div>
 
                             {/* Textes de la carte */}
-                            {/* pt-8 permet de dégager l'espace pour l'icône rouge */}
                             <div className="flex flex-col px-5 pt-8 pb-6 grow">
                                 <h3 className="text-black font-bold text-base mb-2">
                                     {zone.title}
@@ -71,17 +71,17 @@ export default function RiskZones({
                                 </p>
                             </div>
 
-                        </div>
+                        </li>
                     ))}
-                </div>
+                </ul>
 
                 {/* BOUTON CALL-TO-ACTION */}
-                <NavLink
+                <Link
                     to="/contact"
                     className="bg-cybersky-red text-white px-8 py-3.5 rounded-md text-sm font-semibold tracking-wide hover:bg-black hover:text-white transition-colors duration-300"
                 >
                     Demander un devis
-                </NavLink>
+                </Link>
 
             </div>
         </section>
