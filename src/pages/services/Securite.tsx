@@ -20,7 +20,7 @@ export default function Securite() {
                 description="Sécurisez votre entreprise face aux cybermenaces. Audit, protection, sensibilisation et réponse aux incidents avec les experts CyberSky."
             />
             <ServiceHero
-                tag="SÉCURITÉ"
+                tag="CYBERSÉCURITÉ"
                 icon={<ShieldCogCornerIcon size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Sécurisez votre entreprise face aux"
                 titleHighlight="cybermenaces"
