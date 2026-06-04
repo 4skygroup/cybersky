@@ -5,6 +5,7 @@ import {
   services,
   social,
 } from "@/components/footer/FooterData";
+import { Link } from "react-router-dom";
 
 const FooterColumn = ({
   title,
@@ -19,20 +20,25 @@ const FooterColumn = ({
   </div>
 );
 
-const FooterLink = ({
-  href,
-  children,
-}: {
-  href: string;
-  children: React.ReactNode;
-}) => (
-  <a
-    href={href}
-    className="text-t5 text-white hover:underline transition-colors duration-200"
-  >
-    {children}
-  </a>
-);
+const FooterLink = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  const isExternal = href.startsWith('http');
+
+  if (isExternal) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" className="text-t5 text-white hover:underline transition-colors duration-200">
+        {children}
+      </a>
+    );
+  }
+
+  return (
+    <Link to={href} className="text-t5 text-white hover:underline transition-colors duration-200">
+      {children}
+    </Link>
+  );
+};
+
+
 
 const Footer = () => {
   return (
@@ -52,9 +58,9 @@ const Footer = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-8 pt-12 pb-6">
         {/* Logo */}
         <div className="flex justify-center mb-10">
-          <a href="/" aria-label="CyberSky – Accueil">
-            <img className="h-12" src="/logo-cybersky.png" alt="Pulse X" />
-          </a>
+          <Link to="/" aria-label="CyberSky – Accueil">
+            <img className="h-12" src="/logo-cybersky.png" alt="Logo CyberSky" loading="lazy" />
+          </Link>
         </div>
 
         {/* Columns */}
