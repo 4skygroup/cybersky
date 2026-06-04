@@ -20,13 +20,11 @@ export default function Hero() {
           {/* Logo CyberSky en image */}
           <div className="mb-6">
             {/* On a retiré toutes les classes de texte inutiles */}
-
             <img
               src="/logo-cybersky.png"
               alt="Logo CyberSky"
               className="h-12 md:h-16 lg:h-20 w-100 object-contain object-left block"
             />
-
           </div>
 
           {/* Le texte exact de la maquette Figma */}
