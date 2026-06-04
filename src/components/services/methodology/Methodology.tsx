@@ -41,10 +41,10 @@ export default function Methodology({
                     </p>
                 </div>
 
-                {/* GRILLE DES 4 ÉTAPES */}
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+                {/* GRILLE DES 4 ÉTAPES (Transformée en liste ordonnée) */}
+                <ol className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
                     {steps.map((step) => (
-                        <div key={step.id} className="flex flex-col items-center text-center">
+                        <li key={step.id} className="flex flex-col items-center text-center">
 
                             {/* LE BLOC ICÔNE AVEC LA PASTILLE ROUGE */}
                             <div className="relative mb-6">
@@ -67,9 +67,9 @@ export default function Methodology({
                                 {step.description}
                             </p>
 
-                        </div>
+                        </li>
                     ))}
-                </div>
+                </ol>
 
             </div>
         </section>
