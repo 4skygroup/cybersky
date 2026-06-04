@@ -14,7 +14,7 @@ import SEO from '@/components/SEO';
 
 export default function Equipement() {
     return (
-        <div className="w-full flex flex-col min-h-screen">
+        <div className="w-full flex flex-col">
             <SEO
                 title="Matériel Informatique Professionnel"
                 description="Équipez votre entreprise avec du matériel fiable. Conseil, installation sur site, configuration sécurisée et suivi de votre parc informatique."

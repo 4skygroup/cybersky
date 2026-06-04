@@ -14,7 +14,7 @@ import SEO from '@/components/SEO';
 
 export default function Software() {
     return (
-        <div className="w-full flex flex-col min-h-screen">
+        <div className="w-full flex flex-col">
             <SEO
                 title="Solutions Logicielles & Digitalisation"
                 description="Digitalisez et automatisez vos processus internes. Intégration d'outils métiers, tableaux de bord et applications web développées sur-mesure."

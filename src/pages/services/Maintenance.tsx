@@ -14,7 +14,7 @@ import SEO from '@/components/SEO';
 
 export default function Maintenance() {
     return (
-        <div className="w-full flex flex-col min-h-screen">
+        <div className="w-full flex flex-col">
             <SEO
                 title="Maintenance Informatique Proactive"
                 description="Assurez la continuité de votre activité. Supervision 24/7, assistance utilisateur, mises à jour et gestion des sauvegardes pour votre TPE/PME."

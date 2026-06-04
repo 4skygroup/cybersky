@@ -14,7 +14,7 @@ import { ShieldCogCornerIcon } from "lucide-react";
 
 export default function Securite() {
     return (
-        <div className="w-full flex flex-col min-h-screen">
+        <div className="w-full flex flex-col">
             <SEO
                 title="Cybersécurité & Protection des données"
                 description="Sécurisez votre entreprise face aux cybermenaces. Audit, protection, sensibilisation et réponse aux incidents avec les experts CyberSky."
@@ -55,8 +55,8 @@ export default function Securite() {
                 subtitle="Un parcours structuré, transparent, sans surprise. De la première conversation au suivi long terme."
                 steps={securiteMethodology}
             />
-        
-        <FAQ data={securiteFaqData}/>
-    </div>
+
+            <FAQ data={securiteFaqData}/>
+        </div>
     );
 }
