@@ -10,10 +10,15 @@ import { softwareFigures } from '@/components/services/keyfigures/KeyFiguresData
 import { softwareServiceDetails } from '@/components/services/detail/ServiceDetailData';
 import { softwareMethodology } from '@/components/services/methodology/MethodologyData';
 import { softwareFaqData } from '@/components/faq/FaqData';
+import SEO from '@/components/SEO';
 
 export default function Software() {
     return (
         <div className="w-full flex flex-col min-h-screen">
+            <SEO
+                title="Solutions Logicielles & Digitalisation"
+                description="Digitalisez et automatisez vos processus internes. Intégration d'outils métiers, tableaux de bord et applications web développées sur-mesure."
+            />
 
             <ServiceHero
                 tag="SOFTWARE"

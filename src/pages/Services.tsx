@@ -1,9 +1,14 @@
+import SEO from '@/components/SEO';
 import ServiceCard from '@/components/services/ServiceCard';
 import { servicesData } from '@/components/services/ServiceData';
 
 export default function Services() {
     return (
         <div className="w-full bg-white min-h-screen pt-32 pb-24 px-6 md:px-12">
+            <SEO
+                title="Nos Solutions IT & Cybersécurité"
+                description="Découvrez l'ensemble des services CyberSky : de la protection de vos données à la gestion de votre parc, des solutions sur-mesure pour votre entreprise."
+            />
             <div className="max-w-6xl mx-auto flex flex-col">
 
                 {/* EN-TÊTE ASYMÉTRIQUE */}

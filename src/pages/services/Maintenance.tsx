@@ -10,10 +10,15 @@ import { maintenanceServiceDetails } from '@/components/services/detail/ServiceD
 import { maintenanceMethodology } from '@/components/services/methodology/MethodologyData';
 import { maintenanceFaqData } from '@/components/faq/FaqData';
 import { Wrench } from 'lucide-react';
+import SEO from '@/components/SEO';
 
 export default function Maintenance() {
     return (
         <div className="w-full flex flex-col min-h-screen">
+            <SEO
+                title="Maintenance Informatique Proactive"
+                description="Assurez la continuité de votre activité. Supervision 24/7, assistance utilisateur, mises à jour et gestion des sauvegardes pour votre TPE/PME."
+            />
 
             <ServiceHero
                 tag="MAINTENANCE"

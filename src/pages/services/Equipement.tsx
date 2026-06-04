@@ -10,10 +10,15 @@ import { equipementFigures } from '@/components/services/keyfigures/KeyFiguresDa
 import { equipementServiceDetails } from '@/components/services/detail/ServiceDetailData';
 import { equipementMethodology } from '@/components/services/methodology/MethodologyData';
 import { equipementFaqData } from '@/components/faq/FaqData';
+import SEO from '@/components/SEO';
 
 export default function Equipement() {
     return (
         <div className="w-full flex flex-col min-h-screen">
+            <SEO
+                title="Matériel Informatique Professionnel"
+                description="Équipez votre entreprise avec du matériel fiable. Conseil, installation sur site, configuration sécurisée et suivi de votre parc informatique."
+            />
 
             <ServiceHero
                 tag="ÉQUIPEMENT"

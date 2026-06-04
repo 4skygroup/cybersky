@@ -10,10 +10,16 @@ import { cloudFigures } from '@/components/services/keyfigures/KeyFiguresData';
 import { cloudServiceDetails } from '@/components/services/detail/ServiceDetailData';
 import { cloudMethodology } from '@/components/services/methodology/MethodologyData';
 import { cloudFaqData } from '@/components/faq/FaqData';
+import SEO from '@/components/SEO';
 
 export default function Cloud() {
     return (
         <div className="w-full flex flex-col min-h-screen">
+
+            <SEO
+                title="Solutions Cloud & Hébergement sécurisé"
+                description="Externalisez votre informatique pour plus de sécurité et flexibilité. Migration, sauvegarde automatisée et serveurs cloud sur-mesure."
+            />
 
             <ServiceHero
                 tag="CLOUD"

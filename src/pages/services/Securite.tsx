@@ -1,5 +1,6 @@
 import FAQ from "@/components/faq/Faq";
 import { securiteFaqData } from "@/components/faq/FaqData";
+import SEO from "@/components/SEO";
 import { securiteServiceDetails } from "@/components/services/detail/ServiceDetailData";
 import ServiceDetails from "@/components/services/detail/ServiceDetails";
 import KeyFigures from "@/components/services/keyfigures/KeyFigures";
@@ -14,6 +15,10 @@ import { ShieldCogCornerIcon } from "lucide-react";
 export default function Securite() {
     return (
         <div className="w-full flex flex-col min-h-screen">
+            <SEO
+                title="Cybersécurité & Protection des données"
+                description="Sécurisez votre entreprise face aux cybermenaces. Audit, protection, sensibilisation et réponse aux incidents avec les experts CyberSky."
+            />
             <ServiceHero
                 tag="SÉCURITÉ"
                 icon={<ShieldCogCornerIcon size={20} strokeWidth={1.5} fill="black" />}
