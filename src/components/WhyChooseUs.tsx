@@ -6,7 +6,7 @@ import FeatureIcon from '@/components/FeatureIcon';
 
 // Les 9 éléments exacts de la maquette Figma
 const FEATURES = [
-    { icon: <Building2 size={56} strokeWidth={1.5} />, text: "153+ agences en France et DOM-TOM" },
+    { icon: <Building2 size={56} strokeWidth={1.5} />, text: "Agence en France" },
     { icon: <Users size={56} strokeWidth={1.5} />, text: "25 000+ clients accompagnés au quotidien" },
     { icon: <RefreshCw size={56} strokeWidth={1.5} />, text: "98% de nos clients nous renouvellent leur confiance chaque année" },
     { icon: <Truck size={56} strokeWidth={1.5} />, text: "Intervention sur site entre 4h et 36h en cas d'incident non résolu à distance" },
