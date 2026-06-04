@@ -10,6 +10,9 @@ interface SEOProps {
 export default function SEO({ title, description, image }: SEOProps) {
     const siteName = "CyberSky";
     const fullTitle = `${title} | ${siteName}`;
+
+    // Ton image statique définie une bonne fois pour toutes
+    // (Assure-toi que cette image existe bien dans ton dossier public)
     const defaultImage = "/logo-cybersky.png";
 
     const ogImage = image || defaultImage;
