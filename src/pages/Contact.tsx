@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         // 1. py-6 au lieu de py-12 : On réduit l'espace extérieur pour que le cadre puisse prendre presque tout l'écran
         // items-center justify-center pour qu'il soit parfaitement centré
-        <div className="w-full min-h-[calc(100vh-80px)] bg-cybersky-dark px-4 md:px-8 pt-24 pb-8 flex items-center justify-center">
+        <div className="w-full min-h-[calc(100vh-80px)] bg-cybersky-dark px-4 md:px-8 pt-22 pb-8 flex items-center justify-center">
             <SEO
                 title="Contactez-nous | Devis & Audit IT"
                 description="Besoin d'un accompagnement IT ou d'un audit de sécurité ? Contactez l'équipe CyberSky pour discuter de votre stratégie informatique."
