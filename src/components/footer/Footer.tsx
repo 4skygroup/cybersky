@@ -15,7 +15,7 @@ const FooterColumn = ({
   children: React.ReactNode;
 }) => (
   <div className="flex flex-col gap-4">
-    <h4 className="text-t5 font-bold text-white">{title}</h4>
+    <h3 className="text-t5 font-bold text-white">{title}</h3>
     <div className="flex flex-col gap-[0.55rem]">{children}</div>
   </div>
 );

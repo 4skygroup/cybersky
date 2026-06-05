@@ -87,9 +87,9 @@ export default function WhyChooseUs() {
                                 <p className="text-white text-sm mb-8 leading-relaxed grow">
                                     Notre contrat de maintenance vous garantit une continuité de service opérationnelle de votre activité
                                 </p>
-                                <a href="/services" className="text-white text-sm underline underline-offset-4 decoration-white/50 hover:text-cybersky-red hover:decoration-cybersky-red transition-colors mt-auto">
+                                <Link to="/services" className="text-white text-sm underline underline-offset-4 decoration-white/50 hover:text-cybersky-red hover:decoration-cybersky-red transition-colors mt-auto">
                                     En savoir plus
-                                </a>
+                                </Link>
                             </div>
                         </div>
 
