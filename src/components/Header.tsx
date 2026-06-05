@@ -71,13 +71,13 @@ export default function Navbar() {
                                 {label}
                             </a>
                         ) : (
-                            <NavLink
-                                to={path}
-                                className={({ isActive }) =>
-                                    `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 ${isActive ? "text-cybersky-red" : "text-white hover:text-cybersky-red"
-                                    }`
-                                }
-                            >
+                                <NavLink
+                                    to={path}
+                                    className={({ isActive }) =>
+                                        `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 
+        ${isActive ? "text-cybersky-red" : "text-white hover:text-cybersky-red"}` // Ici CyberSky au lieu de PulseX
+                                    }
+                                >
                                 {label}
                                 {subItems && (
                                     <svg

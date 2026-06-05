@@ -4,7 +4,7 @@ interface SEOProps {
     title: string;
     description: string;
     image?: string;
-    url?: string; // 1. Ajout d'une prop URL optionnelle
+    url?: string;
 }
 
 export default function SEO({ title, description, image, url }: SEOProps) {
