@@ -26,7 +26,7 @@ export default function Equipement() {
                 icon={<Laptop size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Équipez votre entreprise avec du matériel"
                 titleHighlight="fiable et performant"
-                imageSrc="/equipement-image-cybersky.png"
+                imageSrc="/equipement-image-cybersky.webp"
             />
 
             <KeyFigures figures={equipementFigures} />

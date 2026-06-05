@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
                             {/* Moitié haute : Noire avec icône */}
                             <div className="bg-black h-56 flex items-center justify-center border-b border-white/10 relative">
                                 {/* Remplace ceci par l'export SVG de Figma si besoin */}
-                                <img src="/logo-prepare-cybersky.png" alt="Logo Préparation CyberSky" loading='lazy' />
+                                <img src="/logo-prepare-cybersky.webp" alt="Logo Préparation CyberSky" loading='lazy' />
                                 <div className="absolute w-16 h-16 bg-cybersky-red/20 rounded-full blur-xl"></div>
                             </div>
                             {/* Moitié basse : Gris très foncé avec texte */}
@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
                             {/* Moitié haute : Noire avec icône */}
                             <div className="bg-black h-56 flex items-center justify-center border-b border-white/10 relative">
                                 {/* Remplace ceci par l'export SVG de Figma si besoin */}
-                                <img src="/logo-maintain-cybersky.png" alt="Logo Maintenance CyberSky" loading='lazy' />
+                                <img src="/logo-maintain-cybersky.webp" alt="Logo Maintenance CyberSky" loading='lazy' />
                                 <div className="absolute w-16 h-16 bg-cybersky-red/20 rounded-full blur-xl"></div>
                             </div>
                             {/* Moitié basse : Gris très foncé avec texte */}

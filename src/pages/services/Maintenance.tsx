@@ -26,7 +26,7 @@ export default function Maintenance() {
                 icon={<Wrench size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Maintenance informatique proactive pour"
                 titleHighlight="votre entreprise"
-                imageSrc="/maintenance-image-cybersky.png"
+                imageSrc="/maintenance-image-cybersky.webp"
             />
 
             <KeyFigures figures={maintenanceFigures} />

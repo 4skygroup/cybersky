@@ -25,7 +25,7 @@ export default function Securite() {
                 icon={<ShieldCogCornerIcon size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Sécurisez votre entreprise face aux"
                 titleHighlight="cybermenaces"
-                imageSrc="/securite-image-cybersky.png" // À remplacer par le chemin de ton image
+                imageSrc="/securite-image-cybersky.webp" // À remplacer par le chemin de ton image
             />
 
             <KeyFigures figures={securiteFigures} />

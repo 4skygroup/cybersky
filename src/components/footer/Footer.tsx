@@ -59,7 +59,7 @@ const Footer = () => {
         {/* Logo */}
         <div className="flex justify-center mb-10">
           <Link to="/" aria-label="CyberSky – Accueil">
-            <img className="h-12" src="/logo-cybersky.png" alt="Logo CyberSky" loading="lazy" />
+            <img className="h-12" src="/logo-cybersky.webp" alt="Logo CyberSky" loading="lazy" />
           </Link>
         </div>
 
@@ -110,9 +110,9 @@ const Footer = () => {
         {/* COPYRIGHT */}
         <div className="mt-8 flex justify-center items-center gap-3 text-t3 font-regular text-white/60 tracking-normal">
           <span>created by</span>
-          <img src="/visuance.png" alt="Visuance logo" className="h-4" />
+          <img src="/visuance.webp" alt="Visuance logo" className="h-4" />
           <span>&</span>
-          <img src="/play-to-sky.png" alt="Play To Sky logo" className="h-6" />
+          <img src="/play-to-sky.webp" alt="Play To Sky logo" className="h-6" />
         </div>
       </div>
     </footer>

@@ -6,7 +6,7 @@ export default function Hero() {
 
       <div
         className="absolute inset-0 z-0 bg-cover bg-right lg:bg-top bg-no-repeat w-full brightness-50 transition-all duration-500"
-        style={{ backgroundImage: "url('/hero-cybersky.png')" }}
+        style={{ backgroundImage: "url('/hero-cybersky.webp')" }}
       >
         {/* 2. OVERLAY EN DÉGRADÉ POUR LE TEXTE */}
         <div className="absolute inset-0 bg-linear-to-r from-cyber-black via-cyber-black/80 to-transparent"></div>
@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="mb-6">
             {/* On a retiré toutes les classes de texte inutiles */}
             <img
-              src="/logo-cybersky.png"
+              src="/logo-cybersky.webp"
               alt="Logo CyberSky"
               className="h-12 md:h-16 lg:h-20 w-100 object-contain object-left block"
             />

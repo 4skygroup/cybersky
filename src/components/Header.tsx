@@ -49,7 +49,7 @@ export default function Navbar() {
 
             {/* Logo */}
             <NavLink to="/" className="shrink-0">
-                <img src="/logo-cybersky.png" alt="Logo CyberSky" className="h-9" />
+                <img src="/logo-cybersky.webp" alt="Logo CyberSky" className="h-9" />
             </NavLink>
 
             {/* ── Desktop nav ── */}
@@ -75,7 +75,7 @@ export default function Navbar() {
                                     to={path}
                                     className={({ isActive }) =>
                                         `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 
-        ${isActive ? "text-cybersky-red" : "text-white hover:text-cybersky-red"}` // Ici CyberSky au lieu de PulseX
+                                        ${isActive ? "text-cybersky-red" : "text-white hover:text-cybersky-red"}` // Ici CyberSky au lieu de PulseX
                                     }
                                 >
                                 {label}
@@ -142,7 +142,7 @@ export default function Navbar() {
                 {/* Logo centré */}
                 <div className="flex justify-center mt-16 mb-12">
                     <NavLink to="/" onClick={() => setMenuOpen(false)}>
-                        <img src="/logoPulseX.png" alt="Pulse X" className="h-12" />
+                        <img src="/logoPulseX.webp" alt="Pulse X" className="h-12" />
                     </NavLink>
                 </div>
 

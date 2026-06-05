@@ -26,7 +26,7 @@ export default function Contact() {
                     {/* CÔTÉ GAUCHE : Logo */}
                     <div className="flex justify-center items-center h-full p-2">
                         <img
-                            src="/logo-cybersky.png"
+                            src="/logo-cybersky.webp"
                             alt="Logo CyberSky"
                             className="w-full max-w-80 md:max-w-[320px] h-auto object-contain opacity-90"
                         />

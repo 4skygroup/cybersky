@@ -10,7 +10,7 @@ interface SEOProps {
 export default function SEO({ title, description, image, url }: SEOProps) {
     const siteName = "CyberSky";
     const fullTitle = `${title} | ${siteName}`;
-    const defaultImage = "/logo-cybersky.png";
+    const defaultImage = "/logo-cybersky.webp";
     const ogImage = image || defaultImage;
 
     // L'URL canonique complète (à adapter avec ton vrai nom de domaine)

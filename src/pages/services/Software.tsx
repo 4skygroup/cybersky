@@ -26,7 +26,7 @@ export default function Software() {
                 icon={<CodeXml size={20} strokeWidth={1.5} fill="black" />}
                 titlePart1="Digitalisez vos processus internes avec des"
                 titleHighlight="solutions logicielles sur-mesure"
-                imageSrc="/software-image-cybersky.png"
+                imageSrc="/software-image-cybersky.webp"
             />
 
             <KeyFigures figures={softwareFigures} />
