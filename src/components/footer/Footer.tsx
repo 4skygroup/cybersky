@@ -109,7 +109,7 @@ const Footer = () => {
 
         {/* COPYRIGHT */}
         <div className="mt-8 flex justify-center items-center gap-3 text-t3 font-regular text-white/60 tracking-normal">
-          <span>created by</span>
+          <span>Crée par</span>
           <img src="/visuance.webp" alt="Visuance logo" className="h-4" />
           <span>&</span>
           <img src="/play-to-sky.webp" alt="Play To Sky logo" className="h-6" />
