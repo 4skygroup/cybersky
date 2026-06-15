@@ -4,6 +4,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import { HelmetProvider } from 'react-helmet-async';
+import LegalNotice from '@/pages/LegalNotice';
+import PrivacyPolicy from '@/pages/LegalPolicy';
 
 // 1. Import Dynamique des pages
 const Home = lazy(() => import('@/pages/Home'));
@@ -37,6 +39,8 @@ function App() {
                 <Route path="/services/software" element={<Software />} />
                 <Route path="/experts" element={<Experts />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/mentions-legales" element={<LegalNotice />} />
+                <Route path="/confidentialite" element={<PrivacyPolicy />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>
