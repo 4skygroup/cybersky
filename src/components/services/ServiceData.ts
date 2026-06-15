@@ -32,7 +32,7 @@ export const servicesData: ServiceItem[] = [
     description:
       "Solution de sécurité et protection du réseau informatique d'entreprise.",
     image: "/securite-image-cybersky.webp",
-    link: "/services/securite",
+    link: "/services/cybersecurite",
     gridClass: "md:col-span-1",
   },
   {
