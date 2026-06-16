@@ -14,7 +14,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-    { label: "The Group", path: "https://www.playtosky.com/", external: true },
+    { label: "Le Groupe", path: "https://www.playtosky.com/", external: true },
     {
         label: "Services",
         path: "/services",
