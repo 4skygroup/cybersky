@@ -23,10 +23,10 @@ export default function Cloud() {
             />
 
             <ServiceHero
-                tag="CLOUD"
+                tag="service_detail.hero.cloud.tag"
                 icon={<CloudIcon size={20} strokeWidth={1.5} fill="black" />}
-                titlePart1="Externalisez votre informatique pour plus de"
-                titleHighlight="sécurité et de flexibilité"
+                titlePart1="service_detail.hero.cloud.hero_part1"
+                titleHighlight="service_detail.hero.cloud.hero_highlight"
                 imageSrc="/cloud-image-cybersky.webp"
             />
 

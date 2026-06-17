@@ -22,10 +22,10 @@ export default function Software() {
             />
 
             <ServiceHero
-                tag="SOFTWARE"
+                tag="service_detail.hero.software.tag"
                 icon={<CodeXml size={20} strokeWidth={1.5} fill="black" />}
-                titlePart1="Digitalisez vos processus internes avec des"
-                titleHighlight="solutions logicielles sur-mesure"
+                titlePart1="service_detail.hero.software.hero_part1"
+                titleHighlight="service_detail.hero.software.hero_highlight"
                 imageSrc="/software-image-cybersky.webp"
             />
 

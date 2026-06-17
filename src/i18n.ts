@@ -68,7 +68,7 @@ const resources = {
         why: {
           tag: "Nos services",
           title_start: "Pourquoi choisir CYBER",
-          subtitle: "S’intéresser aux risques des services informatiques ...",
+          subtitle: "S’intéresser aux risques des services informatiques...",
           features: {
             f1: "Agence en France",
             f2: "25 000+ clients accompagnés au quotidien",
@@ -102,6 +102,64 @@ const resources = {
         },
         h1: "Des <span class='text-cybersky-red'>solutions IT</span> conçues pour faire avancer votre entreprise.",
         h2: "Notre <span class='text-cybersky-red'>savoir-faire technologique</span> mis à votre disposition",
+        card_more: "En savoir plus",
+        data: {
+          maintenance_title: "Maintenance",
+          maintenance_desc:
+            "Prestations clés en main de maintenance pour TPE/PME pour une gestion optimisée de votre équipement informatique.",
+          equipment_title: "Équipement",
+          equipment_desc:
+            "Vente, installation et configuration de matériels informatiques professionnels : ordinateurs, PC, switch, serveurs, bornes Wi-Fi...",
+          securite_title: "Sécurité",
+          securite_desc:
+            "Solution de sécurité et protection du réseau informatique d'entreprise.",
+          software_title: "Software",
+          software_desc:
+            "Solutions de digitalisation des tâches administratives des TPE/PME et de numérisation et gestion électronique de vos documents.",
+          cloud_title: "Cloud",
+          cloud_desc:
+            "Solutions d'hébergement sécurisées et sur-mesure pour vos données.",
+        },
+      },
+      service_detail: {
+        seo:{
+          cloud: {
+            title: "Solutions Cloud & Hébergement sécurisé",
+            description:  
+          "Externalisez votre informatique pour plus de sécurité et flexibilité. Migration, sauvegarde automatisée et serveurs cloud sur-mesure.",
+          },
+          maintenance: {
+
+        },
+      },
+        hero: {
+          cloud: {
+            tag: "Cloud",
+            hero_part1: "Externalisez votre informatique pour plus de ",
+            hero_highlight: "sécurité et de flexibilité",
+          },
+          maintenance: {
+            tag: "Maintenance",
+            hero_part1: "Maintenance informatique proactive pour ",
+            hero_highlight: "votre entreprise",
+          },
+          security: {
+            tag: "Cybersécurité",
+            hero_part1: "Sécurisez votre entreprise face aux ",
+            hero_highlight: "aux cybermenaces",
+          },
+          software: {
+            tag: "Solutions logicielles",
+            hero_part1: "Digitalisez vos processus internes avec des ",
+            hero_highlight: "solutions logicielles sur-mesure",
+          },
+          equipment: {
+            tag: "Équipement",
+            hero_part1: "Équipez votre entreprise avec du matériel ",
+            hero_highlight: "fiable et performant",
+          },
+        },
+        default_button: "Demander un devis",
       },
       contact: {
         title: "Propulsez vos performances web !",
@@ -287,7 +345,7 @@ const resources = {
         why: {
           tag: "Our services",
           title_start: "Why choose CYBER",
-          subtitle: "Taking an interest in IT service risks ...",
+          subtitle: "Taking an interest in IT service risks...",
           features: {
             f1: "Agency in France",
             f2: "25,000+ clients supported daily",
@@ -317,10 +375,60 @@ const resources = {
         seo: {
           title: "Our IT & Cybersecurity Solutions",
           description:
-            "Discover all CyberSky services: from data protection to IT park management, tailored solutions for your business.",
+            "Discover the full range of CyberSky services: from data protection to IT asset management, we offer customized solutions for your business.",
         },
-        h1: "IT <span class='text-cybersky-red'>solutions</span> designed to move your business forward.",
+        h1: "<span class='text-cybersky-red'>IT solutions</span> designed to help your business grow.",
         h2: "Our <span class='text-cybersky-red'>technological expertise</span> at your disposal",
+        card_more: "Learn more",
+        data: {
+          maintenance_title: "Maintenance",
+          maintenance_desc:
+            "Turnkey maintenance services for small and medium-sized businesses to optimize the management of your IT equipment.",
+          equipment_title: "Equipment",
+          equipment_desc:
+            "Sales, installation, and configuration of professional IT hardware: computers, PCs, switches, servers, Wi-Fi access points...",
+          securite_title: "Security",
+          securite_desc:
+            "Security solutions and protection for corporate IT networks.",
+          software_title: "Software",
+          software_desc:
+            "Solutions for digitizing administrative tasks for small businesses and SMEs, as well as for digitizing and electronically managing your documents.",
+          cloud_title: "Cloud",
+          cloud_desc: "Secure, custom hosting solutions for your data.",
+        },
+      },
+      service_detail: {
+        seo:{
+
+        },
+        hero: {
+          cloud: {
+            tag: "Cloud",
+            hero_part1: "Outsource your IT for greater ",
+            hero_highlight: "security and flexibility",
+          },
+          maintenance: {
+            tag: "Maintenance",
+            hero_part1: "Proactive IT maintenance for ",
+            hero_highlight: "your business",
+          },
+          security: {
+            tag: "Cybersecurity",
+            hero_part1: "Secure your business against ",
+            hero_highlight: "cyber threats",
+          },
+          software: {
+            tag: "Software Solutions",
+            hero_part1: "Digitize your internal processes with ",
+            hero_highlight: "custom software solutions",
+          },
+          equipment: {
+            tag: "Equipment",
+            hero_part1: "Equip your business with ",
+            hero_highlight: "reliable and high-performance hardware",
+          },
+        },
+        default_button: "Request a Quote",
       },
       contact: {
         // TOUT est maintenant bien à l'intérieur de 'contact' !

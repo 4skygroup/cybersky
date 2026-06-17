@@ -10,45 +10,40 @@ export interface ServiceItem {
 export const servicesData: ServiceItem[] = [
   {
     id: "maintenance",
-    title: "Maintenance",
-    description:
-      "Prestations clés en main de maintenance pour TPE/PME pour une gestion optimisée de votre équipement informatique.",
+    title: "services.data.maintenance_title",
+    description: "services.data.maintenance_desc",
     image: "/maintenance-image-cybersky.webp",
     link: "/services/maintenance",
     gridClass: "md:col-span-2", // Prend 2 colonnes sur la grille
   },
   {
     id: "equipement",
-    title: "Équipement",
-    description:
-      "Vente, installation et configuration de matériels informatiques professionnels : ordinateurs, PC, switch, serveurs, bornes Wi-Fi...",
+    title: "services.data.equipment_title",
+    description: "services.data.equipment_desc",
     image: "/equipement-image-cybersky.webp",
     link: "/services/equipement",
     gridClass: "md:col-span-1",
   },
   {
     id: "securite",
-    title: "Sécurité",
-    description:
-      "Solution de sécurité et protection du réseau informatique d'entreprise.",
+    title: "services.data.securite_title",
+    description: "services.data.securite_desc",
     image: "/securite-image-cybersky.webp",
     link: "/services/cybersecurite",
     gridClass: "md:col-span-1",
   },
   {
     id: "software",
-    title: "Software",
-    description:
-      "Solutions de digitalisation des tâches administratives des TPE/PME et de numérisation et gestion électronique de vos documents.",
+    title: "services.data.software_title",
+    description: "services.data.software_desc", 
     image: "/software-image-cybersky.webp",
     link: "/services/software",
     gridClass: "md:col-span-1",
   },
   {
     id: "cloud",
-    title: "Cloud",
-    description:
-      "Solutions d'hébergement sécurisées et sur-mesure pour vos données.",
+    title: "services.data.cloud_title",
+    description: "services.data.cloud_desc",
     image: "/cloud-image-cybersky.webp",
     link: "/services/cloud",
     gridClass: "md:col-span-1",

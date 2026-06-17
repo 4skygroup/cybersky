@@ -21,10 +21,10 @@ export default function Securite() {
                 url="/services/cybersecurite"
             />
             <ServiceHero
-                tag="CYBERSÉCURITÉ"
+                tag="service_detail.hero.security.tag"
                 icon={<ShieldCogCornerIcon size={20} strokeWidth={1.5} fill="black" />}
-                titlePart1="Sécurisez votre entreprise face aux"
-                titleHighlight="cybermenaces"
+                titlePart1="service_detail.hero.security.hero_part1"
+                titleHighlight="service_detail.hero.security.hero_highlight"
                 imageSrc="/securite-image-cybersky.webp" // À remplacer par le chemin de ton image
             />
 

@@ -22,10 +22,10 @@ export default function Maintenance() {
             />
 
             <ServiceHero
-                tag="MAINTENANCE"
+                tag="service_detail.hero.maintenance.tag"
                 icon={<Wrench size={20} strokeWidth={1.5} fill="black" />}
-                titlePart1="Maintenance informatique proactive pour"
-                titleHighlight="votre entreprise"
+                titlePart1="service_detail.hero.maintenance.hero_part1"
+                titleHighlight="service_detail.hero.maintenance.hero_highlight"
                 imageSrc="/maintenance-image-cybersky.webp"
             />
 

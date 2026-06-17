@@ -22,10 +22,10 @@ export default function Equipement() {
             />
 
             <ServiceHero
-                tag="ÉQUIPEMENT"
+                tag="service_detail.hero.equipment.tag"
                 icon={<Laptop size={20} strokeWidth={1.5} fill="black" />}
-                titlePart1="Équipez votre entreprise avec du matériel"
-                titleHighlight="fiable et performant"
+                titlePart1="service_detail.hero.equipment.hero_part1"
+                titleHighlight="service_detail.hero.equipment.hero_highlight"
                 imageSrc="/equipement-image-cybersky.webp"
             />
 
