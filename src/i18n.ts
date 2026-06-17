@@ -19,27 +19,34 @@ const resources = {
         },
       },
       footer: {
-      title_policy: "Politique",
-      title_services: "Services",
-      title_entities: "Nos entités",
-      title_social: "Nos réseaux",
-      created_by: "Créé par",
-      links: {
-        legal: "Mentions légales",
-        privacy: "Confidentialité",
-        maintenance: "Maintenance",
-        equipment: "Équipement",
-        cybersecurity: "Cybersécurité",
-        cloud: "Solutions Cloud",
-        software: "Solutions logicielles"
-      }
-    },
-    home: {
-  seo: {
-    title: "Expert en Cybersécurité & Infogérance",
-    description: "CyberSky protège et gère votre infrastructure informatique. Cybersécurité, maintenance, cloud, équipement et solutions logicielles pour TPE/PME."
-  }
-},
+        title_policy: "Politique",
+        title_services: "Services",
+        title_entities: "Nos entités",
+        title_social: "Nos réseaux",
+        created_by: "Créé par",
+        links: {
+          legal: "Mentions légales",
+          privacy: "Confidentialité",
+          maintenance: "Maintenance",
+          equipment: "Équipement",
+          cybersecurity: "Cybersécurité",
+          cloud: "Solutions Cloud",
+          software: "Solutions logicielles",
+        },
+      },
+      home: {
+        seo: {
+          title: "Expert en Cybersécurité & Infogérance",
+          description:
+            "CyberSky protège et gère votre infrastructure informatique. Cybersécurité, maintenance, cloud, équipement et solutions logicielles pour TPE/PME.",
+        },
+        hero: {
+          title_line1: "Un accompagnement",
+          title_line2: "informatique sur-mesure en",
+          title_line3: "fonction de vos besoins réels",
+          btn_services: "Découvrir nos services",
+        },
+      },
       contact: {
         title: "Propulsez vos performances web !",
         subtitle:
@@ -101,27 +108,34 @@ const resources = {
         },
       },
       footer: {
-      title_policy: "Policy",
-      title_services: "Services",
-      title_entities: "Our Entities",
-      title_social: "Our Networks",
-      created_by: "Created by",
-      links: {
-        legal: "Legal Notice",
-        privacy: "Privacy Policy",
-        maintenance: "Maintenance",
-        equipment: "Hardware",
-        cybersecurity: "Cybersecurity",
-        cloud: "Cloud Solutions",
-        software: "Software Solutions"
-      }
-    },
-    home: {
-  seo: {
-    title: "Cybersecurity & IT Managed Services Expert",
-    description: "CyberSky protects and manages your IT infrastructure. Cybersecurity, maintenance, cloud, hardware, and software solutions for small and medium businesses."
-  }
-},
+        title_policy: "Policy",
+        title_services: "Services",
+        title_entities: "Our Entities",
+        title_social: "Our Networks",
+        created_by: "Created by",
+        links: {
+          legal: "Legal Notice",
+          privacy: "Privacy Policy",
+          maintenance: "Maintenance",
+          equipment: "Hardware",
+          cybersecurity: "Cybersecurity",
+          cloud: "Cloud Solutions",
+          software: "Software Solutions",
+        },
+      },
+      home: {
+        seo: {
+          title: "Cybersecurity & IT Managed Services Expert",
+          description:
+            "CyberSky protects and manages your IT infrastructure. Cybersecurity, maintenance, cloud, hardware, and software solutions for small and medium businesses.",
+        },
+        hero: {
+          title_line1: "Customized IT",
+          title_line2: "support tailored to",
+          title_line3: "your actual needs",
+          btn_services: "Discover our services",
+        },
+      },
       contact: {
         // TOUT est maintenant bien à l'intérieur de 'contact' !
         title: "Boost your web performance !",

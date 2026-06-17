@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next"; // <-- Import ajouté
 
 export default function Hero() {
+  const { t } = useTranslation(); // <-- Initialisation du hook
+
   return (
     <section className="relative w-full min-h-screen flex items-center overflow-hidden">
 
@@ -19,7 +22,6 @@ export default function Hero() {
         <div className="flex flex-col max-w-2xl">
           {/* Logo CyberSky en image */}
           <div className="mb-6">
-            {/* On a retiré toutes les classes de texte inutiles */}
             <img
               src="/logo-cybersky.webp"
               alt="Logo CyberSky"
@@ -27,11 +29,11 @@ export default function Hero() {
             />
           </div>
 
-          {/* Le texte exact de la maquette Figma */}
+          {/* Le texte découpé avec les traductions */}
           <h1 className="text-2xl md:text-4xl font-glacial text-white leading-tight">
-            Un accompagnement <br className="hidden md:block" />
-            informatique sur-mesure en <br className="hidden md:block" />
-            fonction de vos besoins réels
+            {t('home.hero.title_line1')} <br className="hidden md:block" />
+            {t('home.hero.title_line2')} <br className="hidden md:block" />
+            {t('home.hero.title_line3')}
           </h1>
         </div>
 
@@ -41,7 +43,7 @@ export default function Hero() {
             to="/services"
             className="inline-block px-8 py-3 border-2 border-white text-white font-medium rounded-full hover:bg-white hover:text-black transition-colors duration-300 backdrop-blur-sm tracking-wide text-sm md:text-base"
           >
-            Découvrir nos services
+            {t('home.hero.btn_services')}
           </Link>
         </div>
       </div>
