@@ -9,6 +9,7 @@ const resources = {
         services: "Services",
         experts: "Nos Experts",
         contact: "Contact",
+        entity_mention: "Une entité du Groupe Play To Sky",
         sub: {
           maintenance: "Maintenance",
           equipement: "Équipement",
@@ -84,6 +85,7 @@ const resources = {
         services: "Services",
         experts: "Our Experts",
         contact: "Contact",
+        entity_mention: "A Play To Sky Group Entity",
         sub: {
           maintenance: "Maintenance",
           equipement: "Hardware",

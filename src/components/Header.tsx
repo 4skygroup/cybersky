@@ -83,7 +83,6 @@ export default function Navbar() {
                         </svg>
                     </button>
 
-                    {/* ── LA MAGIE EST ICI : Un pont invisible avec pt-2 ── */}
                     {langMenuOpen && (
                         <div className="absolute top-full left-0 pt-2 w-16">
                             <ul className="bg-black border border-white/10 rounded-md py-2 shadow-lg">
@@ -259,7 +258,7 @@ export default function Navbar() {
                 {/* Mention de bas de page (le sélecteur de langue a été retiré d'ici puisqu'il est dans le Header fixe !) */}
                 <div className="flex flex-col items-center gap-6 pb-8">
                     <p className="text-white/50 text-t5 font-glacial">
-                        A Play To Sky Group Entity
+                        {t('header.entity_mention')}
                     </p>
                 </div>
             </div>
