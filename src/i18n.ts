@@ -10,18 +10,87 @@ const resources = {
           "Nos experts IT vous accompagnent dans l'audit de vos Core Web Vitals, l'optimisation de vos architectures ou le développement de vos SPA. Contactez-nous pour un diagnostic technique.",
         tab_callback: "Être rappelé",
         tab_message: "Envoyer un message",
-        // Tu pourras ajouter les labels du formulaire ici plus tard
+
+        info: {
+          phone: "Téléphone",
+          hours: "Horaires",
+          hours_value: "Lun–Ven · 9h30–18h00",
+          description:
+            "L'excellence technique et l'optimisation des performances au service de vos infrastructures.",
+        },
+
+        form: {
+          last_name: "Nom",
+          first_name: "Prénom",
+          phone: "Numéro de téléphone",
+          email: "Email",
+          subject_call: "Sujet de l'appel",
+          subject_msg: "Sujet",
+          time_slot: "Horaire souhaité",
+          select: "Sélectionner...",
+          message_label: "Message",
+          message_placeholder:
+            "Détaillez vos besoins techniques ou votre problématique...",
+          success: "Demande envoyée avec succès !",
+          error: "Une erreur est survenue. Réessayez.",
+          sending: "Envoi...",
+          btn_call: "Programmer l'appel",
+          btn_message: "Envoyer le message",
+        },
+
+        subjects: {
+          audit: "Audit Webperf (Lighthouse / CWV)",
+          dev: "Développement Front-End (SPA)",
+          consulting: "Consulting & Architecture",
+          infra: "Infogérance IT",
+          other: "Autre demande technique",
+        },
       },
     },
   },
   en: {
     translation: {
       contact: {
-        title: "Boost your web performance!",
+        // TOUT est maintenant bien à l'intérieur de 'contact' !
+        title: "Boost your web performance !",
         subtitle:
           "Our IT experts assist you with Core Web Vitals audits, architecture optimization, and SPA development. Contact us for a technical diagnostic.",
         tab_callback: "Get a Call",
         tab_message: "Send a Message",
+
+        info: {
+          phone: "Phone",
+          hours: "Business Hours",
+          hours_value: "Mon–Fri · 09:30 AM–06:00 PM",
+          description:
+            "Technical excellence and performance optimization for your infrastructures.",
+        },
+
+        form: {
+          last_name: "Last Name",
+          first_name: "First Name",
+          phone: "Phone Number",
+          email: "Email",
+          subject_call: "Call Subject",
+          subject_msg: "Subject",
+          time_slot: "Preferred Time Slot",
+          select: "Select...",
+          message_label: "Message",
+          message_placeholder: "Detail your technical needs or your issue...",
+          success: "Request sent successfully !",
+          error: "An error occurred. Please try again.",
+          sending: "Sending...",
+          btn_call: "Schedule Call",
+          btn_message: "Send Message",
+        },
+
+        subjects: {
+          audit: "Web Performance Audit (Lighthouse / CWV)",
+          dev: "Front-End Development (SPA)",
+          consulting: "Consulting & Architecture",
+          infra: "IT Managed Services",
+          other: "Other Technical Request",
+        },
       },
     },
   },
@@ -29,10 +98,10 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: "fr", // Langue par défaut au chargement
-  fallbackLng: "en", // Langue de secours
+  lng: "fr",
+  fallbackLng: "en",
   interpolation: {
-    escapeValue: false, // React s'occupe déjà de la sécurité XSS
+    escapeValue: false,
   },
 });
 
