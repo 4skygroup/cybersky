@@ -34,6 +34,25 @@ const resources = {
           software: "Solutions logicielles",
         },
       },
+      faq: {
+  default_question: "VOS QUESTIONS",
+  default_answer: "NOS RÉPONSES",
+  home: {
+    q1: "Quels services propose CyberSky ?",
+    a1: "CyberSky accompagne les entreprises sur leurs besoins informatiques essentiels : maintenance, équipement, cybersécurité, cloud et solutions logicielles. Notre objectif est de proposer un accompagnement clair, adapté et évolutif selon votre activité.",
+    q2: "CyberSky accompagne-t-il les petites entreprises ?",
+    a2: "Oui. Nos services sont pensés pour les TPE, PME et structures en croissance qui souhaitent bénéficier d’un accompagnement informatique fiable, sans forcément disposer d’une équipe IT interne.",
+    q3: "Pouvez-vous gérer toute notre informatique ?",
+    a3: "Oui, selon vos besoins. CyberSky peut intervenir sur la maintenance, la sécurité, le matériel, le cloud, les outils logiciels et l’accompagnement technique de vos équipes.",
+    q4: "Comment se déroule un premier échange avec CyberSky ?",
+    a4: "Nous commençons par comprendre votre activité, vos outils actuels, vos difficultés et vos priorités. Ensuite, nous vous proposons une solution adaptée avec un plan d’action clair.",
+    q5: "Proposez-vous des services sur devis ?",
+    a5: "Oui. Chaque entreprise a des besoins différents, donc nos prestations sont adaptées au contexte, à la taille de votre structure et aux services souhaités.",
+    q6: "Intervenez-vous à distance ou sur site ?",
+    a6: "Nous pouvons intervenir à distance pour les demandes simples et rapides, et sur site lorsque la situation nécessite une présence physique, notamment pour l’installation, l’équipement ou certains incidents techniques."
+  }
+  // Tu pourras ajouter securite: {}, maintenance: {} plus tard !
+},
       home: {
         seo: {
           title: "Expert en Cybersécurité & Infogérance",
@@ -151,6 +170,24 @@ const resources = {
           software: "Software Solutions",
         },
       },
+      faq: {
+  default_question: "YOUR QUESTIONS",
+  default_answer: "OUR ANSWERS",
+  home: {
+    q1: "What services does CyberSky offer?",
+    a1: "CyberSky supports companies with their essential IT needs: maintenance, hardware, cybersecurity, cloud, and software solutions. Our goal is to provide clear, adapted, and scalable support according to your business.",
+    q2: "Does CyberSky support small businesses?",
+    a2: "Yes. Our services are designed for small and medium businesses and growing structures that want reliable IT support without necessarily having an internal IT team.",
+    q3: "Can you manage all our IT?",
+    a3: "Yes, depending on your needs. CyberSky can handle maintenance, security, hardware, cloud, software tools, and technical support for your teams.",
+    q4: "How does a first consultation with CyberSky work?",
+    a4: "We start by understanding your business, your current tools, your challenges, and your priorities. Then, we propose a tailored solution with a clear action plan.",
+    q5: "Do you offer custom quotes?",
+    a5: "Yes. Every company has different needs, so our services are adapted to the context, the size of your structure, and the desired services.",
+    q6: "Do you provide remote or on-site support?",
+    a6: "We can intervene remotely for simple and quick requests, and on-site when the situation requires a physical presence, especially for installation, hardware, or specific technical incidents."
+  }
+},
       home: {
         seo: {
           title: "Cybersecurity & IT Managed Services Expert",
