@@ -154,6 +154,63 @@ const resources = {
           spec_network: "Réseau",
         },
       },
+      legal: {
+        title: "Mentions Légales",
+        section1: {
+          title: "1. Éditeur du site",
+          body: "Le site <strong>CyberSky</strong> est édité par la société <strong>Play To Sky Group (4 Sky Group)</strong>.<br />Siège social : Paris, France.<br />Directeur de la publication : <em>Robbin-James Agoh</em>.",
+        },
+        section2: {
+          title: "2. Hébergement",
+          body: "Le site est hébergé par : <strong>OVH</strong><br />Adresse : <em>56, rue de Monceau<br />Paris, France</em><br />Téléphone : <em>+33 6 51 08 17 38</em>",
+        },
+        section3: {
+          title: "3. Propriété intellectuelle",
+          body: "L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques. La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication.",
+        },
+        section4: {
+          title: "4. Limitation de responsabilité",
+          body: "Play To Sky Group s'efforce d'assurer au mieux de ses possibilités l'exactitude et la mise à jour des informations diffusées sur le site CyberSky. Toutefois, la société décline toute responsabilité pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site.",
+        },
+      },
+      privacy: {
+        title: "Politique de Confidentialité",
+        updated: "Dernière mise à jour : ",
+        section1: {
+          title: "1. Collecte des données personnelles",
+          body: "Dans le cadre de l'utilisation du site CyberSky, Play To Sky Group est susceptible de collecter les données suivantes :",
+          li1: "Données d'identification (Nom, Prénom, Adresse e-mail) via nos formulaires de contact.",
+          li2: "Données de navigation (Adresses IP, logs de connexion) à des fins de sécurité et d'analyse technique.",
+        },
+        section2: {
+          title: "2. Utilisation des données",
+          body: "Les données collectées sont utilisées uniquement pour :",
+          li1: "Répondre à vos demandes de contact ou de devis.",
+          li2: "Assurer le bon fonctionnement et la sécurité de notre plateforme d'infogérance.",
+          li3: "Améliorer l'expérience utilisateur de nos services.",
+        },
+        section3: {
+          title: "3. Partage et conservation",
+          body: "Vos données personnelles ne sont jamais vendues à des tiers. Elles sont conservées pour une durée n'excédant pas celle nécessaire aux finalités pour lesquelles elles sont collectées, conformément à la législation en vigueur.",
+        },
+        section4: {
+          title: "4. Vos droits (RGPD)",
+          body: "Conformément à la réglementation européenne (RGPD), vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Vous pouvez également vous opposer à leur traitement.<br /><br />Pour exercer ces droits, veuillez nous contacter à l'adresse suivante : <strong>contact@playtosky.com</strong>.",
+        },
+        section5: {
+          title: "5. Cookies",
+          body: "Le site CyberSky utilise des cookies techniques strictement nécessaires à son fonctionnement. Si des cookies de suivi ou d'analyse sont mis en place, votre consentement explicite sera recueilli via un bandeau dédié lors de votre première visite.",
+        },
+      },
+      notfound: {
+        title: "Page introuvable (404)",
+        description:
+          "La page que vous recherchez a été déplacée ou n'existe pas sur le site CyberSky.",
+        heading: "404",
+        subtitle: "Page introuvable",
+        text: "La page que vous recherchez a été déplacée, supprimée ou n'a jamais existé dans notre système.",
+        btn: "Retour à l'accueil",
+      },
     },
   },
   en: {
@@ -306,6 +363,63 @@ const resources = {
           spec_security: "Security",
           spec_network: "Network",
         },
+      },
+      legal: {
+        title: "Legal Notice",
+        section1: {
+          title: "1. Website Publisher",
+          body: "The website <strong>CyberSky</strong> is published by <strong>Play To Sky Group (4 Sky Group)</strong>.<br />Headquarters: Paris, France. <br />Publication Director : <em>Robbin-James Agoh</em>.",
+        },
+        section2: {
+          title: "2. Hosting",
+          body: "The website is hosted by: <strong>OVH</strong><br />Address: <em>56, rue de Monceau<br />Paris, France</em><br />Phone : <em>+33 6 51 08 17 38</em>",
+        },
+        section3: {
+          title: "3. Intellectual Property",
+          body: "This entire site is covered by French and international legislation on copyright and intellectual property. All reproduction rights are reserved, including for downloadable documents and iconographic and photographic representations. The reproduction of all or part of this site on any electronic medium whatsoever is strictly prohibited without the express authorization of the publication director.",
+        },
+        section4: {
+          title: "4. Limitation of Liability",
+          body: "Play To Sky Group strives to ensure as best as possible the accuracy and updating of the information disseminated on the CyberSky site. However, the company declines all responsibility for any inaccuracy, inexactitude, or omission relating to information available on the site.",
+        },
+      },
+      privacy: {
+        title: "Privacy Policy",
+        updated: "Last updated: ",
+        section1: {
+          title: "1. Collection of Personal Data",
+          body: "When using the CyberSky website, Play To Sky Group may collect the following data:",
+          li1: "Identification data (Last Name, First Name, Email Address) via our contact forms.",
+          li2: "Browsing data (IP addresses, connection logs) for security and technical analysis purposes.",
+        },
+        section2: {
+          title: "2. Use of Data",
+          body: "The data collected is used solely to:",
+          li1: "Respond to your contact requests or requests for quotes.",
+          li2: "Ensure the proper functioning and security of our managed services platform.",
+          li3: "Improve the user experience of our services.",
+        },
+        section3: {
+          title: "3. Sharing and Retention",
+          body: "Your personal data is never sold to third parties. It is retained for no longer than is necessary for the purposes for which it was collected, in accordance with applicable law.",
+        },
+        section4: {
+          title: "4. Your Rights (GDPR)",
+          body: "In accordance with European regulations (GDPR), you have the right to access, correct, delete, and transfer your data. You may also object to the processing of your data. <br /><br />To exercise these rights, please contact us at the following address: <strong>contact@playtosky.com</strong>.",
+        },
+        section5: {
+          title: "5. Cookies",
+          body: "The CyberSky website uses technical cookies that are strictly necessary for its operation. If tracking or analytics cookies are used, your explicit consent will be obtained via a dedicated banner during your first visit.",
+        },
+      },
+      notfound: {
+        title: "Page not found (404)",
+        description:
+          "The page you are looking for has been moved or does not exist on the CyberSky website.",
+        heading: "404",
+        subtitle: "Page not found",
+        text: "The page you are looking for has been moved, deleted, or never existed in our system.",
+        btn: "Back to home",
       },
     },
   },
