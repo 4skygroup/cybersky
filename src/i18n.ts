@@ -34,6 +34,12 @@ const resources = {
         software: "Solutions logicielles"
       }
     },
+    home: {
+  seo: {
+    title: "Expert en Cybersécurité & Infogérance",
+    description: "CyberSky protège et gère votre infrastructure informatique. Cybersécurité, maintenance, cloud, équipement et solutions logicielles pour TPE/PME."
+  }
+},
       contact: {
         title: "Propulsez vos performances web !",
         subtitle:
@@ -110,6 +116,12 @@ const resources = {
         software: "Software Solutions"
       }
     },
+    home: {
+  seo: {
+    title: "Cybersecurity & IT Managed Services Expert",
+    description: "CyberSky protects and manages your IT infrastructure. Cybersecurity, maintenance, cloud, hardware, and software solutions for small and medium businesses."
+  }
+},
       contact: {
         // TOUT est maintenant bien à l'intérieur de 'contact' !
         title: "Boost your web performance !",

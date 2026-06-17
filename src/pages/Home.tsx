@@ -3,18 +3,22 @@ import { homeFaqData } from "@/components/faq/FaqData";
 import Hero from "@/components/Hero";
 import SEO from "@/components/SEO";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+
+    const { t } = useTranslation();
+    
     return (
         <>
             <SEO
-                title="Expert en Cybersécurité & Infogérance"
-                description="CyberSky protège et gère votre infrastructure informatique. Cybersécurité, maintenance, cloud, équipement et solutions logicielles pour TPE/PME."
+                title={t('home.seo.title')}
+                description={t('home.seo.description')}
                 url="/"
             />
-        <Hero/>
-        <WhyChooseUs/>
-        <FAQ data={homeFaqData}/>
+            <Hero />
+            <WhyChooseUs />
+            <FAQ data={homeFaqData} />
         </>
     );
 }
