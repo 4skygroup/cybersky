@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next"; // <-- 1. L'import magique
 import {
   entites,
   politique,
@@ -38,9 +39,9 @@ const FooterLink = ({ href, children }: { href: string; children: React.ReactNod
   );
 };
 
-
-
 const Footer = () => {
+  const { t } = useTranslation(); // <-- 2. Appel du Hook
+
   return (
     <footer
       className="relative w-full overflow-hidden"
@@ -65,31 +66,33 @@ const Footer = () => {
 
         {/* Columns */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
-          <FooterColumn title="Politique">
+          {/* 3. On traduit les titres des colonnes et on applique t() sur le label */}
+          <FooterColumn title={t('footer.title_policy')}>
             {politique.map((link) => (
               <FooterLink key={link.href} href={link.href}>
-                {link.label}
+                {t(link.label)}
               </FooterLink>
             ))}
           </FooterColumn>
 
-          <FooterColumn title="Services">
+          <FooterColumn title={t('footer.title_services')}>
             {services.map((link) => (
               <FooterLink key={link.href} href={link.href}>
-                {link.label}
+                {t(link.label)}
               </FooterLink>
             ))}
           </FooterColumn>
 
-          <FooterColumn title="Nos entités">
+          <FooterColumn title={t('footer.title_entities')}>
             {entites.map((link) => (
               <FooterLink key={link.href} href={link.href}>
+                {/* Pas de t() ici, ce sont des noms propres ! */}
                 {link.label}
               </FooterLink>
             ))}
           </FooterColumn>
 
-          <FooterColumn title="Nos réseaux">
+          <FooterColumn title={t('footer.title_social')}>
             <div className="flex flex-wrap gap-3 mt-1">
               {social.map((s) => (
                 <a
@@ -109,7 +112,7 @@ const Footer = () => {
 
         {/* COPYRIGHT */}
         <div className="mt-8 flex justify-center items-center gap-3 text-t3 font-regular text-white/60 tracking-normal">
-          <span>Crée par</span>
+          <span>{t('footer.created_by')}</span>
           <img src="/visuance.webp" alt="Visuance logo" className="h-4" />
           <span>&</span>
           <img src="/play-to-sky.webp" alt="Play To Sky logo" className="h-6" />

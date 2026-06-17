@@ -17,6 +17,22 @@ const resources = {
           software: "Solutions logicielles",
         },
       },
+      footer: {
+      title_policy: "Politique",
+      title_services: "Services",
+      title_entities: "Nos entités",
+      title_social: "Nos réseaux",
+      created_by: "Créé par",
+      links: {
+        legal: "Mentions légales",
+        privacy: "Confidentialité",
+        maintenance: "Maintenance",
+        equipment: "Équipement",
+        cybersecurity: "Cybersécurité",
+        cloud: "Solutions Cloud",
+        software: "Solutions logicielles"
+      }
+    },
       contact: {
         title: "Propulsez vos performances web !",
         subtitle:
@@ -76,6 +92,22 @@ const resources = {
           software: "Software Solutions",
         },
       },
+      footer: {
+      title_policy: "Policy",
+      title_services: "Services",
+      title_entities: "Our Entities",
+      title_social: "Our Networks",
+      created_by: "Created by",
+      links: {
+        legal: "Legal Notice",
+        privacy: "Privacy Policy",
+        maintenance: "Maintenance",
+        equipment: "Hardware",
+        cybersecurity: "Cybersecurity",
+        cloud: "Cloud Solutions",
+        software: "Software Solutions"
+      }
+    },
       contact: {
         // TOUT est maintenant bien à l'intérieur de 'contact' !
         title: "Boost your web performance !",

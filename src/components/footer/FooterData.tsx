@@ -1,14 +1,14 @@
 export const politique = [
-    { label: "Mentions légales", href: "/mentions-legales" },
-    { label: "Confidentialité", href: "/confidentialite" },
+    { label: "footer.links.legal", href: "/mentions-legales" },
+    { label: "footer.links.privacy", href: "/confidentialite" },
 ];
 
 export const services = [
-    { label: "Maintenance", href: "/services/maintenance" },
-    { label: "Equipement", href: "/services/equipement" },
-    { label: "Cybersécurité", href: "/services/cybersecurite" },
-    { label: "Solutions Cloud", href: "/services/cloud" },
-    { label: "Solutions logicielles", href: "/services/software" },
+    { label: "footer.links.maintenance", href: "/services/maintenance" },
+    { label: "footer.links.equipment", href: "/services/equipement" },
+    { label: "footer.links.cybersecurity", href: "/services/cybersecurite" },
+    { label: "footer.links.cloud", href: "/services/cloud" },
+    { label: "footer.links.software", href: "/services/software" },
 ];
 
 export const entites = [
