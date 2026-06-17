@@ -94,6 +94,15 @@ const resources = {
           },
         },
       },
+      services: {
+        seo: {
+          title: "Nos Solutions IT & Cybersécurité",
+          description:
+            "Découvrez l'ensemble des services CyberSky : de la protection de vos données à la gestion de votre parc, des solutions sur-mesure pour votre entreprise.",
+        },
+        h1: "Des <span class='text-cybersky-red'>solutions IT</span> conçues pour faire avancer votre entreprise.",
+        h2: "Notre <span class='text-cybersky-red'>savoir-faire technologique</span> mis à votre disposition",
+      },
       contact: {
         title: "Propulsez vos performances web !",
         subtitle:
@@ -303,6 +312,15 @@ const resources = {
             link: "Learn more",
           },
         },
+      },
+      services: {
+        seo: {
+          title: "Our IT & Cybersecurity Solutions",
+          description:
+            "Discover all CyberSky services: from data protection to IT park management, tailored solutions for your business.",
+        },
+        h1: "IT <span class='text-cybersky-red'>solutions</span> designed to move your business forward.",
+        h2: "Our <span class='text-cybersky-red'>technological expertise</span> at your disposal",
       },
       contact: {
         // TOUT est maintenant bien à l'intérieur de 'contact' !

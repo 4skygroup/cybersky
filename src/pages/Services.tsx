@@ -1,25 +1,30 @@
 import SEO from '@/components/SEO';
 import ServiceCard from '@/components/services/ServiceCard';
 import { servicesData } from '@/components/services/ServiceData';
+import { useTranslation } from 'react-i18next';
 
 export default function Services() {
+    const { t } = useTranslation();
+
     return (
         <div className="w-full bg-white min-h-screen pt-32 pb-24 px-6 md:px-12">
             <SEO
-                title="Nos Solutions IT & Cybersécurité"
-                description="Découvrez l'ensemble des services CyberSky : de la protection de vos données à la gestion de votre parc, des solutions sur-mesure pour votre entreprise."
+                title={t('services.seo.title')}
+                description={t('services.seo.description')}
                 url="/services"
             />
             <div className="max-w-6xl mx-auto flex flex-col">
 
                 {/* EN-TÊTE ASYMÉTRIQUE */}
                 <div className="flex flex-col md:flex-row justify-between items-start mb-16 gap-10 md:gap-4">
-                    <h1 className="text-2xl md:text-3xl text-black max-w-md font-medium leading-snug">
-                        Des <span className="text-cybersky-red">solutions IT</span> conçues pour faire avancer votre entreprise.
-                    </h1>
-                    <h2 className="text-2xl md:text-3xl text-black max-w-sm md:text-right font-medium leading-snug md:ml-auto">
-                        Notre <span className="text-cybersky-red">savoir-faire technologique</span> mis à votre disposition
-                    </h2>
+                    <h1
+                        className="text-2xl md:text-3xl text-black max-w-md font-medium leading-snug"
+                        dangerouslySetInnerHTML={{ __html: t('services.h1') }}
+                    />
+                    <h2
+                        className="text-2xl md:text-3xl text-black max-w-sm md:text-right font-medium leading-snug md:ml-auto"
+                        dangerouslySetInnerHTML={{ __html: t('services.h2') }}
+                    />
                 </div>
 
                 {/* GRILLE DYNAMIQUE */}
