@@ -4,6 +4,19 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   fr: {
     translation: {
+      header: {
+        group: "Le Groupe",
+        services: "Services",
+        experts: "Nos Experts",
+        contact: "Contact",
+        sub: {
+          maintenance: "Maintenance",
+          equipement: "Équipement",
+          cybersecurite: "Cybersécurité",
+          cloud: "Solutions Cloud",
+          software: "Solutions logicielles",
+        },
+      },
       contact: {
         title: "Propulsez vos performances web !",
         subtitle:
@@ -50,6 +63,19 @@ const resources = {
   },
   en: {
     translation: {
+      header: {
+        group: "The Group",
+        services: "Services",
+        experts: "Our Experts",
+        contact: "Contact",
+        sub: {
+          maintenance: "Maintenance",
+          equipement: "Hardware",
+          cybersecurite: "Cybersecurity",
+          cloud: "Cloud Solutions",
+          software: "Software Solutions",
+        },
+      },
       contact: {
         // TOUT est maintenant bien à l'intérieur de 'contact' !
         title: "Boost your web performance !",

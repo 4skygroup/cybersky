@@ -1,4 +1,4 @@
-import ContactSection from "@/components/Contact/Contact";
+import ContactSection from "@/components/contact/ContactSection";
 import SEO from "@/components/SEO";
 
 export default function ContactPage() {
