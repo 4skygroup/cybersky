@@ -1,7 +1,7 @@
 import ContactSection from "@/components/Contact/Contact";
 import SEO from "@/components/SEO";
 
-export default function Contact() {
+export default function ContactPage() {
     return (
         <div className="w-full min-h-[calc(100vh-80px)] bg-cybersky-dark px-4 md:px-8 pt-22 pb-8 flex items-center justify-center">
             <SEO
