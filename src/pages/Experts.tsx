@@ -1,20 +1,23 @@
 import ExpertCard from '@/components/experts/ExpertCard';
 import { expertsData } from '@/components/experts/ExpertData';
 import SEO from '@/components/SEO';
+import { useTranslation } from 'react-i18next'; // <-- Import
 
 export default function Experts() {
+    const { t } = useTranslation(); // <-- Initialisation
+
     return (
         <div className="w-full bg-white min-h-screen pt-32 pb-24 px-6 md:px-12">
             <SEO
-                title="Nos Experts IT & Cybersécurité"
-                description="Le savoir-faire CyberSky porté par une équipe d'experts. Découvrez les professionnels qui accompagnent votre transformation numérique au quotidien."
+                title={t('experts.seo.title')}
+                description={t('experts.seo.description')}
                 url='/experts'
             />
             <div className="max-w-5xl mx-auto flex flex-col">
 
-                {/* TITRE DE LA PAGE */}
+                {/* TITRE DE LA PAGE TRADUIT ET DÉCOUPÉ */}
                 <h1 className="text-3xl md:text-4xl text-center text-cybersky-dark mb-24 leading-snug">
-                    Le savoir-faire de CYBER<span className="text-cybersky-red">SKY</span> préservé par<br className="hidden md:block" /> une pointe d'experts
+                    {t('experts.title_p1')}<span className="text-cybersky-red">SKY</span> {t('experts.title_p2')}<br className="hidden md:block" /> {t('experts.title_p3')}
                 </h1>
 
                 {/* LISTE DES EXPERTS */}
