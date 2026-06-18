@@ -11,13 +11,17 @@ import { equipementServiceDetails } from '@/components/services/detail/ServiceDe
 import { equipementMethodology } from '@/components/services/methodology/MethodologyData';
 import { equipementFaqData } from '@/components/faq/FaqData';
 import SEO from '@/components/SEO';
+import { useTranslation } from 'react-i18next';
 
 export default function Equipement() {
+
+    const { t } = useTranslation();
+    
     return (
         <div className="w-full flex flex-col">
             <SEO
-                title="Matériel Informatique Professionnel"
-                description="Équipez votre entreprise avec du matériel fiable. Conseil, installation sur site, configuration sécurisée et suivi de votre parc informatique."
+                title={t('service_detail.seo.equipment.title')}
+                description={t('service_detail.seo.equipment.description')}
                 url='/services/equipement'
             />
 

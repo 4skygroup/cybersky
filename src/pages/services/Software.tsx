@@ -11,13 +11,17 @@ import { softwareServiceDetails } from '@/components/services/detail/ServiceDeta
 import { softwareMethodology } from '@/components/services/methodology/MethodologyData';
 import { softwareFaqData } from '@/components/faq/FaqData';
 import SEO from '@/components/SEO';
+import { useTranslation } from 'react-i18next';
 
 export default function Software() {
+
+    const { t } = useTranslation();
+
     return (
         <div className="w-full flex flex-col">
             <SEO
-                title="Solutions Logicielles & Digitalisation"
-                description="Digitalisez et automatisez vos processus internes. Intégration d'outils métiers, tableaux de bord et applications web développées sur-mesure."
+                title={t('service_detail.seo.software.title')}
+                description={t('service_detail.seo.software.description')}
                 url='/services/software'
             />
 

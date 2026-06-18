@@ -11,13 +11,17 @@ import { maintenanceMethodology } from '@/components/services/methodology/Method
 import { maintenanceFaqData } from '@/components/faq/FaqData';
 import { Wrench } from 'lucide-react';
 import SEO from '@/components/SEO';
+import { useTranslation } from 'react-i18next';
 
 export default function Maintenance() {
+
+    const { t } = useTranslation();
+    
     return (
         <div className="w-full flex flex-col">
             <SEO
-                title="Maintenance Informatique Proactive"
-                description="Assurez la continuité de votre activité. Supervision 24/7, assistance utilisateur, mises à jour et gestion des sauvegardes pour votre TPE/PME."
+                title={t('service_detail.seo.maintenance.title')}
+                description={t('service_detail.seo.maintenance.description')}
                 url='/services/maintenance'
             />
 

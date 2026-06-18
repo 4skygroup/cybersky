@@ -11,13 +11,17 @@ import RiskZones from "@/components/services/riskzones/RiskZones";
 import { securiteRiskZones } from "@/components/services/riskzones/RiskZonesData";
 import ServiceHero from "@/components/services/ServiceHero";
 import { ShieldCogCornerIcon } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Securite() {
+
+    const { t } = useTranslation();
+
     return (
         <div className="w-full flex flex-col">
             <SEO
-                title="Cybersécurité & Protection des données"
-                description="Sécurisez votre entreprise face aux cybermenaces. Audit, protection, sensibilisation et réponse aux incidents avec les experts CyberSky."
+                title={t('service_detail.seo.security.title')}
+                description={t('service_detail.seo.security.description')}
                 url="/services/cybersecurite"
             />
             <ServiceHero

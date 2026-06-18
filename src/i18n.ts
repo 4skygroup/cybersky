@@ -122,16 +122,33 @@ const resources = {
         },
       },
       service_detail: {
-        seo:{
+        seo: {
           cloud: {
             title: "Solutions Cloud & Hébergement sécurisé",
-            description:  
-          "Externalisez votre informatique pour plus de sécurité et flexibilité. Migration, sauvegarde automatisée et serveurs cloud sur-mesure.",
+            description:
+              "Externalisez votre informatique pour plus de sécurité et flexibilité. Migration, sauvegarde automatisée et serveurs cloud sur-mesure.",
           },
           maintenance: {
-
+            title: "Maintenance Informatique Proactive",
+            description:
+              "Assurez la continuité de votre activité. Supervision 24/7, assistance utilisateur, mises à jour et gestion des sauvegardes pour votre TPE/PME.",
+          },
+          security: {
+            title: "Cybersécurité & Protection des données",
+            description:
+              "Sécurisez votre entreprise face aux cybermenaces. Audit, protection, sensibilisation et réponse aux incidents avec les experts CyberSky.",
+          },
+          software: {
+            title: "Solutions Logicielles & Digitalisation",
+            description:
+              "Digitalisez et automatisez vos processus internes. Intégration d'outils métiers, tableaux de bord et applications web développées sur-mesure.",
+          },
+          equipment: {
+            title: "Matériel Informatique Professionnel",
+            description:
+              "Équipez votre entreprise avec du matériel fiable. Conseil, installation sur site, configuration sécurisée et suivi de votre parc informatique.",
+          },
         },
-      },
         hero: {
           cloud: {
             tag: "Cloud",
@@ -398,9 +415,7 @@ const resources = {
         },
       },
       service_detail: {
-        seo:{
-
-        },
+        seo: {},
         hero: {
           cloud: {
             tag: "Cloud",

@@ -11,14 +11,18 @@ import { cloudServiceDetails } from '@/components/services/detail/ServiceDetailD
 import { cloudMethodology } from '@/components/services/methodology/MethodologyData';
 import { cloudFaqData } from '@/components/faq/FaqData';
 import SEO from '@/components/SEO';
+import { useTranslation } from 'react-i18next';
 
 export default function Cloud() {
+
+    const { t } = useTranslation();
+
     return (
         <div className="w-full flex flex-col">
 
             <SEO
-                title="Solutions Cloud & Hébergement sécurisé"
-                description="Externalisez votre informatique pour plus de sécurité et flexibilité. Migration, sauvegarde automatisée et serveurs cloud sur-mesure."
+                title={t('service_detail.seo.cloud.title')}
+                description={t('service_detail.seo.cloud.description')}
                 url='/services/cloud'
             />
 
