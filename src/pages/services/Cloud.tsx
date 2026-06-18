@@ -37,11 +37,11 @@ export default function Cloud() {
             <KeyFigures figures={cloudFigures} />
 
             <ServiceDetails
-                surtitle="NOS SERVICES"
-                titlePart1="Des solutions cloud"
-                titleHighlight="flexibles,"
-                titlePart2="sécurisées et adaptées"
-                subtitle="Nous vous accompagnons dans la migration, la sauvegarde et l'hébergement de vos données pour travailler avec plus de sérénité."
+                surtitle={t('service_detail.details.data.cloud.surtitle')}
+                titlePart1={t('service_detail.details.data.cloud.titlePart1')}
+                titleHighlight={t('service_detail.details.data.cloud.titleHighlight')}
+                titlePart2={t('service_detail.details.data.cloud.titlePart2')}
+                subtitle={t('service_detail.details.data.cloud.subtitle')} 
                 services={cloudServiceDetails}
             />
 

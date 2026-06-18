@@ -44,11 +44,11 @@ export default function Securite() {
             />
 
             <ServiceDetails
-                surtitle="NOS SERVICES"
-                titlePart1="Une protection"
-                titleHighlight="complète,"
-                titlePart2="sur-mesure"
-                subtitle="Chaque poste, chaque utilisateur, chaque donnée peut être sécurisé. Notre équipe s'occupe de chaque aspect pour vous."
+                surtitle={t('service_detail.details.data.securite.surtitle')}
+                titlePart1={t('service_detail.details.data.securite.titlePart1')}
+                titleHighlight={t('service_detail.details.data.securite.titleHighlight')}
+                titlePart2={t('service_detail.details.data.securite.titlePart2')}
+                subtitle={t('service_detail.details.data.securite.subtitle')}
                 services={securiteServiceDetails}
             />
 

@@ -36,11 +36,11 @@ export default function Maintenance() {
             <KeyFigures figures={maintenanceFigures} />
 
             <ServiceDetails
-                surtitle="NOS SERVICES"
-                titlePart1="Une maintenance"
-                titleHighlight="proactive,"
-                titlePart2="pensée pour votre continuité"
-                subtitle="Nous surveillons, maintenons et optimisons vos systèmes pour éviter les interruptions et garantir la stabilité de votre activité."
+                surtitle={t('service_detail.details.data.maintenance.surtitle')}
+                titlePart1={t('service_detail.details.data.maintenance.titlePart1')}
+                titleHighlight={t('service_detail.details.data.maintenance.titleHighlight')}
+                titlePart2={t('service_detail.details.data.maintenance.titlePart2')}
+                subtitle={t('service_detail.details.data.maintenance.subtitle')}
                 services={maintenanceServiceDetails}
             />
 

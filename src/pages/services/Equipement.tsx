@@ -36,11 +36,11 @@ export default function Equipement() {
             <KeyFigures figures={equipementFigures} />
 
             <ServiceDetails
-                surtitle="NOS SERVICES"
-                titlePart1="Du matériel"
-                titleHighlight="professionnel,"
-                titlePart2="installé et configuré pour vos usages"
-                subtitle="Nous vous aidons à choisir, déployer et configurer les équipements adaptés à vos équipes et à votre activité."
+                surtitle={t('service_detail.details.data.equipment.surtitle')}
+                titlePart1={t('service_detail.details.data.equipment.titlePart1')}
+                titleHighlight={t('service_detail.details.data.equipment.titleHighlight')}
+                titlePart2={t('service_detail.details.data.equipment.titlePart2')}
+                subtitle={t('service_detail.details.data.equipment.subtitle')}
                 services={equipementServiceDetails}
             />
 

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { ServiceDetailItem } from '@/components/services/detail/ServiceDetailData';
+import { useTranslation } from 'react-i18next';
 
 interface ServiceDetailsProps {
     surtitle: string;
@@ -18,6 +19,9 @@ export default function ServiceDetails({
     subtitle,
     services
 }: ServiceDetailsProps) {
+
+    const { t } = useTranslation();
+
     return (
         <section className="w-full bg-cybersky-dark py-24 px-6 md:px-12">
             <div className="max-w-6xl mx-auto flex flex-col items-center">
@@ -54,13 +58,13 @@ export default function ServiceDetails({
                             <div className="flex items-center gap-3 text-cybersky-red mb-4">
                                 {service.icon}
                                 <h3 className="text-white font-bold text-lg">
-                                    {service.title}
+                                    {t(service.title)}
                                 </h3>
                             </div>
 
                             {/* Description */}
                             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                                {service.description}
+                                {t(service.description)}
                             </p>
 
                             {/* Tags (Pilules) */}
@@ -70,7 +74,7 @@ export default function ServiceDetails({
                                         key={tag}
                                         className="border border-gray-600 text-gray-300 text-xs px-3 py-1.5 rounded-full"
                                     >
-                                        {tag}
+                                        {t(tag)}
                                     </span>
                                 ))}
                             </div>
@@ -80,7 +84,7 @@ export default function ServiceDetails({
                                 to="/contact"
                                 className="mt-auto w-fit bg-cybersky-red text-white px-6 py-2.5 rounded text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300"
                             >
-                                Demander un devis
+                                {t('service_detail.default_button')}
                             </Link>
 
                         </div>

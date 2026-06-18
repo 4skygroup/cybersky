@@ -13,30 +13,30 @@ export interface ServiceDetailItem {
 export const securiteServiceDetails: ServiceDetailItem[] = [
     {
         id: 1,
-        title: "Audit de sécurité",
-        description: "Analyse complète de votre infrastructure, serveurs, postes de travail et vulnérabilités. Un rapport clair, des recommandations et un plan d'actions concrètes.",
-        tags: ["Cartographie SI", "Pentest", "Conformité"],
+        title: "service_detail.details.data.securite.s1.title",
+        description: "service_detail.details.data.securite.s1.desc",
+        tags: ["service_detail.details.data.securite.s1.t1", "service_detail.details.data.securite.s1.t2", "service_detail.details.data.securite.s1.t3"],
         icon: <ShieldAlert size={20} strokeWidth={2} />
     },
     {
         id: 2,
-        title: "Simulation de phishing",
-        description: "Testez et entraînez vos équipes face aux menaces de type ingénierie sociale. Phishing ciblé et sensibilisation en temps réel.",
-        tags: ["Campagnes ciblées", "Statistiques", "Formations"],
+        title: "service_detail.details.data.securite.s2.title",
+        description: "service_detail.details.data.securite.s2.desc",
+        tags: ["service_detail.details.data.securite.s2.t1", "service_detail.details.data.securite.s2.t2", "service_detail.details.data.securite.s2.t3"],
         icon: <MailWarning size={20} strokeWidth={2} />
     },
     {
         id: 3,
-        title: "Surveillance & protection",
-        description: "Monitoring permanent, détection des incidents, protection des systèmes critiques. Une équipe dédiée qui veille pendant que vous travaillez.",
-        tags: ["SOC 24/7", "EDR / XDR", "Réseau Isolé"],
+        title: "service_detail.details.data.securite.s3.title",
+        description: "service_detail.details.data.securite.s3.desc",
+        tags: ["service_detail.details.data.securite.s3.t1", "service_detail.details.data.securite.s3.t2", "service_detail.details.data.securite.s3.t3"],
         icon: <Eye size={20} strokeWidth={2} />
     },
     {
         id: 4,
-        title: "Conseil en cybersécurité",
-        description: "Définition de stratégies, accompagnement de vos équipes, normes pratiques. La meilleure technologie ne remplace pas une équipe formée.",
-        tags: ["Stratégie", "Audits", "Certifications"],
+        title: "service_detail.details.data.securite.s4.title",
+        description: "service_detail.details.data.securite.s4.desc",
+        tags: ["service_detail.details.data.securite.s4.t1", "service_detail.details.data.securite.s4.t2", "service_detail.details.data.securite.s4.t3"],
         icon: <BriefcaseBusiness size={20} strokeWidth={2} />
     }
 ];
@@ -44,30 +44,30 @@ export const securiteServiceDetails: ServiceDetailItem[] = [
 export const maintenanceServiceDetails: ServiceDetailItem[] = [
     {
         id: 1,
-        title: "Supervision proactive",
-        description: "Surveillance continue de vos systèmes pour détecter les incidents avant qu'ils ne deviennent critiques.",
-        tags: ["Monitoring 24/7", "Alertes", "Rapports"],
+        title: "service_detail.details.data.maintenance.s1.title",
+        description: "service_detail.details.data.maintenance.s1.desc",
+        tags: ["service_detail.details.data.maintenance.s1.t1", "service_detail.details.data.maintenance.s1.t2", "service_detail.details.data.maintenance.s1.t3"],
         icon: <MonitorCheck size={20} strokeWidth={2} />
     },
     {
         id: 2,
-        title: "Maintenance préventive",
-        description: "Mises à jour, corrections et optimisations pour garder vos systèmes stables et sécurisés.",
-        tags: ["Mises à jour système", "Optimisation", "Veille"],
+        title: "service_detail.details.data.maintenance.s2.title",
+        description: "service_detail.details.data.maintenance.s2.desc",
+        tags: ["service_detail.details.data.maintenance.s2.t1", "service_detail.details.data.maintenance.s2.t2", "service_detail.details.data.maintenance.s2.t3"],
         icon: <Settings size={20} strokeWidth={2} />
     },
     {
         id: 3,
-        title: "Support & assistance",
-        description: "Accompagnement rapide pour résoudre les problèmes techniques de vos équipes.",
-        tags: ["Centre d'appel", "Support utilisateur", "Intervention"],
+        title: "service_detail.details.data.maintenance.s3.title",
+        description: "service_detail.details.data.maintenance.s3.desc",
+        tags: ["service_detail.details.data.maintenance.s3.t1", "service_detail.details.data.maintenance.s3.t2", "service_detail.details.data.maintenance.s3.t3"],
         icon: <Headset size={20} strokeWidth={2} />
     },
     {
         id: 4,
-        title: "Sauvegarde & continuité",
-        description: "Mise en place et contrôle des sauvegardes pour protéger vos données critiques.",
-        tags: ["Sécurité", "Restauration", "Plans de reprise"],
+        title: "service_detail.details.data.maintenance.s4.title",
+        description: "service_detail.details.data.maintenance.s4.desc",
+        tags: ["service_detail.details.data.maintenance.s4.t1", "service_detail.details.data.maintenance.s4.t2", "service_detail.details.data.maintenance.s4.t3"],
         icon: <DatabaseBackup size={20} strokeWidth={2} />
     }
 ];
@@ -75,30 +75,30 @@ export const maintenanceServiceDetails: ServiceDetailItem[] = [
 export const cloudServiceDetails: ServiceDetailItem[] = [
     {
         id: 1,
-        title: "Migration cloud",
-        description: "Nous vous accompagnons dans le passage vers des solutions cloud adaptées à votre activité.",
-        tags: ["Analyse", "Migration", "Réduction des coûts"],
+        title: "service_detail.details.data.cloud.s1.title",
+        description: "service_detail.details.data.cloud.s1.desc",
+        tags: ["service_detail.details.data.cloud.s1.t1", "service_detail.details.data.cloud.s1.t2", "service_detail.details.data.cloud.s1.t3"],
         icon: <CloudUpload size={20} strokeWidth={2} />
     },
     {
         id: 2,
-        title: "Sauvegarde cloud",
-        description: "Nous mettons en place des sauvegardes sécurisées pour protéger vos données critiques.",
-        tags: ["Automatisation", "Chiffrement", "Restauration"],
+        title: "service_detail.details.data.cloud.s2.title",
+        description: "service_detail.details.data.cloud.s2.desc",
+        tags: ["service_detail.details.data.cloud.s2.t1", "service_detail.details.data.cloud.s2.t2", "service_detail.details.data.cloud.s2.t3"],
         icon: <CloudDrizzle size={20} strokeWidth={2} />
     },
     {
         id: 3,
-        title: "Hébergements & serveurs cloud",
-        description: "Nous vous aidons à héberger vos applications, fichiers et services dans un environnement fiable.",
-        tags: ["Adaptation", "Haute disponibilité", "Supervision"],
+        title: "service_detail.details.data.cloud.s3.title",
+        description: "service_detail.details.data.cloud.s3.desc",
+        tags: ["service_detail.details.data.cloud.s3.t1", "service_detail.details.data.cloud.s3.t2", "service_detail.details.data.cloud.s3.t3"],
         icon: <Server size={20} strokeWidth={2} />
     },
     {
         id: 4,
-        title: "Microsoft 365 + Outils Collaboratifs",
-        description: "Nous configurons vos outils de travail collaboratif pour améliorer la productivité de vos équipes.",
-        tags: ["Comptes utilisateurs", "Messagerie professionnelle"],
+        title: "service_detail.details.data.cloud.s4.title",
+        description: "service_detail.details.data.cloud.s4.desc",
+        tags: ["service_detail.details.data.cloud.s4.t1", "service_detail.details.data.cloud.s4.t2", "service_detail.details.data.cloud.s4.t3"],
         icon: <Users size={20} strokeWidth={2} />
     }
 ];
@@ -106,30 +106,30 @@ export const cloudServiceDetails: ServiceDetailItem[] = [
 export const equipementServiceDetails: ServiceDetailItem[] = [
     {
         id: 1,
-        title: "Conseil & choix matériel",
-        description: "Nous vous aidons à choisir les équipements adaptés à votre budget et à vos usages.",
-        tags: ["Conseil", "Audit"],
+        title: "service_detail.details.data.equipment.s1.title",
+        description: "service_detail.details.data.equipment.s1.desc",
+        tags: ["service_detail.details.data.equipment.s1.t1", "service_detail.details.data.equipment.s1.t2"],
         icon: <Laptop size={20} strokeWidth={2} />
     },
     {
         id: 2,
-        title: "Installation sur site",
-        description: "Déploiement du matériel, branchements, configuration et tests sur votre site.",
-        tags: ["Branchements", "Déploiement"],
+        title: "service_detail.details.data.equipment.s2.title",
+        description: "service_detail.details.data.equipment.s2.desc",
+        tags: ["service_detail.details.data.equipment.s2.t1", "service_detail.details.data.equipment.s2.t2"],
         icon: <Download size={20} strokeWidth={2} />
     },
     {
         id: 3,
-        title: "Configuration sécurité",
-        description: "Paramétrage des accès, antivirus, comptes utilisateurs et protections de base.",
-        tags: ["Accès", "Comptes"],
+        title: "service_detail.details.data.equipment.s3.title",
+        description: "service_detail.details.data.equipment.s3.desc",
+        tags: ["service_detail.details.data.equipment.s3.t1", "service_detail.details.data.equipment.s3.t2"],
         icon: <ShieldCheck size={20} strokeWidth={2} />
     },
     {
         id: 4,
-        title: "Suivi & renouvellement",
-        description: "Nous vous accompagnons dans le suivi, l'évolution et le remplacement de votre parc.",
-        tags: ["Suivi", "Renouvellement"],
+        title: "service_detail.details.data.equipment.s4.title",
+        description: "service_detail.details.data.equipment.s4.desc",
+        tags: ["service_detail.details.data.equipment.s4.t1", "service_detail.details.data.equipment.s4.t2"],
         icon: <RefreshCw size={20} strokeWidth={2} />
     }
 ];
@@ -137,30 +137,30 @@ export const equipementServiceDetails: ServiceDetailItem[] = [
 export const softwareServiceDetails: ServiceDetailItem[] = [
     {
         id: 1,
-        title: "Intégration d'outils métiers",
-        description: "Nous vous aidons à choisir et mettre en place les logiciels adaptés à votre activité.",
-        tags: ["CRM / ERP", "Outils collaboratifs", "Gestion"],
+        title: "service_detail.details.data.software.s4.title",
+        description: "service_detail.details.data.software.s4.desc",
+        tags: ["service_detail.details.data.software.s4.t1", "service_detail.details.data.software.s4.t2", "service_detail.details.data.software.s4.t3"],
         icon: <Blocks size={20} strokeWidth={2} />
     },
     {
         id: 2,
-        title: "Automatisation des processus",
-        description: "Nous automatisons les tâches répétitives pour réduire les erreurs et gagner du temps.",
-        tags: ["Workflows", "Notifications", "Synchronisations"],
+        title: "service_detail.details.data.software.s2.title",
+        description: "service_detail.details.data.software.s2.desc",
+        tags: ["service_detail.details.data.software.s2.t1", "service_detail.details.data.software.s2.t2", "service_detail.details.data.software.s2.t3"],
         icon: <Workflow size={20} strokeWidth={2} />
     },
     {
         id: 3,
-        title: "Tableaux de bord & reporting",
-        description: "Nous créons des vues claires pour suivre vos performances et prendre de meilleures décisions.",
-        tags: ["KPI", "Suivi d'activité", "Rapports automatisés"],
+        title: "service_detail.details.data.software.s3.title",
+        description: "service_detail.details.data.software.s3.desc",
+        tags: ["service_detail.details.data.software.s3.t1", "service_detail.details.data.software.s3.t2", "service_detail.details.data.software.s3.t3"],
         icon: <BarChart size={20} strokeWidth={2} />
     },
     {
         id: 4,
-        title: "Applications web sur mesure",
-        description: "Nous développons des outils simples et adaptés à vos besoins spécifiques.",
-        tags: ["Portail client", "Outils internes", "Interfaces métier"],
+        title: "service_detail.details.data.software.s4.title",
+        description: "service_detail.details.data.software.s4.desc",
+        tags: ["service_detail.details.data.software.s4.t1", "service_detail.details.data.software.s4.t2", "service_detail.details.data.software.s4.t3"],
         icon: <AppWindow size={20} strokeWidth={2} />
     }
 ];

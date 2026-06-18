@@ -36,11 +36,11 @@ export default function Software() {
             <KeyFigures figures={softwareFigures} />
 
             <ServiceDetails
-                surtitle="NOS SERVICES"
-                titlePart1="Des outils digitaux pour"
-                titleHighlight="automatiser"
-                titlePart2="et mieux piloter votre activité"
-                subtitle="Nous concevons, configurons et développons des solutions logicielles pour simplifier vos processus et gagner du temps."
+                surtitle={t('service_detail.details.data.software.surtitle')}
+                titlePart1={t('service_detail.details.data.software.titlePart1')}
+                titleHighlight={t('service_detail.details.data.software.titleHighlight')}
+                titlePart2={t('service_detail.details.data.software.titlePart2')}
+                subtitle={t('service_detail.details.data.software.subtitle')}
                 services={softwareServiceDetails}
             />
 
