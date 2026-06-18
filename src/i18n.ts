@@ -576,6 +576,41 @@ const resources = {
             },
           },
         },
+        riskzones: {
+          data: {
+            security: {
+              surtitle: "LES ZONES À RISQUES",
+              titlePart1: "Les cybermenaces touchent",
+              titleHighlight: "toute votre",
+              titlePart2: "entreprise",
+              subtitle:
+                "Chaque poste, chaque utilisateur, chaque donnée peut être ciblé. Prenez mesure de l'étendue des risques potentiels.",
+              button: "Demander un devis",
+              zones: {
+                z1: {
+                  title: "Postes de travail",
+                  desc: "Ransomware, virus, malveillances...",
+                },
+                z2: {
+                  title: "E-mails & phishing",
+                  desc: "Phishing, pièces jointes piégées, usurpation...",
+                },
+                z3: {
+                  title: "Réseau & WiFi",
+                  desc: "Intrusions, segmentation, accès distants...",
+                },
+                z4: {
+                  title: "Cloud & données",
+                  desc: "Fuites, hébergements, partages...",
+                },
+                z5: {
+                  title: "Accès & mots de passe",
+                  desc: "Authentification, gestion des droits...",
+                },
+              },
+            },
+          },
+        },
       },
       contact: {
         title: "Propulsez vos performances web !",
@@ -1260,6 +1295,41 @@ const resources = {
                   desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
                 },
               ],
+            },
+          },
+        },
+        riskzones: {
+          data: {
+            security: {
+              surtitle: "RISK ZONES",
+              titlePart1: "Cyber threats affect",
+              titleHighlight: "your entire",
+              titlePart2: "company",
+              subtitle:
+                "Every workstation, every user, every piece of data can be targeted. Measure the extent of potential risks.",
+              button: "Request a Quote",
+              zones: {
+                z1: {
+                  title: "Workstations",
+                  desc: "Ransomware, viruses, malicious software...",
+                },
+                z2: {
+                  title: "Emails & Phishing",
+                  desc: "Phishing, malicious attachments, spoofing...",
+                },
+                z3: {
+                  title: "Network & WiFi",
+                  desc: "Intrusions, segmentation, remote access...",
+                },
+                z4: {
+                  title: "Cloud & Data",
+                  desc: "Data leaks, hosting, file sharing...",
+                },
+                z5: {
+                  title: "Access & Passwords",
+                  desc: "Authentication, access rights management...",
+                },
+              },
             },
           },
         },

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { RiskZoneItem } from './RiskZonesData';
+import { useTranslation } from 'react-i18next';
 
 interface RiskZonesProps {
     surtitle: string;
@@ -18,6 +19,9 @@ export default function RiskZones({
     subtitle,
     zones
 }: RiskZonesProps) {
+
+    const { t } = useTranslation();
+
     return (
         <section className="w-full bg-white py-24 px-6 md:px-12">
             <div className="max-w-7xl mx-auto flex flex-col items-center">
@@ -64,10 +68,10 @@ export default function RiskZones({
                             {/* Textes de la carte */}
                             <div className="flex flex-col px-5 pt-8 pb-6 grow">
                                 <h3 className="text-black font-bold text-base mb-2">
-                                    {zone.title}
+                                    {t(zone.title)}
                                 </h3>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    {zone.description}
+                                    {t(zone.description)}
                                 </p>
                             </div>
 
@@ -80,7 +84,7 @@ export default function RiskZones({
                     to="/contact"
                     className="bg-cybersky-red text-white px-8 py-3.5 rounded-md text-sm font-semibold tracking-wide hover:bg-black hover:text-white transition-colors duration-300"
                 >
-                    Demander un devis
+                    {t("service_detail.default_button")}
                 </Link>
 
             </div>
