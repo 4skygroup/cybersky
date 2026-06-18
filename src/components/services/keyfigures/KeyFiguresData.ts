@@ -8,118 +8,105 @@ export interface FigureItem {
 export const securiteFigures: FigureItem[] = [
   {
     id: 1,
-    stat: "43%",
-    description:
-      "Des PME victimes d'une cyberattaque ferment ou font faillite dans les 6 mois.",
-    source: "ANSSI",
+    stat: "service_detail.keyfigures.data.securite.figures.stat1",
+    description: "service_detail.keyfigures.data.securite.figures.desc1",
+    source: "service_detail.keyfigures.data.securite.figures.src1",
   },
   {
     id: 2,
-    stat: "1 sur 2",
-    description:
-      "Des entreprises de type TPE/PME ont déjà subi une cyberattaque.",
-    source: "ANSSI",
+    stat: "service_detail.keyfigures.data.securite.figures.stat2",
+    description: "service_detail.keyfigures.data.securite.figures.desc2",
+    source: "service_detail.keyfigures.data.securite.figures.src2",
   },
   {
     id: 3,
-    stat: "300%",
-    description:
-      "Les menaces ciblent en permanence les systèmes de l'entreprise.",
-    source: "ANSSI",
+    stat: "service_detail.keyfigures.data.securite.figures.stat3",
+    description: "service_detail.keyfigures.data.securite.figures.desc3",
+    source: "service_detail.keyfigures.data.securite.figures.src3",
   },
 ];
 
 export const maintenanceFigures: FigureItem[] = [
   {
     id: 1,
-    stat: "80%",
-    description:
-      "Des pannes informatiques sont liées à un manque d'entretien ou à une mauvaise configuration.",
-    source: "TechRadar / études sectorielles",
+    stat: "service_detail.keyfigures.data.maintenance.figures.stat1",
+    description: "service_detail.keyfigures.data.maintenance.figures.desc1",
+    source: "service_detail.keyfigures.data.maintenance.figures.src1",
   },
   {
     id: 2,
-    stat: "10K€",
-    description: "Coût estimé d'une journée d'arrêt informatique pour une PME.",
-    source: "Syntec Numérique, Cigref, IDC",
+    stat: "service_detail.keyfigures.data.maintenance.figures.stat2",
+    description: "service_detail.keyfigures.data.maintenance.figures.desc2",
+    source: "service_detail.keyfigures.data.maintenance.figures.src2",
   },
   {
     id: 3,
-    stat: "20%",
-    description:
-      "Des incidents peuvent être évités grâce à une maintenance régulière.",
-    source: "IDC / Syntec Numérique",
+    stat: "service_detail.keyfigures.data.maintenance.figures.stat3",
+    description: "service_detail.keyfigures.data.maintenance.figures.desc3",
+    source: "service_detail.keyfigures.data.maintenance.figures.src3",
   },
 ];
 
 export const cloudFigures: FigureItem[] = [
   {
     id: 1,
-    stat: "78%",
-    description:
-      "Des PME déclarent que le cloud renforce leur sécurité informatique.",
-    source: "Sage",
+    stat: "service_detail.keyfigures.data.cloud.figures.stat1",
+    description: "service_detail.keyfigures.data.cloud.figures.desc1",
+    source: "service_detail.keyfigures.data.cloud.figures.src1",
   },
   {
     id: 2,
-    stat: "1/2",
-    description:
-      "PME a déjà subi une perte de données liée à une panne ou un incident majeur.",
-    source: "Markess",
+    stat: "service_detail.keyfigures.data.cloud.figures.stat2",
+    description: "service_detail.keyfigures.data.cloud.figures.desc2",
+    source: "service_detail.keyfigures.data.cloud.figures.src2",
   },
   {
     id: 3,
-    stat: "83%",
-    description:
-      "Des entreprises utilisant le cloud constatent une amélioration de leur productivité.",
-    source: "Microsoft Europe",
+    stat: "service_detail.keyfigures.data.cloud.figures.stat3",
+    description: "service_detail.keyfigures.data.cloud.figures.desc3",
+    source: "service_detail.keyfigures.data.cloud.figures.src3",
   },
 ];
+
 
 export const equipementFigures: FigureItem[] = [
   {
     id: 1,
-    stat: "70%",
-    description:
-      "Des pannes informatiques sont liées à du matériel obsolète ou mal adapté.",
-    source: "Gartner",
+    stat: "service_detail.keyfigures.data.equipment.figures.stat1",
+    description: "service_detail.keyfigures.data.equipment.figures.desc1",
+    source: "service_detail.keyfigures.data.equipment.figures.src1",
   },
   {
     id: 2,
-    stat: "22min",
-    description:
-      "Perdues chaque jour à cause d'un équipement lent ou inadapté.",
-    source: "Etude Sharp / FSDS, 2023",
+    stat: "service_detail.keyfigures.data.equipment.figures.stat2",
+    description: "service_detail.keyfigures.data.equipment.figures.desc2",
+    source: "service_detail.keyfigures.data.equipment.figures.src2",
   },
   {
     id: 3,
-    stat: "85%",
-    description:
-      "Des collaborateurs estiment qu'un bon équipement améliore leur productivité.",
-    source: "Etude SYMANTEC",
+    stat: "service_detail.keyfigures.data.equipment.figures.stat3",
+    description: "service_detail.keyfigures.data.equipment.figures.desc3",
+    source: "service_detail.keyfigures.data.equipment.figures.src3",
   },
 ];
 
 export const softwareFigures: FigureItem[] = [
   {
     id: 1,
-    stat: "76%",
-    description:
-      "Des TPE/PME constatent un impact positif du numérique sur leur activité.",
-    source: "Baromètre France Num 2022",
+    stat: "service_detail.keyfigures.data.software.figures.stat1",
+    description: "service_detail.keyfigures.data.software.figures.desc1",
+    source: "service_detail.keyfigures.data.software.figures.src1",
   },
   {
     id: 2,
-    stat: "48%",
-    description:
-      "Des entreprises affirment que la digitalisation permet de réduire leurs coûts.",
-    source: "Baromètre France Num 2022",
+    stat: "service_detail.keyfigures.data.software.figures.stat2",
+    description: "service_detail.keyfigures.data.software.figures.desc2",
+    source: "service_detail.keyfigures.data.software.figures.src2",
   },
   {
     id: 3,
-    stat: "1/3",
-    description:
-      "Des PME gèrent encore certaines tâches administratives sur Excel ou papier.",
-    source: "Baromètre France Num 2022",
+    stat: "service_detail.keyfigures.data.software.figures.stat3",
+    description: "service_detail.keyfigures.data.software.figures.desc3",
+    source: "service_detail.keyfigures.data.software.figures.src3",
   },
 ];

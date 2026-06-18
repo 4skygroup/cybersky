@@ -177,6 +177,91 @@ const resources = {
           },
         },
         default_button: "Demander un devis",
+        keyfigures: {
+          title: "Chiffres clés",
+          source: "Source",
+          data: {
+            securite: {
+              figures: {
+                stat1: "43%",
+                desc1:
+                  "Des PME victimes d'une cyberattaque ferment ou font faillite dans les 6 mois.",
+                src1: "ANSSI",
+                stat2: "1 sur 2",
+                desc2:
+                  "Des entreprises de type TPE/PME ont déjà subi une cyberattaque.",
+                src2: "ANSSI",
+                stat3: "300%",
+                desc3:
+                  "Les menaces ciblent en permanence les systèmes de l'entreprise.",
+                src3: "ANSSI",
+              },
+            },
+            maintenance: {
+              figures: {
+                stat1: "80%",
+                desc1:
+                  "Des pannes informatiques sont liées à un manque d'entretien.",
+                src1: "TechRadar / études sectorielles",
+                stat2: "10K€",
+                desc2:
+                  "Coût estimé d'une journée d'arrêt informatique pour une PME.",
+                src2: "Syntec Numérique, Cigref, IDC",
+                stat3: "20%",
+                desc3:
+                  "Des incidents peuvent être évités grâce à une maintenance régulière.",
+                src3: "IDC / Syntec Numérique",
+              },
+            },
+            cloud: {
+              figures: {
+                stat1: "78%",
+                desc1:
+                  "Des PME déclarent que le cloud renforce leur sécurité informatique.",
+                src1: "Sage",
+                stat2: "1/2",
+                desc2: "PME a déjà subi une perte de données liée à une panne.",
+                src2: "Markess",
+                stat3: "83%",
+                desc3:
+                  "Des entreprises utilisant le cloud constatent une amélioration de leur productivité.",
+                src3: "Microsoft Europe",
+              },
+            },
+            equipment: {
+              figures: {
+                stat1: "70%",
+                desc1:
+                  "Des pannes informatiques sont liées à du matériel obsolète.",
+                src1: "Gartner",
+                stat2: "22min",
+                desc2:
+                  "Perdues chaque jour à cause d'un équipement lent ou inadapté.",
+                src2: "Etude Sharp / FSDS, 2023",
+                stat3: "85%",
+                desc3:
+                  "Des collaborateurs estiment qu'un bon équipement améliore leur productivité.",
+                src3: "Etude SYMANTEC",
+              },
+            },
+            software: {
+              figures: {
+                stat1: "76%",
+                desc1:
+                  "Des TPE/PME constatent un impact positif du numérique sur leur activité.",
+                src1: "Baromètre France Num 2022",
+                stat2: "48%",
+                desc2:
+                  "Des entreprises affirment que la digitalisation permet de réduire leurs coûts.",
+                src2: "Baromètre France Num 2022",
+                stat3: "1/3",
+                desc3:
+                  "Des PME gèrent encore certaines tâches administratives sur Excel ou papier.",
+                src3: "Baromètre France Num 2022",
+              },
+            },
+          },
+        },
       },
       contact: {
         title: "Propulsez vos performances web !",
@@ -415,7 +500,33 @@ const resources = {
         },
       },
       service_detail: {
-        seo: {},
+        seo: {
+          cloud: {
+            title: "Cloud Solutions & Secure Hosting",
+            description:
+              "Outsource your IT for greater security and flexibility. Automated migration, backup, and custom cloud servers.",
+          },
+          maintenance: {
+            title: "Proactive IT Maintenance",
+            description:
+              "Ensure your business continuity. 24/7 monitoring, user support, updates, and backup management for SMEs.",
+          },
+          security: {
+            title: "Cybersecurity & Data Protection",
+            description:
+              "Secure your business against cyber threats. Audits, protection, awareness training, and incident response with CyberSky experts.",
+          },
+          software: {
+            title: "Software Solutions & Digitalization",
+            description:
+              "Digitize and automate your internal processes. Integration of business tools, dashboards, and custom-developed web applications.",
+          },
+          equipment: {
+            title: "Professional IT Hardware",
+            description:
+              "Equip your business with reliable hardware. Consulting, on-site installation, secure configuration, and IT asset monitoring.",
+          },
+        },
         hero: {
           cloud: {
             tag: "Cloud",
@@ -444,6 +555,87 @@ const resources = {
           },
         },
         default_button: "Request a Quote",
+        keyfigures: {
+          title: "Key figures",
+          source: "Source",
+          data: {
+            securite: {
+              figures: {
+                stat1: "43%",
+                desc1:
+                  "SMEs victims of a cyberattack close or go bankrupt within 6 months.",
+                src1: "ANSSI",
+                stat2: "1 in 2",
+                desc2: "SMEs have already suffered a cyberattack.",
+                src2: "ANSSI",
+                stat3: "300%",
+                desc3: "Threats constantly target corporate systems.",
+                src3: "ANSSI",
+              },
+            },
+            maintenance: {
+              figures: {
+                stat1: "80%",
+                desc1:
+                  "IT failures are linked to poor maintenance or configuration.",
+                src1: "TechRadar / études sectorielles",
+                stat2: "€10K",
+                desc2: "Estimated cost of one day of IT downtime for an SME.",
+                src2: "Syntec Numérique, Cigref, IDC",
+                stat3: "20%",
+                desc3: "Incidents can be avoided through regular maintenance.",
+                src3: "IDC / Syntec Numérique",
+              },
+            },
+            cloud: {
+              figures: {
+                stat1: "78%",
+                desc1:
+                  "SMEs state that the cloud strengthens their IT security.",
+                src1: "Sage",
+                stat2: "1/2",
+                desc2:
+                  "SMEs have already suffered data loss due to a breakdown.",
+                src2: "Markess",
+                stat3: "83%",
+                desc3:
+                  "Companies using the cloud report improved productivity.",
+                src3: "Microsoft Europe",
+              },
+            },
+            equipment: {
+              figures: {
+                stat1: "70%",
+                desc1:
+                  "IT failures are linked to obsolete or ill-suited equipment.",
+                src1: "Gartner",
+                stat2: "22min",
+                desc2: "Lost every day due to slow or inadequate equipment.",
+                src2: "Etude Sharp / FSDS, 2023",
+                stat3: "85%",
+                desc3:
+                  "Employees believe that good equipment improves their productivity.",
+                src3: "Etude SYMANTEC",
+              },
+            },
+            software: {
+              figures: {
+                stat1: "76%",
+                desc1:
+                  "SMEs note a positive impact of digital technology on their activity.",
+                src1: "Baromètre France Num 2022",
+                stat2: "48%",
+                desc2:
+                  "Companies state that digitalization helps reduce their costs.",
+                src2: "Baromètre France Num 2022",
+                stat3: "1/3",
+                desc3:
+                  "SMEs still manage some administrative tasks on Excel or paper.",
+                src3: "Baromètre France Num 2022",
+              },
+            },
+          },
+        },
       },
       contact: {
         // TOUT est maintenant bien à l'intérieur de 'contact' !
