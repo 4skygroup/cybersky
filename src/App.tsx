@@ -11,7 +11,7 @@ import ContactPage from '@/pages/Contact';
 // 1. Import Dynamique des pages
 const Home = lazy(() => import('@/pages/Home'));
 const Services = lazy(() => import('@/pages/Services'));
-const Experts = lazy(() => import('@/pages/Experts'));
+// const Experts = lazy(() => import('@/pages/Experts'));
 const Securite = lazy(() => import('@/pages/services/Securite'));
 const Maintenance = lazy(() => import('@/pages/services/Maintenance'));
 const Cloud = lazy(() => import('@/pages/services/Cloud'));
@@ -37,7 +37,7 @@ function App() {
                 <Route path="/services/equipement" element={<Equipement />} />
                 <Route path="/services/maintenance" element={<Maintenance />} />
                 <Route path="/services/software" element={<Software />} />
-                <Route path="/experts" element={<Experts />} />
+                {/* <Route path="/experts" element={<Experts />} /> */}
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/mentions-legales" element={<LegalNotice />} />
                 <Route path="/confidentialite" element={<PrivacyPolicy />} />

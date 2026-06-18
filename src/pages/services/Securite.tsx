@@ -53,15 +53,15 @@ export default function Securite() {
             />
 
             <Methodology
-                surtitle="COMMENT ÇA MARCHE"
-                titlePart1="Une méthode"
-                titleHighlight="claire,"
-                titlePart2="en quatre temps"
-                subtitle="Un parcours structuré, transparent, sans surprise. De la première conversation au suivi long terme."
+                surtitle={t('service_detail.methodology.data.security.surtitle')}
+                titlePart1={t('service_detail.methodology.data.security.titlePart1')}
+                titleHighlight={t('service_detail.methodology.data.security.titleHighlight')}
+                titlePart2={t('service_detail.methodology.data.security.titlePart2')}
+                subtitle={t('service_detail.methodology.data.security.subtitle')}
                 steps={securiteMethodology}
             />
 
-            <FAQ data={securiteFaqData}/>
+            <FAQ data={securiteFaqData} />
         </div>
     );
 }

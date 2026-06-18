@@ -442,6 +442,140 @@ const resources = {
             },
           },
         },
+        methodology: {
+          data: {
+            cloud: {
+              surtitle: "COMMENT ÇA SE PASSE",
+              titlePart1: "Une méthode",
+              titleHighlight: "claire,",
+              titlePart2: "en quatre temps",
+              subtitle:
+                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+              steps: [
+                {
+                  title: "Prise de contact",
+                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                },
+                {
+                  title: "Audit & évaluation",
+                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                },
+                {
+                  title: "Mise en place des protections",
+                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                },
+                {
+                  title: "Suivi & accompagnement",
+                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                },
+              ],
+            },
+            equipment: {
+              surtitle: "COMMENT ÇA SE PASSE",
+              titlePart1: "Une méthode",
+              titleHighlight: "claire,",
+              titlePart2: "en quatre temps",
+              subtitle:
+                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+              steps: [
+                {
+                  title: "Prise de contact",
+                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                },
+                {
+                  title: "Audit & évaluation",
+                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                },
+                {
+                  title: "Mise en place des protections",
+                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                },
+                {
+                  title: "Suivi & accompagnement",
+                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                },
+              ],
+            },
+            maintenance: {
+              surtitle: "COMMENT ÇA SE PASSE",
+              titlePart1: "Une méthode",
+              titleHighlight: "claire,",
+              titlePart2: "en quatre temps",
+              subtitle:
+                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+              steps: [
+                {
+                  title: "Prise de contact",
+                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                },
+                {
+                  title: "Audit & évaluation",
+                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                },
+                {
+                  title: "Mise en place des protections",
+                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                },
+                {
+                  title: "Suivi & accompagnement",
+                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                },
+              ],
+            },
+            security: {
+              surtitle: "COMMENT ÇA SE PASSE",
+              titlePart1: "Une méthode",
+              titleHighlight: "claire,",
+              titlePart2: "en quatre temps",
+              subtitle:
+                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+              steps: [
+                {
+                  title: "Prise de contact",
+                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                },
+                {
+                  title: "Audit & évaluation",
+                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                },
+                {
+                  title: "Mise en place des protections",
+                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                },
+                {
+                  title: "Suivi & accompagnement",
+                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                },
+              ],
+            },
+            software: {
+              surtitle: "COMMENT ÇA SE PASSE",
+              titlePart1: "Une méthode",
+              titleHighlight: "claire,",
+              titlePart2: "en quatre temps",
+              subtitle:
+                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+              steps: [
+                {
+                  title: "Prise de contact",
+                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                },
+                {
+                  title: "Audit & évaluation",
+                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                },
+                {
+                  title: "Mise en place des protections",
+                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                },
+                {
+                  title: "Suivi & accompagnement",
+                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                },
+              ],
+            },
+          },
+        },
       },
       contact: {
         title: "Propulsez vos performances web !",
@@ -992,6 +1126,140 @@ const resources = {
                 t1: "Monitoring",
                 t2: "Renewal",
               },
+            },
+          },
+        },
+        methodology: {
+          data: {
+            cloud: {
+              surtitle: "HOW IT WORKS",
+              titlePart1: "A clear",
+              titleHighlight: "method,",
+              titlePart2: "in four steps",
+              subtitle:
+                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+              steps: [
+                {
+                  title: "First Contact",
+                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                },
+                {
+                  title: "Audit & Evaluation",
+                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                },
+                {
+                  title: "Implementation",
+                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                },
+                {
+                  title: "Follow-up & Support",
+                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                },
+              ],
+            },
+            equipment: {
+              surtitle: "HOW IT WORKS",
+              titlePart1: "A clear",
+              titleHighlight: "method,",
+              titlePart2: "in four steps",
+              subtitle:
+                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+              steps: [
+                {
+                  title: "First Contact",
+                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                },
+                {
+                  title: "Audit & Evaluation",
+                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                },
+                {
+                  title: "Implementation",
+                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                },
+                {
+                  title: "Follow-up & Support",
+                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                },
+              ],
+            },
+            maintenance: {
+              surtitle: "HOW IT WORKS",
+              titlePart1: "A clear",
+              titleHighlight: "method,",
+              titlePart2: "in four steps",
+              subtitle:
+                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+              steps: [
+                {
+                  title: "First Contact",
+                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                },
+                {
+                  title: "Audit & Evaluation",
+                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                },
+                {
+                  title: "Implementation",
+                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                },
+                {
+                  title: "Follow-up & Support",
+                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                },
+              ],
+            },
+            security: {
+              surtitle: "HOW IT WORKS",
+              titlePart1: "A clear",
+              titleHighlight: "method,",
+              titlePart2: "in four steps",
+              subtitle:
+                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+              steps: [
+                {
+                  title: "First Contact",
+                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                },
+                {
+                  title: "Audit & Evaluation",
+                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                },
+                {
+                  title: "Implementation",
+                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                },
+                {
+                  title: "Follow-up & Support",
+                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                },
+              ],
+            },
+            software: {
+              surtitle: "HOW IT WORKS",
+              titlePart1: "A clear",
+              titleHighlight: "method,",
+              titlePart2: "in four steps",
+              subtitle:
+                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+              steps: [
+                {
+                  title: "First Contact",
+                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                },
+                {
+                  title: "Audit & Evaluation",
+                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                },
+                {
+                  title: "Implementation",
+                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                },
+                {
+                  title: "Follow-up & Support",
+                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                },
+              ],
             },
           },
         },

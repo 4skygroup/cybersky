@@ -47,7 +47,7 @@ export default function Navbar() {
                 { label: t('header.sub.software'), path: "/services/software" },
             ],
         },
-        { label: t('header.experts'), path: "/experts" },
+        // { label: t('header.experts'), path: "/experts" },
         { label: t('header.contact'), path: "/contact" },
     ];
 

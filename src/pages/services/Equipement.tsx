@@ -45,12 +45,11 @@ export default function Equipement() {
             />
 
             <Methodology
-                surtitle="COMMENT ÇA SE PASSE"
-                titlePart1="Une méthode"
-                titleHighlight="claire,"
-                titlePart2="en quatre temps"
-                subtitle="Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme."
-                steps={equipementMethodology}
+                surtitle={t('service_detail.methodology.data.equipment.surtitle')}
+                titlePart1={t('service_detail.methodology.data.equipment.titlePart1')}
+                titleHighlight={t('service_detail.methodology.data.equipment.titleHighlight')}
+                titlePart2={t('service_detail.methodology.data.equipment.titlePart2')}
+                subtitle={t('service_detail.methodology.data.equipment.subtitle')}                steps={equipementMethodology}
             />
 
             <FAQ data={equipementFaqData} />

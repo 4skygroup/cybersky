@@ -45,11 +45,11 @@ export default function Software() {
             />
 
             <Methodology
-                surtitle="COMMENT ÇA SE PASSE"
-                titlePart1="Une méthode"
-                titleHighlight="claire,"
-                titlePart2="en quatre temps"
-                subtitle="Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme."
+                surtitle={t('service_detail.methodology.data.software.surtitle')}
+                titlePart1={t('service_detail.methodology.data.software.titlePart1')}
+                titleHighlight={t('service_detail.methodology.data.software.titleHighlight')}
+                titlePart2={t('service_detail.methodology.data.software.titlePart2')}
+                subtitle={t('service_detail.methodology.data.software.subtitle')}
                 steps={softwareMethodology}
             />
 

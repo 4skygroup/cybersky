@@ -12,26 +12,26 @@ export interface MethodologyItem {
 export const securiteMethodology: MethodologyItem[] = [
     {
         id: 1,
-        title: "Prise de contact",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.security.steps.0.title",
+        description: "service_detail.methodology.data.security.steps.0.desc",
         icon: <MessageSquare size={24} strokeWidth={1.5} />
     },
     {
         id: 2,
-        title: "Audit & évaluation",
-        description: "On analyse. On comprend votre sécurité, vos vulnérabilités, vos priorités.",
+        title: "service_detail.methodology.data.security.steps.1.title",
+        description: "service_detail.methodology.data.security.steps.1.desc",
         icon: <Search size={24} strokeWidth={1.5} />
     },
     {
         id: 3,
-        title: "Mise en place des protections",
-        description: "On déploie. On s'adapte à votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.security.steps.2.title",
+        description: "service_detail.methodology.data.security.steps.2.desc",
         icon: <ShieldCheck size={24} strokeWidth={1.5} />
     },
     {
         id: 4,
-        title: "Suivi & accompagnement",
-        description: "On discute. On comprend vos alertes, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.security.steps.3.title",
+        description: "service_detail.methodology.data.security.steps.3.desc",
         icon: <Headphones size={24} strokeWidth={1.5} />
     }
 ];
@@ -39,26 +39,26 @@ export const securiteMethodology: MethodologyItem[] = [
 export const maintenanceMethodology: MethodologyItem[] = [
     {
         id: 1,
-        title: "Analyse des besoins",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.maintenance.steps.0.title",
+        description: "service_detail.methodology.data.maintenance.steps.0.desc",
         icon: <MessageSquare size={24} strokeWidth={1.5} />
     },
     {
         id: 2,
-        title: "Audit & évaluation",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.maintenance.steps.1.title",
+        description: "service_detail.methodology.data.maintenance.steps.1.desc",
         icon: <Search size={24} strokeWidth={1.5} />
     },
     {
         id: 3,
-        title: "Mise en place des procédures",
-        description: "On déploie. On s'adapte à votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.maintenance.steps.2.title",
+        description: "service_detail.methodology.data.maintenance.steps.2.desc",
         icon: <ShieldCheck size={24} strokeWidth={1.5} />
     },
     {
         id: 4,
-        title: "Suivi & accompagnement",
-        description: "On discute. On comprend vos alertes, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.maintenance.steps.3.title",
+        description: "service_detail.methodology.data.maintenance.steps.3.desc",
         icon: <Headphones size={24} strokeWidth={1.5} />
     }
 ];
@@ -66,26 +66,26 @@ export const maintenanceMethodology: MethodologyItem[] = [
 export const cloudMethodology: MethodologyItem[] = [
     {
         id: 1,
-        title: "Analyse des besoins",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.cloud.steps.0.title",
+        description: "service_detail.methodology.data.cloud.steps.0.desc",
         icon: <MessageSquare size={24} strokeWidth={1.5} />
     },
     {
         id: 2,
-        title: "Audit & évaluation",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.cloud.steps.1.title",
+        description: "service_detail.methodology.data.cloud.steps.1.desc",
         icon: <Search size={24} strokeWidth={1.5} />
     },
     {
         id: 3,
-        title: "Mise en place des protections",
-        description: "On déploie. On s'adapte à votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.cloud.steps.2.title",
+        description: "service_detail.methodology.data.cloud.steps.2.desc",
         icon: <ShieldCheck size={24} strokeWidth={1.5} />
     },
     {
         id: 4,
-        title: "Suivi & accompagnement",
-        description: "On discute. On comprend vos alertes, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.cloud.steps.3.title",
+        description: "service_detail.methodology.data.cloud.steps.3.desc",
         icon: <Headphones size={24} strokeWidth={1.5} />
     }
 ];
@@ -93,26 +93,26 @@ export const cloudMethodology: MethodologyItem[] = [
 export const equipementMethodology: MethodologyItem[] = [
     {
         id: 1,
-        title: "Analyse des besoins",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.equipment.steps.1.title",
+        description: "service_detail.methodology.data.equipment.steps.1.desc",
         icon: <MessageSquare size={24} strokeWidth={1.5} />
     },
     {
         id: 2,
-        title: "Audit & évaluation",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.equipment.steps.1.title",
+        description: "service_detail.methodology.data.equipment.steps.1.desc",
         icon: <Search size={24} strokeWidth={1.5} />
     },
     {
         id: 3,
-        title: "Mise en place des protections",
-        description: "On déploie. On s'adapte à votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.equipment.steps.2.title",
+        description: "service_detail.methodology.data.equipment.steps.2.desc",
         icon: <ShieldCheck size={24} strokeWidth={1.5} />
     },
     {
         id: 4,
-        title: "Suivi & accompagnement",
-        description: "On discute. On comprend vos alertes, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.equipment.steps.3.title",
+        description: "service_detail.methodology.data.equipment.steps.3.desc",
         icon: <Headphones size={24} strokeWidth={1.5} />
     }
 ];
@@ -120,26 +120,26 @@ export const equipementMethodology: MethodologyItem[] = [
 export const softwareMethodology: MethodologyItem[] = [
     {
         id: 1,
-        title: "Analyse des besoins",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.software.steps.0.title",
+        description: "service_detail.methodology.data.security.steps.0.desc",
         icon: <MessageSquare size={24} strokeWidth={1.5} />
     },
     {
         id: 2,
-        title: "Audit & évaluation",
-        description: "On discute. On comprend votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.software.steps.1.title",
+        description: "service_detail.methodology.data.security.steps.1.desc",
         icon: <Search size={24} strokeWidth={1.5} />
     },
     {
         id: 3,
-        title: "Mise en place des procédures",
-        description: "On déploie. On s'adapte à votre activité, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.software.steps.2.title",
+        description: "service_detail.methodology.data.security.steps.2.desc",
         icon: <ShieldCheck size={24} strokeWidth={1.5} />
     },
     {
         id: 4,
-        title: "Suivi & accompagnement",
-        description: "On discute. On comprend vos alertes, vos contraintes, vos priorités.",
+        title: "service_detail.methodology.data.software.steps.3.title",
+        description: "service_detail.methodology.data.security.steps.3.desc",
         icon: <Headphones size={24} strokeWidth={1.5} />
     }
 ];

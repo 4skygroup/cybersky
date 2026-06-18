@@ -41,16 +41,16 @@ export default function Cloud() {
                 titlePart1={t('service_detail.details.data.cloud.titlePart1')}
                 titleHighlight={t('service_detail.details.data.cloud.titleHighlight')}
                 titlePart2={t('service_detail.details.data.cloud.titlePart2')}
-                subtitle={t('service_detail.details.data.cloud.subtitle')} 
+                subtitle={t('service_detail.details.data.cloud.subtitle')}
                 services={cloudServiceDetails}
             />
 
             <Methodology
-                surtitle="COMMENT ÇA SE PASSE"
-                titlePart1="Une méthode"
-                titleHighlight="claire,"
-                titlePart2="en quatre temps"
-                subtitle="Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme."
+                surtitle={t('service_detail.methodology.data.cloud.surtitle')}
+                titlePart1={t('service_detail.methodology.data.cloud.titlePart1')}
+                titleHighlight={t('service_detail.methodology.data.cloud.titleHighlight')}
+                titlePart2={t('service_detail.methodology.data.cloud.titlePart2')}
+                subtitle={t('service_detail.methodology.data.cloud.subtitle')}
                 steps={cloudMethodology}
             />
 

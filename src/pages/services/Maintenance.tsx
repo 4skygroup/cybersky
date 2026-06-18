@@ -45,12 +45,12 @@ export default function Maintenance() {
             />
 
             <Methodology
-                surtitle="COMMENT ÇA SE PASSE"
-                titlePart1="Une méthode"
-                titleHighlight="claire,"
-                titlePart2="en quatre temps"
-                subtitle="Un seul interlocuteur, transparent, sans surprise. De la première conversation au suivi long terme."
-                steps={maintenanceMethodology}
+                surtitle={t('service_detail.methodology.data.maintenance.surtitle')}
+                titlePart1={t('service_detail.methodology.data.maintenance.titlePart1')}
+                titleHighlight={t('service_detail.methodology.data.maintenance.titleHighlight')}
+                titlePart2={t('service_detail.methodology.data.maintenance.titlePart2')}
+                subtitle={t('service_detail.methodology.data.maintenance.subtitle')}
+                                steps={maintenanceMethodology}
             />
 
             <FAQ data={maintenanceFaqData} />
