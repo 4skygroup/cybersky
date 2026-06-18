@@ -713,6 +713,8 @@ const resources = {
           sending: "Envoi...",
           btn_call: "Programmer l'appel",
           btn_message: "Envoyer le message",
+          callDayLabel: "Jour souhaité pour l'appel",
+          callDayPlaceholder: "Sélectionnez une date (ex: Lundi, ou JJ/MM)",
         },
 
         subjects: {
@@ -1494,6 +1496,8 @@ const resources = {
           first_name: "First Name",
           phone: "Phone Number",
           email: "Email",
+          callDayLabel: "Preferred day for the call",
+          callDayPlaceholder: "Select a date (e.g., Monday, or MM/DD)",
           subject_call: "Call Subject",
           subject_msg: "Subject",
           time_slot: "Preferred Time Slot",

@@ -48,6 +48,7 @@ function CallbackForm() {
     const [prenom, setPrenom] = useState("");
     const [tel, setTel] = useState("");
     const [sujet, setSujet] = useState("");
+    const [jour, setJour] = useState("");
     const [horaire, setHoraire] = useState("");
     const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
@@ -93,6 +94,15 @@ function CallbackForm() {
             <Field label={t('contact.form.phone')} placeholder="+33 6 12 34 56 78" type="tel" value={tel} onChange={setTel} />
             <SelectField label={t('contact.form.subject_call')} options={subjects} value={sujet} onChange={setSujet} defaultText={t('contact.form.select')} />
             <SelectField label={t('contact.form.time_slot')} options={timeSlots} value={horaire} onChange={setHoraire} defaultText={t('contact.form.select')} />
+
+            <Field
+                label={t('contact.form.callDayLabel')}
+                placeholder="JJ/MM/AAAA"
+                type="date"
+                value={jour}
+                onChange={setJour}
+                className="scheme-dark"
+            />
 
             {status === "sent" && <p className="text-sm text-green-400 text-center">{t('contact.form.success')}</p>}
             {status === "error" && <p className="text-sm text-red-400 text-center">{t('contact.form.error')}</p>}
@@ -149,7 +159,7 @@ function MessageForm() {
             </div>
             <Field label={t('contact.form.email')} placeholder="jean@exemple.com" type="email" value={email} onChange={setEmail} />
             <SelectField label={t('contact.form.subject_msg')} options={subjects} value={sujet} onChange={setSujet} defaultText={t('contact.form.select')} />
-
+            
             <div className="flex flex-col gap-1.5">
                 <label className="text-t6 font-medium uppercase tracking-widest text-white/50">
                     {t('contact.form.message_label')}
@@ -174,11 +184,31 @@ function MessageForm() {
     );
 }
 
-function Field({ label, placeholder, type = "text", value, onChange }: { label: string; placeholder: string; type?: string; value: string; onChange: (v: string) => void; }) {
+function Field({
+    label,
+    placeholder,
+    type = "text",
+    value,
+    onChange,
+    className = "" // 1. On accepte la prop (vide par défaut)
+}: {
+    label: string;
+    placeholder: string;
+    type?: string;
+    value: string;
+    onChange: (v: string) => void;
+    className?: string; // 2. On déclare le type pour apaiser TypeScript
+}) {
     return (
         <div className="flex flex-col gap-1.5">
             <label className="text-t6 font-medium uppercase tracking-widest text-white/50">{label}</label>
-            <input type={type} placeholder={placeholder} value={value} onChange={(e) => onChange(e.target.value)} className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-t5 text-white placeholder:text-white/25 outline-none transition focus:border-white/30 focus:bg-white/8" />
+            <input
+                type={type}
+                placeholder={placeholder}
+                value={value}
+                onChange={(e) => onChange(e.target.value)}
+                className={`w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-t5 text-white placeholder:text-white/25 outline-none transition focus:border-white/30 focus:bg-white/8 ${className}`}
+            />
         </div>
     );
 }
