@@ -98,7 +98,7 @@ export const cloudServiceDetails: ServiceDetailItem[] = [
         id: 4,
         title: "service_detail.details.data.cloud.s4.title",
         description: "service_detail.details.data.cloud.s4.desc",
-        tags: ["service_detail.details.data.cloud.s4.t1", "service_detail.details.data.cloud.s4.t2", "service_detail.details.data.cloud.s4.t3"],
+        tags: ["service_detail.details.data.cloud.s4.t1", "service_detail.details.data.cloud.s4.t2"],
         icon: <Users size={20} strokeWidth={2} />
     }
 ];
