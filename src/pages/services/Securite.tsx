@@ -35,11 +35,11 @@ export default function Securite() {
             <KeyFigures figures={securiteFigures} />
 
             <RiskZones
-                surtitle="LES ZONES À RISQUES"
-                titlePart1="Les cybermenaces touchent"
-                titleHighlight="toute votre"
-                titlePart2="entreprise"
-                subtitle="Chaque poste, chaque utilisateur, chaque donnée peut être ciblé. Prenez mesure de l'étendue des risques potentiels."
+                surtitle={t('service_detail.riskzones.data.security.surtitle')}
+                titlePart1={t('service_detail.riskzones.data.security.titlePart1')}
+                titleHighlight={t('service_detail.riskzones.data.security.titleHighlight')}
+                titlePart2={t('service_detail.riskzones.data.security.titlePart2')}
+                subtitle={t('service_detail.riskzones.data.security.subtitle')}
                 zones={securiteRiskZones}
             />
 

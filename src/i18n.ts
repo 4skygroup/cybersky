@@ -513,133 +513,133 @@ const resources = {
         },
         methodology: {
           data: {
-            cloud: {
+            maintenance: {
               surtitle: "COMMENT ÇA SE PASSE",
-              titlePart1: "Une méthode",
-              titleHighlight: "claire,",
-              titlePart2: "en quatre temps",
+              titlePart1: "Une maintenance pensée pour",
+              titleHighlight: "garantir",
+              titlePart2: "votre continuité",
               subtitle:
-                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+                "De l’analyse de votre parc informatique au suivi régulier, CyberSky vous accompagne avec une approche claire, réactive et structurée pour limiter les interruptions et garder vos équipements opérationnels.",
               steps: [
                 {
-                  title: "Prise de contact",
-                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                  title: "État des lieux complet",
+                  desc: "Nous analysons votre environnement informatique : postes, serveurs, réseau, sauvegardes, logiciels et usages quotidiens.",
                 },
                 {
-                  title: "Audit & évaluation",
-                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                  title: "Diagnostic des points sensibles",
+                  desc: "Nous identifions les lenteurs, pannes récurrentes, risques techniques et éléments pouvant impacter la continuité de votre activité.",
                 },
                 {
-                  title: "Mise en place des protections",
-                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                  title: "Intervention & optimisation",
+                  desc: "Nous réalisons les corrections nécessaires : mises à jour, configurations, sécurisation, optimisation et interventions à distance ou sur site.",
                 },
                 {
-                  title: "Suivi & accompagnement",
-                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                  title: "Suivi dans la durée",
+                  desc: "Nous assurons un accompagnement régulier afin de maintenir un environnement informatique stable, fiable et évolutif.",
                 },
               ],
             },
             equipment: {
               surtitle: "COMMENT ÇA SE PASSE",
-              titlePart1: "Une méthode",
-              titleHighlight: "claire,",
-              titlePart2: "en quatre temps",
+              titlePart1: "Des équipements",
+              titleHighlight: "adaptés",
+              titlePart2: "à vos usages professionnels",
               subtitle:
-                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+                "CyberSky vous accompagne dans le choix, l’installation et la configuration de votre matériel informatique afin de garantir performance, fiabilité et confort d’utilisation au quotidien.",
               steps: [
                 {
-                  title: "Prise de contact",
-                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                  title: "Analyse de vos besoins",
+                  desc: "Nous étudions vos usages, vos métiers, votre nombre d’utilisateurs et les contraintes techniques de votre environnement.",
                 },
                 {
-                  title: "Audit & évaluation",
-                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                  title: "Recommandation du matériel",
+                  desc: "Nous sélectionnons les équipements adaptés à votre activité : ordinateurs, écrans, serveurs, réseau, Wi-Fi, périphériques et accessoires professionnels.",
                 },
                 {
-                  title: "Mise en place des protections",
-                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                  title: "Préparation & installation",
+                  desc: "Nous préparons, installons et configurons le matériel avec les logiciels, accès, paramètres de sécurité et outils nécessaires.",
                 },
                 {
-                  title: "Suivi & accompagnement",
-                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
-                },
-              ],
-            },
-            maintenance: {
-              surtitle: "COMMENT ÇA SE PASSE",
-              titlePart1: "Une méthode",
-              titleHighlight: "claire,",
-              titlePart2: "en quatre temps",
-              subtitle:
-                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
-              steps: [
-                {
-                  title: "Prise de contact",
-                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
-                },
-                {
-                  title: "Audit & évaluation",
-                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
-                },
-                {
-                  title: "Mise en place des protections",
-                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
-                },
-                {
-                  title: "Suivi & accompagnement",
-                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                  title: "Suivi & évolution du parc",
+                  desc: "Nous vous accompagnons dans le renouvellement, l’optimisation et l’évolution de vos équipements selon vos besoins.",
                 },
               ],
             },
             security: {
               surtitle: "COMMENT ÇA SE PASSE",
-              titlePart1: "Une méthode",
-              titleHighlight: "claire,",
-              titlePart2: "en quatre temps",
+              titlePart1: "Une approche progressive pour",
+              titleHighlight: "renforcer",
+              titlePart2: "votre sécurité",
               subtitle:
-                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+                "CyberSky identifies vos risques, priorise les actions à mener et déploie les protections adaptées pour sécuriser vos systèmes, vos données et vos utilisateurs.",
               steps: [
                 {
-                  title: "Prise de contact",
-                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                  title: "Analyse des risques",
+                  desc: "Nous évaluons vos accès, postes, emails, réseau, sauvegardes, mots de passe et pratiques internes afin d’identifier les vulnérabilités.",
                 },
                 {
-                  title: "Audit & évaluation",
-                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                  title: "Priorisation des actions",
+                  desc: "Nous classons les risques selon leur impact potentiel afin de traiter en priorité les points les plus critiques pour votre activité.",
                 },
                 {
                   title: "Mise en place des protections",
-                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                  desc: "Nous déployons les mesures adaptées : sécurisation des accès, protection des postes, sauvegardes, antivirus, bonnes pratiques et sensibilisation.",
                 },
                 {
-                  title: "Suivi & accompagnement",
-                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                  title: "Suivi & amélioration continue",
+                  desc: "Nous assurons un suivi régulier pour adapter votre niveau de sécurité aux nouveaux risques et aux évolutions de votre entreprise.",
                 },
               ],
             },
             software: {
               surtitle: "COMMENT ÇA SE PASSE",
-              titlePart1: "Une méthode",
-              titleHighlight: "claire,",
-              titlePart2: "en quatre temps",
+              titlePart1: "Des outils pensés pour",
+              titleHighlight: "simplifier",
+              titlePart2: "votre organisation",
               subtitle:
-                "Un parcours structuré, transparent, sans surprise. De la première conversation au suivi à long terme.",
+                "CyberSky vous accompagne dans la digitalisation de vos processus afin de réduire les tâches manuelles, connecter vos outils et améliorer la productivité de vos équipes.",
               steps: [
                 {
-                  title: "Prise de contact",
-                  desc: "On échange sur votre activité, vos contraintes et vos priorités pour cerner précisément vos enjeux IT.",
+                  title: "Analyse de vos processus",
+                  desc: "Nous identifions vos tâches répétitives, vos outils existants, vos fichiers dispersés et les points de friction dans votre organisation.",
                 },
                 {
-                  title: "Audit & évaluation",
-                  desc: "On examine votre infrastructure existante : matériel, réseau, sécurité et points de fragilité, pour établir un état des lieux clair.",
+                  title: "Définition de la solution",
+                  desc: "Nous proposons l’approche la plus adaptée : logiciel métier, automatisation, tableau de bord, application interne ou outil sur mesure.",
                 },
                 {
-                  title: "Mise en place des protections",
-                  desc: "On déploie les solutions et processus adaptés, en s'intégrant à votre environnement sans perturber votre activité.",
+                  title: "Intégration & automatisation",
+                  desc: "Nous configurons, connectons ou développons les solutions nécessaires pour fluidifier votre fonctionnement quotidien.",
                 },
                 {
-                  title: "Suivi & accompagnement",
-                  desc: "On supervise, on traite vos alertes et on ajuste dans la durée pour garantir un fonctionnement stable et proactif.",
+                  title: "Formation & amélioration",
+                  desc: "Nous accompagnons vos équipes dans la prise en main des outils et faisons évoluer la solution selon les retours terrain.",
+                },
+              ],
+            },
+            cloud: {
+              surtitle: "COMMENT ÇA SE PASSE",
+              titlePart1: "Une transition cloud",
+              titleHighlight: "sécurisée",
+              titlePart2: "et maîtrisée",
+              subtitle:
+                "CyberSky vous accompagne dans l’hébergement, la sauvegarde et la migration de vos données afin d’améliorer l’accès, la sécurité et la continuité de votre activité.",
+              steps: [
+                {
+                  title: "Analyse de l’existant",
+                  desc: "Nous identifions vos données, applications, utilisateurs, contraintes de sécurité et besoins d’accès à distance.",
+                },
+                {
+                  title: "Conception de l’architecture",
+                  desc: "Nous définissons une solution cloud adaptée : stockage, sauvegarde, messagerie, hébergement, serveurs ou outils collaboratifs.",
+                },
+                {
+                  title: "Migration & sécurisation",
+                  desc: "Nous transférons vos données, configurons les accès, sécurisons l’environnement et limitons les interruptions pendant la transition.",
+                },
+                {
+                  title: "Suivi & optimisation",
+                  desc: "Nous assurons le suivi de votre environnement cloud, les sauvegardes, les accès et les évolutions nécessaires dans le temps.",
                 },
               ],
             },
@@ -1307,133 +1307,133 @@ const resources = {
         },
         methodology: {
           data: {
-            cloud: {
+            maintenance: {
               surtitle: "HOW IT WORKS",
-              titlePart1: "A clear",
-              titleHighlight: "method,",
-              titlePart2: "in four steps",
+              titlePart1: "Maintenance designed to",
+              titleHighlight: "guarantee",
+              titlePart2: "your continuity",
               subtitle:
-                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+                "From analyzing your IT infrastructure to regular monitoring, CyberSky supports you with a clear, responsive, and structured approach to limit downtime and keep your equipment operational.",
               steps: [
                 {
-                  title: "First Contact",
-                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                  title: "Comprehensive assessment",
+                  desc: "We analyze your IT environment: workstations, servers, network, backups, software, and daily usage.",
                 },
                 {
-                  title: "Audit & Evaluation",
-                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                  title: "Vulnerability diagnosis",
+                  desc: "We identify slowdowns, recurring failures, technical risks, and elements that could impact your business continuity.",
                 },
                 {
-                  title: "Implementation",
-                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                  title: "Intervention & optimization",
+                  desc: "We make the necessary corrections: updates, configurations, security enhancements, optimization, and remote or on-site interventions.",
                 },
                 {
-                  title: "Follow-up & Support",
-                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                  title: "Long-term monitoring",
+                  desc: "We provide regular support to maintain a stable, reliable, and scalable IT environment.",
                 },
               ],
             },
             equipment: {
               surtitle: "HOW IT WORKS",
-              titlePart1: "A clear",
-              titleHighlight: "method,",
-              titlePart2: "in four steps",
+              titlePart1: "Equipment",
+              titleHighlight: "adapted",
+              titlePart2: "to your professional needs",
               subtitle:
-                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+                "CyberSky assists you in selecting, installing, and configuring your IT hardware to ensure performance, reliability, and daily comfort.",
               steps: [
                 {
-                  title: "First Contact",
-                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                  title: "Needs analysis",
+                  desc: "We study your usage, professions, number of users, and the technical constraints of your environment.",
                 },
                 {
-                  title: "Audit & Evaluation",
-                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                  title: "Hardware recommendation",
+                  desc: "We select the equipment suited to your activity: computers, screens, servers, network, Wi-Fi, peripherals, and professional accessories.",
                 },
                 {
-                  title: "Implementation",
-                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                  title: "Preparation & installation",
+                  desc: "We prepare, install, and configure the hardware with the necessary software, access rights, security settings, and tools.",
                 },
                 {
-                  title: "Follow-up & Support",
-                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
-                },
-              ],
-            },
-            maintenance: {
-              surtitle: "HOW IT WORKS",
-              titlePart1: "A clear",
-              titleHighlight: "method,",
-              titlePart2: "in four steps",
-              subtitle:
-                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
-              steps: [
-                {
-                  title: "First Contact",
-                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
-                },
-                {
-                  title: "Audit & Evaluation",
-                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
-                },
-                {
-                  title: "Implementation",
-                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
-                },
-                {
-                  title: "Follow-up & Support",
-                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                  title: "Fleet monitoring & evolution",
+                  desc: "We support you in renewing, optimizing, and upgrading your equipment according to your needs.",
                 },
               ],
             },
             security: {
               surtitle: "HOW IT WORKS",
-              titlePart1: "A clear",
-              titleHighlight: "method,",
-              titlePart2: "in four steps",
+              titlePart1: "A progressive approach to",
+              titleHighlight: "strengthening",
+              titlePart2: "your security",
               subtitle:
-                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+                "CyberSky identifies your risks, prioritizes actions, and deploys the appropriate protections to secure your systems, data, and users.",
               steps: [
                 {
-                  title: "First Contact",
-                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                  title: "Risk analysis",
+                  desc: "We evaluate your access rights, workstations, emails, network, backups, passwords, and internal practices to identify vulnerabilities.",
                 },
                 {
-                  title: "Audit & Evaluation",
-                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                  title: "Prioritization of actions",
+                  desc: "We classify risks by their potential impact to prioritize the most critical points for your business.",
                 },
                 {
-                  title: "Implementation",
-                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                  title: "Deployment of protections",
+                  desc: "We deploy the appropriate measures: access security, workstation protection, backups, antivirus, best practices, and awareness training.",
                 },
                 {
-                  title: "Follow-up & Support",
-                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                  title: "Monitoring & continuous improvement",
+                  desc: "We provide regular monitoring to adapt your security level to new risks and your company's evolution.",
                 },
               ],
             },
             software: {
               surtitle: "HOW IT WORKS",
-              titlePart1: "A clear",
-              titleHighlight: "method,",
-              titlePart2: "in four steps",
+              titlePart1: "Tools designed to",
+              titleHighlight: "simplify",
+              titlePart2: "your organization",
               subtitle:
-                "A structured, transparent journey with no surprises. From the initial conversation to long-term follow-up.",
+                "CyberSky supports you in the digitalization of your processes to reduce manual tasks, connect your tools, and improve your teams' productivity.",
               steps: [
                 {
-                  title: "First Contact",
-                  desc: "We discuss your business, constraints, and priorities to precisely identify your IT challenges.",
+                  title: "Process analysis",
+                  desc: "We identify your repetitive tasks, existing tools, scattered files, and friction points in your organization.",
                 },
                 {
-                  title: "Audit & Evaluation",
-                  desc: "We examine your existing infrastructure: hardware, network, security, and vulnerabilities, to establish a clear assessment.",
+                  title: "Solution definition",
+                  desc: "We propose the most suitable approach: business software, automation, dashboard, internal application, or custom tool.",
                 },
                 {
-                  title: "Implementation",
-                  desc: "We deploy adapted solutions and processes, integrating into your environment without disrupting your operations.",
+                  title: "Integration & automation",
+                  desc: "We configure, connect, or develop the necessary solutions to streamline your daily operations.",
                 },
                 {
-                  title: "Follow-up & Support",
-                  desc: "We supervise, address your alerts, and adjust over time to ensure stable and proactive performance.",
+                  title: "Training & improvement",
+                  desc: "We train your teams to use the tools and evolve the solution based on field feedback.",
+                },
+              ],
+            },
+            cloud: {
+              surtitle: "HOW IT WORKS",
+              titlePart1: "A",
+              titleHighlight: "secure and controlled",
+              titlePart2: "cloud transition",
+              subtitle:
+                "CyberSky assists you in hosting, backing up, and migrating your data to improve access, security, and business continuity.",
+              steps: [
+                {
+                  title: "Current state analysis",
+                  desc: "We identify your data, applications, users, security constraints, and remote access needs.",
+                },
+                {
+                  title: "Architecture design",
+                  desc: "We define a suitable cloud solution: storage, backup, email, hosting, servers, or collaborative tools.",
+                },
+                {
+                  title: "Migration & security",
+                  desc: "We transfer your data, configure access, secure the environment, and limit interruptions during the transition.",
+                },
+                {
+                  title: "Monitoring & optimization",
+                  desc: "We monitor your cloud environment, backups, access, and necessary evolutions over time.",
                 },
               ],
             },
