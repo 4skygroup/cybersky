@@ -747,19 +747,44 @@ const resources = {
         title: "Mentions Légales",
         section1: {
           title: "1. Éditeur du site",
-          body: "Le site <strong>CyberSky</strong> est édité par la société <strong>Play To Sky Group (4 Sky Group)</strong>.<br />Siège social : Paris, France.<br />Directeur de la publication : <em>Robbin-James Agoh</em>.",
+          body: "Le site <strong>CyberSky</strong>, accessible à l’adresse https://cyberskyagency.com/, est édité par la société <strong>Visuance Agency (du Groupe Play To Sky)</strong>.<br />Siège social : Paris, France.<br />Directeur de la publication : <em>Robbin-James Agoh</em>.",
         },
         section2: {
           title: "2. Hébergement",
-          body: "Le site est hébergé par : <strong>OVH</strong><br />Adresse : <em>56, rue de Monceau<br />Paris, France</em><br />Téléphone : <em>+33 6 51 08 17 38</em>",
+          body: "Le site est hébergé par : <strong>OVH</strong><br /> Site web : https://www.ovhcloud.com/",
         },
         section3: {
-          title: "3. Propriété intellectuelle",
-          body: "L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques. La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication.",
+          title: "3. Activité",
+          body: "CyberSky Agency est une agence spécialisée dans la création et la stratégie digitale, notamment :",
+          li1: "Création de sites web",
+          li2: "Branding & identité visuelle",
+          li3: "UX/UI design",
+          li4: "Marketing digital",
+          li5: "SEO & acquisition",
+          li6: "Production de contenus digitaux",
         },
         section4: {
-          title: "4. Limitation de responsabilité",
-          body: "Play To Sky Group s'efforce d'assurer au mieux de ses possibilités l'exactitude et la mise à jour des informations diffusées sur le site CyberSky. Toutefois, la société décline toute responsabilité pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site.",
+          title: "4. Propriété intellectuelle",
+          body: "L’ensemble des contenus présents sur le site (textes, images, vidéos, logos, graphismes, structure, code, etc.) est protégé par le droit de la propriété intellectuelle.<br />Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation écrite préalable est strictement interdite.",
+        },
+        section5: {
+          title: "5. Responsabilité",
+          body: "CyberSky Agency s’efforce de fournir des informations fiables et à jour.<br />Toutefois, l’éditeur ne peut être tenu responsable",
+          li1: "d’erreurs ou omissions",
+          li2: "d’une indisponibilité temporaire du site",
+          li3: "de l’utilisation faite des informations présentes"
+        },
+        section6: {
+          title: "Liens externes",
+          body: "Le site peut contenir des liens vers des sites tiers.<br />CyberSky Agency n’exerce aucun contrôle sur ces contenus et décline toute responsabilité.",
+        },
+        section7: {
+          title: "Données personnelles",
+          body: "Les données personnelles collectées via le site sont traitées conformément à la réglementation en vigueur et à la politique de confidentialité.",
+        },
+        section8: {
+          title: "Droit applicable",
+          body: "Le site est soumis au droit français.<br />Tout litige relève des tribunaux compétents du siège social de CyberSky Agency.",
         },
       },
       privacy: {
@@ -767,28 +792,66 @@ const resources = {
         updated: "Dernière mise à jour : ",
         section1: {
           title: "1. Collecte des données personnelles",
-          body: "Dans le cadre de l'utilisation du site CyberSky, Play To Sky Group est susceptible de collecter les données suivantes :",
-          li1: "Données d'identification (Nom, Prénom, Adresse e-mail) via nos formulaires de contact.",
-          li2: "Données de navigation (Adresses IP, logs de connexion) à des fins de sécurité et d'analyse technique.",
+          body: "Dans le cadre de l'utilisation du site CyberSky, il est susceptible de collecter vos données lorsque vous:",
+          li1: "Remplissez un formulaire de contact",
+          li2: "Demandez un devis",
+          li3: "Naviguez sur le site",
+          body2: "Les données collectées peuvent inclure :<br />nom, prénom, email, téléphone, entreprise, message, adresse IP, données de navigation"
         },
         section2: {
           title: "2. Utilisation des données",
           body: "Les données collectées sont utilisées uniquement pour :",
-          li1: "Répondre à vos demandes de contact ou de devis.",
-          li2: "Assurer le bon fonctionnement et la sécurité de notre plateforme d'infogérance.",
-          li3: "Améliorer l'expérience utilisateur de nos services.",
+          li1: "Répondre aux demandes",
+          li2: "Fournir des devis et propositions commerciales",
+          li3: "Améliorer l’expérience utilisateur",
+          li4: "Analyser les performances du site",
+          li5: "Gérer la relation client",
         },
         section3: {
-          title: "3. Partage et conservation",
-          body: "Vos données personnelles ne sont jamais vendues à des tiers. Elles sont conservées pour une durée n'excédant pas celle nécessaire aux finalités pour lesquelles elles sont collectées, conformément à la législation en vigueur.",
+          title: "3. Base légale",
+          body: "Le traitement repose sur :",
+          li1: "Le consentement de l’utilisateur",
+          li2: "L’exécution d’une relation précontractuelle",
+          li3: "L’intérêt légitime de l’entreprise"
         },
         section4: {
-          title: "4. Vos droits (RGPD)",
-          body: "Conformément à la réglementation européenne (RGPD), vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Vous pouvez également vous opposer à leur traitement.<br /><br />Pour exercer ces droits, veuillez nous contacter à l'adresse suivante : <strong>contact@playtosky.com</strong>.",
+          title: "4. Durée de conservation",
+          li1: "Prospects : jusqu’à 3 ans après le dernier contact",
+          li2: "Clients : jusqu’à 10 ans (obligations comptables et légales)",
         },
         section5: {
-          title: "5. Cookies",
-          body: "Le site CyberSky utilise des cookies techniques strictement nécessaires à son fonctionnement. Si des cookies de suivi ou d'analyse sont mis en place, votre consentement explicite sera recueilli via un bandeau dédié lors de votre première visite.",
+          title: "5. Partage des donnée et conservation",
+          body: "Les données peuvent être partagées uniquement avec :<br />Prestataires techniques (hébergement, CRM, analytics)<br />Services nécessaires au fonctionnement du site<br />Aucune donnée n’est vendue ni cédée à des tiers.",
+        },
+        section6: {
+          title: "6. Cookies",
+          body: "Le site utilise des cookies pour :",
+          li1: "Mesurer l’audience",
+          li2: "Améliorer la navigation",
+          li3: "Optimiser les performances marketing",
+          body2: "Un bandeau de consentement permet à l’utilisateur de gérer ses préférences."
+        },
+        section7: {
+          title: "7. Vos droits (RGPD)",
+          body: "Conformément au RGPD, vous disposez de :",
+          li1: "Droit d’accès",
+          li2: "Droit de rectification",
+          li3: "Droit de suppression",
+          li4: "Droit d’opposition",
+          li5: "Droit à la portabilité",
+          body2: "Pour exercer vos droits : contact@cyberskyagency.com"
+        },
+        section8: {
+          title: "8. Sécurité",
+          body: "CyberSky Agency met en œuvre des mesures techniques et organisationnelles pour protéger vos données contre tout accès non autorisé, perte ou divulgation.",
+        },
+        section9: {
+          title: "9. Modification",
+          body: "Cette politique peut être modifiée à tout moment afin de rester conforme à la législation.<br />Dernière mise à jour : 24/06/2026",
+        },
+        section10: {
+          title: "10. Contact",
+          body: "contact@cyberskyagency.com",
         },
       },
       notfound: {
