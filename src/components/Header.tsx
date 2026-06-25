@@ -59,6 +59,31 @@ export default function Navbar() {
     { label: t("header.contact"), path: "/contact" },
   ];
 
+  const mobileNavItems: NavItem[] = [
+    {
+      label: t("header.group"),
+      path: "https://www.playtosky.com/",
+      external: true,
+    },
+    { label: t("header.locations"), path: "/locations" },
+    {
+      label: t("header.services"),
+      path: "/services",
+      subItems: [
+        { label: t("header.sub.maintenance"), path: "/services/maintenance" },
+        { label: t("header.sub.equipement"), path: "/services/equipement" },
+        {
+          label: t("header.sub.cybersecurite"),
+          path: "/services/cybersecurite",
+        },
+        { label: t("header.sub.cloud"), path: "/services/cloud" },
+        { label: t("header.sub.software"), path: "/services/software" },
+      ],
+    },
+    // { label: t('header.experts'), path: "/experts" },
+    { label: t("header.contact"), path: "/contact" },
+  ];
+
   const handleMouseEnter = () => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setServicesOpen(true);
@@ -210,7 +235,7 @@ export default function Navbar() {
         </div>
 
         <ul className="flex flex-col items-center gap-8 flex-1">
-          {navItems.map(({ label, path, external, subItems }) => (
+          {mobileNavItems.map(({ label, path, external, subItems }) => (
             <li key={path} className="text-center">
               {external ? (
                 <a
