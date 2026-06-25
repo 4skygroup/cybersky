@@ -6,10 +6,11 @@ export default function Hero() {
 
   return (
     <section className="relative w-full min-h-screen flex items-center overflow-hidden">
-
       <div
         className="absolute inset-0 z-0 bg-cover bg-right lg:bg-top bg-no-repeat w-full brightness-50 transition-all duration-500"
-        style={{ backgroundImage: "url('/hero-cybersky.webp')" }}
+        style={{
+          background: "url('/hero-cybersky.webp') no-repeat center/cover",
+        }}
       >
         {/* 2. OVERLAY EN DÉGRADÉ POUR LE TEXTE */}
         <div className="absolute inset-0 bg-linear-to-r from-cyber-black via-cyber-black/80 to-transparent"></div>
@@ -31,9 +32,9 @@ export default function Hero() {
 
           {/* Le texte découpé avec les traductions */}
           <h1 className="text-2xl md:text-4xl font-glacial text-white leading-tight">
-            {t('home.hero.title_line1')} <br className="hidden md:block" />
-            {t('home.hero.title_line2')} <br className="hidden md:block" />
-            {t('home.hero.title_line3')}
+            {t("home.hero.title_line1")} <br className="hidden md:block" />
+            {t("home.hero.title_line2")} <br className="hidden md:block" />
+            {t("home.hero.title_line3")}
           </h1>
         </div>
 
@@ -43,7 +44,7 @@ export default function Hero() {
             to="/services"
             className="inline-block px-8 py-3 border-2 border-white text-white font-medium rounded-full hover:bg-white hover:text-black transition-colors duration-300 backdrop-blur-sm tracking-wide text-sm md:text-base"
           >
-            {t('home.hero.btn_services')}
+            {t("home.hero.btn_services")}
           </Link>
         </div>
       </div>
