@@ -21,19 +21,33 @@ const FooterColumn = ({
   </div>
 );
 
-const FooterLink = ({ href, children }: { href: string; children: React.ReactNode }) => {
-  const isExternal = href.startsWith('http');
+const FooterLink = ({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) => {
+  const isExternal = href.startsWith("http");
 
   if (isExternal) {
     return (
-      <a href={href} target="_blank" rel="noopener noreferrer" className="text-t5 text-white hover:underline transition-colors duration-200">
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-t5 text-white hover:underline transition-colors duration-200"
+      >
         {children}
       </a>
     );
   }
 
   return (
-    <Link to={href} className="text-t5 text-white hover:underline transition-colors duration-200">
+    <Link
+      to={href}
+      className="text-t5 text-white hover:underline transition-colors duration-200"
+    >
       {children}
     </Link>
   );
@@ -60,14 +74,19 @@ const Footer = () => {
         {/* Logo */}
         <div className="flex justify-center mb-10">
           <Link to="/" aria-label="CyberSky – Accueil">
-            <img className="h-12" src="/logo-cybersky.webp" alt="Logo CyberSky" loading="lazy" />
+            <img
+              className="h-12"
+              src="/logo-cybersky.webp"
+              alt="Logo CyberSky"
+              loading="lazy"
+            />
           </Link>
         </div>
 
         {/* Columns */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
           {/* 3. On traduit les titres des colonnes et on applique t() sur le label */}
-          <FooterColumn title={t('footer.title_policy')}>
+          <FooterColumn title={t("footer.title_policy")}>
             {politique.map((link) => (
               <FooterLink key={link.href} href={link.href}>
                 {t(link.label)}
@@ -75,7 +94,7 @@ const Footer = () => {
             ))}
           </FooterColumn>
 
-          <FooterColumn title={t('footer.title_services')}>
+          <FooterColumn title={t("footer.title_services")}>
             {services.map((link) => (
               <FooterLink key={link.href} href={link.href}>
                 {t(link.label)}
@@ -83,7 +102,7 @@ const Footer = () => {
             ))}
           </FooterColumn>
 
-          <FooterColumn title={t('footer.title_entities')}>
+          <FooterColumn title={t("footer.title_entities")}>
             {entites.map((link) => (
               <FooterLink key={link.href} href={link.href}>
                 {/* Pas de t() ici, ce sont des noms propres ! */}
@@ -92,7 +111,7 @@ const Footer = () => {
             ))}
           </FooterColumn>
 
-          <FooterColumn title={t('footer.title_social')}>
+          <FooterColumn title={t("footer.title_social")}>
             <div className="flex flex-wrap gap-3 mt-1">
               {social.map((s) => (
                 <a
@@ -112,10 +131,18 @@ const Footer = () => {
 
         {/* COPYRIGHT */}
         <div className="mt-8 flex justify-center items-center gap-3 text-t3 font-regular text-white/60 tracking-normal">
-          <span>{t('footer.created_by')}</span>
-          <img src="/visuance.webp" alt="Visuance logo" className="h-4" />
+          <span>{t("footer.created_by")}</span>
+          <a href="https://www.visuanceagency.com/" target="_blank">
+            <img src="/visuance.webp" alt="Visuance logo" className="h-4" />
+          </a>
           <span>&</span>
-          <img src="/play-to-sky.webp" alt="Play To Sky logo" className="h-6" />
+          <a href="https://www.playtosky.com/" target="_blank">
+            <img
+              src="/play-to-sky.webp"
+              alt="Play To Sky logo"
+              className="h-6"
+            />
+          </a>
         </div>
       </div>
     </footer>
