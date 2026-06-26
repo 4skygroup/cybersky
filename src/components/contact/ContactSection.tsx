@@ -1,39 +1,35 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import ContactForm from "./ContactForm";
 import ContactInfoCards from "./ContactInfoCard";
 
 export default function ContactSection() {
-    // On importe la fonction 't' pour traduire, et 'i18n' pour changer la langue
-    const { t } = useTranslation();
+  // On importe la fonction 't' pour traduire, et 'i18n' pour changer la langue
+  const { t } = useTranslation();
 
+  return (
+    <section className="h-fit w-full bg-[#0a0a0a] px-6 py-5 lg:px-5 mt-4 md:mt-8 relative">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-16 lg:grid-cols-2 lg:items-start">
+        {/* ── Left column ── */}
+        <div className="flex flex-col gap-10">
+          <div>
+            <h2 className="text-t3 font-bold leading-tight tracking-tight text-white md:text-h6">
+              {/* Appel de la traduction ici */}
+              {t("contact.title")}
+            </h2>
+            <p className="mt-4 max-w-md text-base leading-relaxed text-white/50">
+              {/* Et ici */}
+              {t("contact.subtitle")}
+            </p>
+          </div>
 
-    return (
-        <section className="min-h-screen w-full bg-[#0a0a0a] px-6 py-20 lg:px-16 mt-4 md:mt-8 relative">
+          <ContactInfoCards />
+        </div>
 
-            <div className="mx-auto grid max-w-6xl grid-cols-1 gap-16 lg:grid-cols-2 lg:items-start">
-
-                {/* ── Left column ── */}
-                <div className="flex flex-col gap-10">
-                    <div>
-                        <h2 className="text-t3 font-bold leading-tight tracking-tight text-white md:text-h6">
-                            {/* Appel de la traduction ici */}
-                            {t('contact.title')}
-                        </h2>
-                        <p className="mt-4 max-w-md text-base leading-relaxed text-white/50">
-                            {/* Et ici */}
-                            {t('contact.subtitle')}
-                        </p>
-                    </div>
-
-                    <ContactInfoCards />
-                </div>
-
-                {/* ── Right column ── */}
-                <div>
-                    <ContactForm />
-                </div>
-
-            </div>
-        </section>
-    );
+        {/* ── Right column ── */}
+        <div>
+          <ContactForm />
+        </div>
+      </div>
+    </section>
+  );
 }
