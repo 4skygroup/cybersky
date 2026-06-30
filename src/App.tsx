@@ -1,34 +1,41 @@
-import { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from '@/components/Header';
-import Footer from '@/components/footer/Footer';
-import ScrollToTop from './components/ScrollToTop';
-import { HelmetProvider } from 'react-helmet-async';
-import LegalNotice from '@/pages/LegalNotice';
-import PrivacyPolicy from '@/pages/LegalPolicy';
-import ContactPage from '@/pages/Contact';
+import { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "@/components/Header";
+import Footer from "@/components/footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import { HelmetProvider } from "react-helmet-async";
+import LegalNotice from "@/pages/LegalNotice";
+import PrivacyPolicy from "@/pages/LegalPolicy";
+import ContactPage from "@/pages/Contact";
+import Locations from "./pages/Locations";
 
 // 1. Import Dynamique des pages
-const Home = lazy(() => import('@/pages/Home'));
-const Services = lazy(() => import('@/pages/Services'));
+const Home = lazy(() => import("@/pages/Home"));
+const Services = lazy(() => import("@/pages/Services"));
 // const Experts = lazy(() => import('@/pages/Experts'));
-const Securite = lazy(() => import('@/pages/services/Securite'));
-const Maintenance = lazy(() => import('@/pages/services/Maintenance'));
-const Cloud = lazy(() => import('@/pages/services/Cloud'));
-const Equipement = lazy(() => import('@/pages/services/Equipement'));
-const Software = lazy(() => import('@/pages/services/Software'));
-const NotFound = lazy(() => import('./pages/NotFound'));
+const Securite = lazy(() => import("@/pages/services/Securite"));
+const Maintenance = lazy(() => import("@/pages/services/Maintenance"));
+const Cloud = lazy(() => import("@/pages/services/Cloud"));
+const Equipement = lazy(() => import("@/pages/services/Equipement"));
+const Software = lazy(() => import("@/pages/services/Software"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
   return (
     <HelmetProvider>
       <Router>
-        <div className="min-h-screen flex flex-col bg-cyber-black text-white font-sans">
+        <div className="min-h-screen flex flex-col bg-cyber-black text-white font-glacial">
           <Header />
           <main className="grow">
             <ScrollToTop />
             {/* 2. Suspense affiche un loader le temps que la page se télécharge */}
-            <Suspense fallback={<div className="h-screen flex items-center justify-center">Chargement...</div>}>
+            <Suspense
+              fallback={
+                <div className="h-screen flex items-center justify-center">
+                  Chargement...
+                </div>
+              }
+            >
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/services" element={<Services />} />
@@ -38,6 +45,7 @@ function App() {
                 <Route path="/services/maintenance" element={<Maintenance />} />
                 <Route path="/services/software" element={<Software />} />
                 {/* <Route path="/experts" element={<Experts />} /> */}
+                <Route path="/locations" element={<Locations />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/mentions-legales" element={<LegalNotice />} />
                 <Route path="/confidentialite" element={<PrivacyPolicy />} />

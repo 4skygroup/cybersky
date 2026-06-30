@@ -744,6 +744,22 @@ const resources = {
           spec_network: "Réseau",
         },
       },
+      "locations": {
+        "badge": "GLOBAL NETWORK",
+        "title": "Cybersky, une vision unique pour votre croissance.",
+        "description": "Un partenaire technologique qui conçoit, sécurise et maintient vos systèmes d’information.",
+        "agent": "Agent local",
+        "stats": {
+          "experts": "Experts",
+          "clients": "Clients",
+          "continents": "Continents"
+        },
+
+        "cta": {
+          "title": "Bâtir vos succès digitaux avec nous.",
+          "button": "Démarrer un projet"
+        }
+      },
       legal: {
         title: "Mentions Légales",
 
@@ -1636,6 +1652,23 @@ const resources = {
           spec_security: "Security",
           spec_network: "Network",
         },
+      },
+      "locations": {
+        "badge": "GLOBAL NETWORK",
+        "title": "Cybersky, a unique vision for your growth.",
+        "description": "A creative ecosystem dedicated to your visual identity, helping your brand scale internationally.",
+        "agent": "Local Agent",
+        "stats": {
+          "experts": "Experts",
+          "clients": "Clients",
+          "continents": "Continents"
+        },
+
+        "cta": {
+          "title": "Building your digital success together.",
+          "button": "Start a project",
+          "link": "/contact"
+        }
       },
       legal: {
         title: "Legal Notice",

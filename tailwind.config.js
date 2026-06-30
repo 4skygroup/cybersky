@@ -80,6 +80,11 @@ module.exports = {
 
         // Pour rendre la police Bold, il faut utiliser: font-bold
       },
+      borderRadius: {
+        r01: "2.5rem",
+        r1: "1.875rem",
+        r3: "0.9375rem",
+      },
     },
   },
   plugins: [],
