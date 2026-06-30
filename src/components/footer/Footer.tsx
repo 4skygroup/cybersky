@@ -7,6 +7,7 @@ import {
   social,
 } from "@/components/footer/FooterData";
 import { Link } from "react-router-dom";
+import CreatedBy from "./CreatedBy";
 
 const FooterColumn = ({
   title,
@@ -130,20 +131,7 @@ const Footer = () => {
         </div>
 
         {/* COPYRIGHT */}
-        <div className="mt-8 flex justify-center items-center gap-3 text-t3 font-regular text-white/60 tracking-normal">
-          <span>{t("footer.created_by")}</span>
-          <a href="https://www.visuanceagency.com/" target="_blank">
-            <img src="/visuance.webp" alt="Visuance logo" className="h-4" />
-          </a>
-          <span>&</span>
-          <a href="https://www.playtosky.com/" target="_blank">
-            <img
-              src="/play-to-sky.webp"
-              alt="Play To Sky logo"
-              className="h-6"
-            />
-          </a>
-        </div>
+        <CreatedBy />
       </div>
     </footer>
   );
