@@ -780,13 +780,13 @@ const resources = {
 
         section3: {
           title: "3. Activité",
-          body: "CyberSky Agency est une agence spécialisée dans la création et la stratégie digitale, notamment :",
-          li1: "Création de sites web",
-          li2: "Branding & identité visuelle",
-          li3: "UX/UI design",
-          li4: "Marketing digital",
-          li5: "SEO & acquisition",
-          li6: "Production de contenus digitaux",
+          body: "CyberSky est une entreprise spécialisée dans les solutions informatiques et la cybersécurité. Elle accompagne les organisations dans la conception, le déploiement et la maintenance de leurs infrastructures numériques afin de garantir leur performance, leur disponibilité et leur sécurité. Ses domaines d'expertise comprennent notamment :",
+          li1: "Développement de solutions logicielles sur mesure",
+          li2: "Cybersécurité et protection des systèmes d'information",
+          li3: "Maintenance et support informatique",
+          li4: "Administration et gestion des infrastructures IT",
+          li5: "Infogérance et supervision des systèmes",
+          li6: "Conseil et accompagnement technologique",
         },
 
         section4: {
@@ -1678,51 +1678,151 @@ const resources = {
       },
       legal: {
         title: "Legal Notice",
+
         section1: {
           title: "1. Website Publisher",
-          body: "The website <strong>CyberSky</strong> is published by <strong>Play To Sky Group (4 Sky Group)</strong>.<br />Headquarters: Paris, France. <br />Publication Director : <em>Robbin-James Agoh</em>.",
+          body:
+            "The CyberSky website, available at https://cyberskyagency.com/, is published by Visuance Agency (part of the Play To Sky Group). Registered office: Paris, France. Publishing Director: Robbin-James Agoh."
         },
+
         section2: {
           title: "2. Hosting",
-          body: "The website is hosted by: <strong>OVH</strong><br />Address: <em>56, rue de Monceau<br />Paris, France</em><br />Phone : <em>+33 6 51 08 17 38</em>",
+          body:
+            "The website is hosted by: OVH. Website: https://www.ovhcloud.com/"
         },
+
         section3: {
-          title: "3. Intellectual Property",
-          body: "This entire site is covered by French and international legislation on copyright and intellectual property. All reproduction rights are reserved, including for downloadable documents and iconographic and photographic representations. The reproduction of all or part of this site on any electronic medium whatsoever is strictly prohibited without the express authorization of the publication director.",
+          title: "3. Business Activity",
+          body:
+            "CyberSky is a company specializing in IT solutions and cybersecurity. We support organizations in the design, deployment, and maintenance of their digital infrastructure to ensure performance, availability, and security. Our areas of expertise include:",
+          li1: "Custom software development",
+          li2: "Cybersecurity and information systems protection",
+          li3: "IT maintenance and support",
+          li4: "IT infrastructure administration and management",
+          li5: "Managed IT services and system monitoring",
+          li6: "Technology consulting and support"
         },
+
         section4: {
-          title: "4. Limitation of Liability",
-          body: "Play To Sky Group strives to ensure as best as possible the accuracy and updating of the information disseminated on the CyberSky site. However, the company declines all responsibility for any inaccuracy, inexactitude, or omission relating to information available on the site.",
+          title: "4. Intellectual Property",
+          body:
+            "All content available on this website (texts, images, videos, logos, graphics, website structure, source code, etc.) is protected by intellectual property laws. Any reproduction, representation, modification, or use, whether in whole or in part, without prior written authorization is strictly prohibited."
         },
+
+        section5: {
+          title: "5. Liability",
+          body:
+            "CyberSky Agency strives to provide accurate and up-to-date information. However, the publisher cannot be held liable for:",
+          li1: "Errors or omissions",
+          li2: "Temporary unavailability of the website",
+          li3: "Any use made of the information provided"
+        },
+
+        section6: {
+          title: "6. External Links",
+          body:
+            "The website may contain links to third-party websites. CyberSky Agency has no control over their content and accepts no responsibility for it."
+        },
+
+        section7: {
+          title: "7. Personal Data",
+          body:
+            "Personal data collected through the website is processed in accordance with applicable regulations and our Privacy Policy."
+        },
+
+        section8: {
+          title: "8. Applicable Law",
+          body:
+            "This website is governed by French law. Any dispute shall fall under the jurisdiction of the competent courts where CyberSky Agency's registered office is located."
+        }
       },
+
       privacy: {
         title: "Privacy Policy",
         updated: "Last updated: ",
+
         section1: {
           title: "1. Collection of Personal Data",
-          body: "When using the CyberSky website, Play To Sky Group may collect the following data:",
-          li1: "Identification data (Last Name, First Name, Email Address) via our contact forms.",
-          li2: "Browsing data (IP addresses, connection logs) for security and technical analysis purposes.",
+          body:
+            "When using the CyberSky website, we may collect your personal data when you:",
+          li1: "Complete a contact form",
+          li2: "Request a quote",
+          li3: "Browse the website",
+          body2:
+            "The data collected may include: last name, first name, email address, phone number, company, message, IP address, and browsing data."
         },
+
         section2: {
           title: "2. Use of Data",
-          body: "The data collected is used solely to:",
-          li1: "Respond to your contact requests or requests for quotes.",
-          li2: "Ensure the proper functioning and security of our managed services platform.",
-          li3: "Improve the user experience of our services.",
+          body: "The data collected is used exclusively to:",
+          li1: "Respond to your requests",
+          li2: "Provide quotes and commercial proposals",
+          li3: "Improve the user experience",
+          li4: "Analyze website performance",
+          li5: "Manage customer relationships"
         },
+
         section3: {
-          title: "3. Sharing and Retention",
-          body: "Your personal data is never sold to third parties. It is retained for no longer than is necessary for the purposes for which it was collected, in accordance with applicable law.",
+          title: "3. Legal Basis",
+          body: "The processing of your data is based on:",
+          li1: "Your consent",
+          li2: "The performance of a pre-contractual relationship",
+          li3: "The company's legitimate interests"
         },
+
         section4: {
-          title: "4. Your Rights (GDPR)",
-          body: "In accordance with European regulations (GDPR), you have the right to access, correct, delete, and transfer your data. You may also object to the processing of your data. <br /><br />To exercise these rights, please contact us at the following address: <strong>contact@playtosky.com</strong>.",
+          title: "4. Data Retention",
+          li1: "Prospects: up to 3 years after the last contact",
+          li2: "Clients: up to 10 years (accounting and legal obligations)"
         },
+
         section5: {
-          title: "5. Cookies",
-          body: "The CyberSky website uses technical cookies that are strictly necessary for its operation. If tracking or analytics cookies are used, your explicit consent will be obtained via a dedicated banner during your first visit.",
+          title: "5. Data Sharing",
+          body:
+            "Your data may only be shared with:",
+          li1: "Technical service providers (hosting, CRM, analytics)",
+          li2: "Services required for the operation of the website",
+          li3: "No personal data is sold or transferred to third parties."
         },
+
+        section6: {
+          title: "6. Cookies",
+          body: "The website uses cookies to:",
+          li1: "Measure website traffic",
+          li2: "Improve navigation",
+          li3: "Optimize marketing performance",
+          body2:
+            "A cookie consent banner allows users to manage their preferences."
+        },
+
+        section7: {
+          title: "7. Your Rights (GDPR)",
+          body: "In accordance with the GDPR, you have the right to:",
+          li1: "Access your data",
+          li2: "Rectify your data",
+          li3: "Erase your data",
+          li4: "Object to processing",
+          li5: "Data portability",
+          body2:
+            "To exercise your rights: contact@cyberskyagency.com"
+        },
+
+        section8: {
+          title: "8. Security",
+          body:
+            "CyberSky Agency implements appropriate technical and organizational measures to protect your personal data against unauthorized access, loss, or disclosure."
+        },
+
+        section9: {
+          title: "9. Changes to This Policy",
+          body:
+            "This Privacy Policy may be updated at any time to remain compliant with applicable legislation. Last updated: 24/06/2026."
+        },
+
+        section10: {
+          title: "10. Contact",
+          body: "contact@cyberskyagency.com"
+        }
       },
       notfound: {
         title: "Page not found (404)",
