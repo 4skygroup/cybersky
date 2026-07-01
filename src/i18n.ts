@@ -135,6 +135,9 @@ const resources = {
           title_line3: "fonction de vos besoins réels",
           btn_services: "Découvrir nos services",
         },
+        partners: {
+          title: "Nos partenaires"
+        },
         why: {
           tag: "Nos services",
           title_start: "Pourquoi choisir CYBER",
@@ -1049,6 +1052,9 @@ const resources = {
           title_line2: "support tailored to",
           title_line3: "your actual needs",
           btn_services: "Discover our services",
+        },
+        partners: {
+          title: "Our partners"
         },
         why: {
           tag: "Our services",
