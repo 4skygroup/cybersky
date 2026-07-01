@@ -54,13 +54,13 @@ export default function Locations() {
 
         <section className="w-full flex justify-center items-center p-4 md:p-5">
           <div className="max-lg:w-full lg:w-[calc(100%-20px)] max-w-7xl bg-white flex flex-col justify-center items-center py-12 md:py-20 px-5 gap-y-6 md:gap-y-7.5 rounded-r01">
-            <p className="font-bold text-center text-black text-2xl md:text-h5">
+            <p className="font-bold text-center text-black max-md:text-2xl md:text-h5">
               {t("locations.cta.title")}
             </p>
 
             <Link
               to="/contact"
-              className="text-sm md:text-t2 py-4 md:py-5 px-8 md:px-10 bg-black text-white w-fit rounded-full flex justify-center items-center gap-3"
+              className="max-md:text-sm md:text-t2 py-4 md:py-5 px-8 md:px-10 bg-black text-white w-fit rounded-full flex justify-center items-center gap-3"
             >
               {t("locations.cta.button")}
 
