@@ -29,7 +29,7 @@ export const entites = [
 export const social = [
   {
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://linkedin.com/company/cyberskyagency",
     icon: (
       <svg
         viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ export const social = [
   },
   {
     label: "TikTok",
-    href: "https://tiktok.com",
+    href: "https://tiktok.com/@cyberskyagency",
     icon: (
       <svg
         viewBox="0 0 24 24"
