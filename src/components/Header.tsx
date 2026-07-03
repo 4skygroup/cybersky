@@ -21,19 +21,32 @@ export default function Navbar() {
   const [mobileServicesOpen, setMobileServicesOpen] = useState<boolean>(false);
 
   // Nouvel état pour gérer l'ouverture du dropdown de langue
-  const [langMenuOpen, setLangMenuOpen] = useState<boolean>(false);
-
+  // const [langMenuOpen, setLangMenuOpen] = useState<boolean>(false);
+  const [mobileLanguagesOpen, setMobileLanguagesOpen] =
+    useState<boolean>(false);
+  const [languages, setLanguages] = useState([
+    {
+      language: "English",
+      label: "en",
+      active: false,
+    },
+    {
+      language: "Français",
+      label: "fr",
+      active: true,
+    },
+  ]);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const { t, i18n } = useTranslation();
 
   // Fonction sécurisée pour récupérer la langue actuelle (en majuscules)
-  const currentLang = (i18n.language || "fr").substring(0, 2).toUpperCase();
+  // const currentLang = (i18n.language || "fr").substring(0, 2).toUpperCase();
 
-  const changeLanguage = (lng: string) => {
-    i18n.changeLanguage(lng);
-    setLangMenuOpen(false); // Ferme le dropdown après le clic
-  };
+  // const changeLanguage = (lng: string) => {
+  //   i18n.changeLanguage(lng);
+  //   setLangMenuOpen(false); // Ferme le dropdown après le clic
+  // };
 
   const navItems: NavItem[] = [
     {
@@ -299,14 +312,14 @@ export default function Navbar() {
               )}
             </li>
           ))}
-          <li className="relative" onMouseLeave={() => setLangMenuOpen(false)}>
+          <li>
             <button
-              onClick={() => setLangMenuOpen(!langMenuOpen)}
-              className="flex items-center gap-1.5 font-glacial text-t5 text-white/80 hover:text-white transition-colors duration-200 mt-1"
+              onClick={() => setMobileLanguagesOpen((prev) => !prev)}
+              className="font-glacial text-t3 text-white flex items-center gap-2 mx-auto uppercase"
             >
-              {currentLang}
+              {languages.filter((lang) => lang.active)[0].label}
               <svg
-                className={`w-3.5 h-3.5 transition-transform duration-200 ${langMenuOpen ? "rotate-180" : ""}`}
+                className={`w-4 h-4 transition-transform duration-200 ${mobileLanguagesOpen ? "rotate-180" : ""}`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -320,28 +333,30 @@ export default function Navbar() {
               </svg>
             </button>
 
-            {langMenuOpen && (
-              <div className="absolute top-full left-0 pt-2 w-16">
-                <ul className="bg-black border border-white/10 rounded-md py-2 shadow-lg">
-                  <li>
-                    <button
-                      onClick={() => changeLanguage("fr")}
-                      className={`w-full text-center px-2 py-1 font-glacial text-t6 transition-colors duration-200 ${currentLang === "FR" ? "text-cybersky-red" : "text-white hover:text-cybersky-red hover:bg-white/5"}`}
-                    >
-                      FR
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      onClick={() => changeLanguage("en")}
-                      className={`w-full text-center px-2 py-1 font-glacial text-t6 transition-colors duration-200 ${currentLang === "EN" ? "text-cybersky-red" : "text-white hover:text-cybersky-red hover:bg-white/5"}`}
-                    >
-                      EN
-                    </button>
-                  </li>
-                </ul>
-              </div>
-            )}
+            <ul
+              className={`overflow-hidden transition-all duration-300 flex flex-col items-center gap-3 ${mobileLanguagesOpen ? "max-h-40 mt-4" : "max-h-0"}`}
+            >
+              {languages.map((lang) => (
+                <li
+                  key={lang.language}
+                  className={`block px-4 py-2 font-glacial text-t4 transition-colors duration-200 text-white hover:text-gray-white hover:bg-white/5 cursor-pointer`}
+                  onClick={() => {
+                    i18n.changeLanguage(lang.label);
+                    setLanguages(
+                      languages.map((language) => {
+                        if (language.label === lang.label) {
+                          return { ...language, active: true };
+                        }
+                        return { ...language, active: false };
+                      }),
+                    );
+                    setMenuOpen(false);
+                  }}
+                >
+                  {lang.language}
+                </li>
+              ))}
+            </ul>
           </li>
         </ul>
 
