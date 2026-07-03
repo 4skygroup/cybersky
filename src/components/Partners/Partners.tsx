@@ -1,12 +1,12 @@
 import Partner from "./Partner";
-import AWS from "/partners/AWS-logo.webp";
-import Fortinet from "/partners/Fortinet-logo.webp";
-import Google from "/partners/Google-logo.webp";
-import Linux from "/partners/Linux-logo.webp";
-import Microsoft from "/partners/Microsoft-logo.webp";
-import Azure from "/partners/Microsoft-Azure-logo.webp";
-import Terraform from "/partners/Terraform-logo.webp";
-import VMWare from "/partners/VMWare-logo.webp";
+import AWS from "/partnersLogos/AWS-logo.webp";
+import Fortinet from "/partnersLogos/Fortinet-logo.webp";
+import Google from "/partnersLogos/Google-logo.webp";
+import Linux from "/partnersLogos/Linux-logo.webp";
+import Microsoft from "/partnersLogos/Microsoft-logo.webp";
+import Azure from "/partnersLogos/Microsoft-Azure-logo.webp";
+import Terraform from "/partnersLogos/Terraform-logo.webp";
+import VMWare from "/partnersLogos/VMWare-logo.webp";
 import { useTranslation } from "react-i18next";
 
 export default function Partners() {
