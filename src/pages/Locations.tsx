@@ -23,7 +23,7 @@ export default function Locations() {
           </div>
 
           <hr className="w-full max-w-4xl border-white/10" />
-
+          {/*  */}
           <div className="grid grid-cols-3 md:flex md:flex-row gap-8 md:gap-25 w-fit max-w-4xl justify-items-center">
             <div className="flex flex-col gap-y-1 items-center justify-center">
               <span className="font-bold max-md:text-3xl md:text-h6">+50</span>
