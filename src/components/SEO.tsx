@@ -10,11 +10,12 @@ interface SEOProps {
 export default function SEO({ title, description, image, url }: SEOProps) {
     const siteName = "CyberSky";
     const fullTitle = `${title} | ${siteName}`;
-    const defaultImage = "/logo-cybersky.webp";
+    const SITE_URL = "https://cyberskyagency.com";
+    const defaultImage = `${SITE_URL}/logo-cybersky.webp`;
     const ogImage = image || defaultImage;
 
-    // L'URL canonique complète (à adapter avec ton vrai nom de domaine)
-    const canonicalUrl = url ? `https://www.cybersky.fr${url}` : "https://www.cybersky.fr";
+    // Adresse officielle de la page, sur le vrai domaine du site
+    const canonicalUrl = `${SITE_URL}${url && url !== "/" ? url : "/"}`;
 
     return (
         <Helmet>
@@ -28,6 +29,7 @@ export default function SEO({ title, description, image, url }: SEOProps) {
             <meta property="og:title" content={fullTitle} />
             <meta property="og:description" content={description} />
             <meta property="og:type" content="website" />
+            <meta property="og:url" content={canonicalUrl} />
             <meta property="og:image" content={ogImage} />
 
             {/* Balises Twitter Card (nécessaires pour Twitter) */}

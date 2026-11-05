@@ -229,7 +229,7 @@ export default function Navbar() {
         style={{ zIndex: 40 }}
       >
         <button
-          className="absolute top-5 right-8 text-white text-3xl font-light leading-none"
+          className="absolute top-3 right-6 p-2 text-white text-3xl font-light leading-none"
           onClick={() => setMenuOpen(false)}
           aria-label="Fermer le menu"
         >
@@ -256,7 +256,7 @@ export default function Navbar() {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setMenuOpen(false)}
-                  className="font-glacial text-t3 text-white"
+                  className="inline-block py-2 px-4 font-glacial text-t3 text-white"
                 >
                   {label}
                 </a>
@@ -305,7 +305,7 @@ export default function Navbar() {
                 <NavLink
                   to={path}
                   onClick={() => setMenuOpen(false)}
-                  className="font-glacial text-t3 text-white"
+                  className="inline-block py-2 px-4 font-glacial text-t3 text-white"
                 >
                   {label}
                 </NavLink>
