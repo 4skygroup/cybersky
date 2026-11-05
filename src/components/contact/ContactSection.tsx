@@ -12,10 +12,10 @@ export default function ContactSection() {
         {/* ── Left column ── */}
         <div className="flex flex-col gap-10">
           <div>
-            <h2 className="text-t3 font-bold leading-tight tracking-tight text-white md:text-h6">
+            <h1 className="text-t3 font-bold leading-tight tracking-tight text-white md:text-h6">
               {/* Appel de la traduction ici */}
               {t("contact.title")}
-            </h2>
+            </h1>
             <p className="mt-4 max-w-md text-base leading-relaxed text-white/50">
               {/* Et ici */}
               {t("contact.subtitle")}
